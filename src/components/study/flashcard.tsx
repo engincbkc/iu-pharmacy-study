@@ -83,15 +83,18 @@ export function Flashcard({
         )}
       </div>
 
-      <div className="relative min-h-[280px] w-full sm:min-h-[320px] [perspective:1200px]">
+      <div className="relative w-full [perspective:1200px]">
         <div
           className={cn(
-            "absolute inset-0 transition-transform duration-500 ease-out [transform-style:preserve-3d]",
+            "transition-transform duration-500 ease-out [transform-style:preserve-3d]",
             isFlipped && "[transform:rotateY(180deg)]"
           )}
         >
           {/* Front - Question */}
-          <div className="absolute inset-0 flex flex-col items-center justify-center rounded-2xl bg-[#1a1a2e] px-6 py-8 text-white shadow-xl [backface-visibility:hidden] sm:px-10">
+          <div className={cn(
+            "flex min-h-[280px] flex-col items-center justify-center rounded-2xl bg-primary px-6 py-12 text-white shadow-xl [backface-visibility:hidden] sm:min-h-[320px] sm:px-10",
+            isFlipped && "invisible"
+          )}>
             <div className="absolute left-4 top-4 rounded-full bg-white/10 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-white/60">
               Question
             </div>
@@ -105,12 +108,15 @@ export function Flashcard({
           </div>
 
           {/* Back - Answer */}
-          <div className="absolute inset-0 flex flex-col items-center justify-center rounded-2xl border-2 border-primary/20 bg-white px-6 py-8 shadow-xl [backface-visibility:hidden] [transform:rotateY(180deg)] sm:px-10">
+          <div className={cn(
+            "absolute inset-0 flex min-h-[280px] flex-col items-center justify-center overflow-y-auto rounded-2xl border-2 border-primary/20 bg-card px-6 py-12 shadow-xl [backface-visibility:hidden] [transform:rotateY(180deg)] sm:min-h-[320px] sm:px-10",
+            !isFlipped && "invisible"
+          )}>
             <div className="absolute left-4 top-4 rounded-full bg-primary/10 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-primary">
               Answer
             </div>
-            <p className="text-center text-base leading-8 text-[#1a1a2e] sm:text-lg">{back}</p>
-            <div className="mt-6 flex items-center gap-1.5 text-xs font-medium text-muted-foreground/60">
+            <p className="max-w-prose text-center text-sm leading-7 text-foreground sm:text-base sm:leading-8">{back}</p>
+            <div className="mt-6 shrink-0 flex items-center gap-1.5 text-xs font-medium text-muted-foreground/60">
               <RotateCw className="h-3 w-3" />
               <span>Rate your confidence below</span>
             </div>
