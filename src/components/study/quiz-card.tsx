@@ -14,7 +14,7 @@ export function QuizCard({ question, selectedAnswer, showResult, onAnswer }: Qui
   return (
     <div className="space-y-5">
       <div className="flex items-start justify-between gap-3">
-        <p className="text-base font-semibold leading-7 text-[#1a1a2e] sm:text-lg">{question.question}</p>
+        <p className="text-base font-semibold leading-7 text-foreground sm:text-lg">{question.question}</p>
         <Badge variant="outline" className="shrink-0 text-[10px]">
           {question.difficulty}
         </Badge>
@@ -95,7 +95,7 @@ export function QuizCard({ question, selectedAnswer, showResult, onAnswer }: Qui
               {selectedAnswer === question.correctAnswer ? "Correct!" : "Incorrect"}
             </p>
           </div>
-          <p className="text-sm leading-relaxed text-[#1a1a2e]/80">{question.explanation}</p>
+          <p className="text-sm leading-relaxed text-foreground/80">{question.explanation}</p>
         </div>
       )}
     </div>

@@ -97,7 +97,7 @@ export function TopicCard({ topic }: TopicCardProps) {
                       {section.items.map((item, j) => (
                         <li key={j} className="relative pl-4">
                           <span className="absolute left-0 top-2.5 h-1.5 w-1.5 rounded-full bg-primary/30" />
-                          <span className="text-[#1a1a2e]/90">{item}</span>
+                          <span className="text-foreground/90">{item}</span>
                         </li>
                       ))}
                     </ul>
@@ -117,7 +117,7 @@ export function TopicCard({ topic }: TopicCardProps) {
                           {section.tableData.rows.map((row, j) => (
                             <tr key={j} className="border-b last:border-0 even:bg-muted/20 hover:bg-primary/5 transition-colors">
                               {row.map((cell, k) => (
-                                <td key={k} className="px-4 py-2.5 text-sm leading-relaxed text-[#1a1a2e]/90">
+                                <td key={k} className="px-4 py-2.5 text-sm leading-relaxed text-foreground/90">
                                   {cell}
                                 </td>
                               ))}
@@ -127,7 +127,7 @@ export function TopicCard({ topic }: TopicCardProps) {
                       </table>
                     </div>
                   ) : (
-                    <p className="text-sm leading-7 text-[#1a1a2e]/85">{section.body}</p>
+                    <p className="text-sm leading-7 text-foreground/85">{section.body}</p>
                   )}
                 </motion.div>
               ))}
