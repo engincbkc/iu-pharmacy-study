@@ -1,6 +1,7 @@
 import { lazy, Suspense } from "react";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import { Shell } from "@/components/layout/shell";
+import { PageSkeleton } from "@/components/ui/skeleton";
 
 const DashboardPage = lazy(() =>
   import("@/pages/dashboard").then((m) => ({ default: m.DashboardPage }))
@@ -28,14 +29,6 @@ const FormulasPage = lazy(() =>
   import("@/pages/formulas").then((m) => ({ default: m.FormulasPage }))
 );
 
-function PageLoader() {
-  return (
-    <div className="flex h-32 items-center justify-center text-sm text-muted-foreground">
-      Loading...
-    </div>
-  );
-}
-
 export function App() {
   return (
     <HashRouter>
@@ -44,7 +37,7 @@ export function App() {
           <Route
             index
             element={
-              <Suspense fallback={<PageLoader />}>
+              <Suspense fallback={<PageSkeleton />}>
                 <DashboardPage />
               </Suspense>
             }
@@ -52,7 +45,7 @@ export function App() {
           <Route
             path="topics"
             element={
-              <Suspense fallback={<PageLoader />}>
+              <Suspense fallback={<PageSkeleton />}>
                 <TopicsPage />
               </Suspense>
             }
@@ -60,7 +53,7 @@ export function App() {
           <Route
             path="flashcards"
             element={
-              <Suspense fallback={<PageLoader />}>
+              <Suspense fallback={<PageSkeleton />}>
                 <FlashcardsPage />
               </Suspense>
             }
@@ -68,7 +61,7 @@ export function App() {
           <Route
             path="quiz"
             element={
-              <Suspense fallback={<PageLoader />}>
+              <Suspense fallback={<PageSkeleton />}>
                 <QuizPage />
               </Suspense>
             }
@@ -76,7 +69,7 @@ export function App() {
           <Route
             path="exams"
             element={
-              <Suspense fallback={<PageLoader />}>
+              <Suspense fallback={<PageSkeleton />}>
                 <ExamQuestionsPage />
               </Suspense>
             }
@@ -84,7 +77,7 @@ export function App() {
           <Route
             path="sar"
             element={
-              <Suspense fallback={<PageLoader />}>
+              <Suspense fallback={<PageSkeleton />}>
                 <SARReferencePage />
               </Suspense>
             }
@@ -92,7 +85,7 @@ export function App() {
           <Route
             path="formulas"
             element={
-              <Suspense fallback={<PageLoader />}>
+              <Suspense fallback={<PageSkeleton />}>
                 <FormulasPage />
               </Suspense>
             }

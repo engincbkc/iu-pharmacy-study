@@ -15,7 +15,6 @@ import {
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Separator } from "@/components/ui/separator";
 import { cn } from "@/lib/utils";
 import { useI18n } from "@/i18n/use-i18n";
 import { useProgressStore } from "@/stores/progress-store";
@@ -24,7 +23,6 @@ import type { ExamYear, ExamQuestion } from "@/types";
 
 // MCQ interactive component
 function MCQQuestion({ question }: { question: ExamQuestion }) {
-  const { t } = useI18n();
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [checked, setChecked] = useState(false);
   const [showFullAnswer, setShowFullAnswer] = useState(false);
@@ -79,7 +77,7 @@ function MCQQuestion({ question }: { question: ExamQuestion }) {
         </div>
 
         {/* Question text */}
-        <p className="mb-4 text-base font-semibold leading-7 text-[#1a1a2e]">
+        <p className="mb-4 text-base font-semibold leading-7 text-foreground">
           Q{question.questionNumber}: {question.question}
         </p>
 
@@ -204,7 +202,7 @@ function MCQQuestion({ question }: { question: ExamQuestion }) {
                   </p>
                 </div>
                 {question.answer.explanation && (
-                  <p className="mt-2 text-sm leading-relaxed text-[#1a1a2e]/80">
+                  <p className="mt-2 text-sm leading-relaxed text-foreground/80">
                     {question.answer.explanation}
                   </p>
                 )}
@@ -261,7 +259,7 @@ function OpenEndedQuestion({ question }: { question: ExamQuestion }) {
         </div>
 
         {/* Question */}
-        <p className="mb-4 text-base font-semibold leading-7 text-[#1a1a2e]">
+        <p className="mb-4 text-base font-semibold leading-7 text-foreground">
           Q{question.questionNumber}: {question.question}
         </p>
 
@@ -317,23 +315,23 @@ function AnswerDetails({ answer }: { answer: ExamQuestion["answer"] }) {
       </div>
 
       {answer.iupacName && (
-        <div className="rounded-lg bg-white/80 p-3">
+        <div className="rounded-lg bg-card/80 p-3">
           <span className="text-xs font-bold uppercase tracking-wider text-muted-foreground">{t("exams.iupac")}</span>
-          <p className="mt-1 font-mono text-sm font-medium text-[#1a1a2e]">{answer.iupacName}</p>
+          <p className="mt-1 font-mono text-sm font-medium text-foreground">{answer.iupacName}</p>
         </div>
       )}
 
       {answer.chemicalFormula && (
-        <div className="rounded-lg bg-white/80 p-3">
+        <div className="rounded-lg bg-card/80 p-3">
           <span className="text-xs font-bold uppercase tracking-wider text-muted-foreground">{t("exams.formula")}</span>
-          <p className="mt-1 font-mono text-sm font-medium text-[#1a1a2e]">{answer.chemicalFormula}</p>
+          <p className="mt-1 font-mono text-sm font-medium text-foreground">{answer.chemicalFormula}</p>
         </div>
       )}
 
       {answer.moa && (
         <div>
           <span className="text-xs font-bold uppercase tracking-wider text-emerald-700">{t("exams.moa")}</span>
-          <p className="mt-1 text-sm leading-relaxed text-[#1a1a2e]/90">{answer.moa}</p>
+          <p className="mt-1 text-sm leading-relaxed text-foreground/90">{answer.moa}</p>
         </div>
       )}
 
@@ -342,7 +340,7 @@ function AnswerDetails({ answer }: { answer: ExamQuestion["answer"] }) {
           <span className="text-xs font-bold uppercase tracking-wider text-emerald-700">{t("exams.uses")}</span>
           <ul className="mt-1 space-y-1">
             {answer.uses.map((u, i) => (
-              <li key={i} className="flex gap-2 text-sm leading-relaxed text-[#1a1a2e]/90">
+              <li key={i} className="flex gap-2 text-sm leading-relaxed text-foreground/90">
                 <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-emerald-400" />
                 {u}
               </li>
@@ -360,10 +358,10 @@ function AnswerDetails({ answer }: { answer: ExamQuestion["answer"] }) {
                 <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-200 text-[10px] font-bold text-emerald-800">
                   {s.step}
                 </span>
-                <span className="text-[#1a1a2e]/90">
+                <span className="text-foreground/90">
                   {s.description}
                   {s.reagents && (
-                    <span className="ml-1 rounded bg-white/80 px-1.5 py-0.5 font-mono text-xs text-muted-foreground">
+                    <span className="ml-1 rounded bg-card/80 px-1.5 py-0.5 font-mono text-xs text-muted-foreground">
                       {s.reagents}
                     </span>
                   )}
@@ -389,11 +387,11 @@ function AnswerDetails({ answer }: { answer: ExamQuestion["answer"] }) {
       )}
 
       {answer.explanation && (
-        <p className="text-sm leading-relaxed text-[#1a1a2e]/80">{answer.explanation}</p>
+        <p className="text-sm leading-relaxed text-foreground/80">{answer.explanation}</p>
       )}
 
       {answer.text && (
-        <p className="text-sm leading-relaxed text-[#1a1a2e]/80">{answer.text}</p>
+        <p className="text-sm leading-relaxed text-foreground/80">{answer.text}</p>
       )}
     </div>
   );
