@@ -1,0 +1,550 @@
+{
+  "flashcards": [
+    {
+      "id": "drc-001",
+      "category": "Drug-Receptor Concepts",
+      "front": "What is an agonist? Give an example.",
+      "back": "An agonist is a drug that binds to a receptor and activates it, producing a biological response. It has both affinity and intrinsic efficacy. Example: Morphine is a full agonist at mu (μ) opioid receptors.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "drc-002",
+      "category": "Drug-Receptor Concepts",
+      "front": "What is an antagonist? Give an example.",
+      "back": "An antagonist binds to a receptor but does NOT activate it. It has affinity but zero intrinsic efficacy, and blocks the action of agonists. Example: Naloxone is a competitive antagonist at mu (μ) opioid receptors, used to reverse opioid overdose.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "drc-003",
+      "category": "Drug-Receptor Concepts",
+      "front": "What is a partial agonist? Give an example.",
+      "back": "A partial agonist binds to a receptor with affinity but has submaximal intrinsic efficacy. It produces a lower Emax than a full agonist. In the presence of a full agonist, a partial agonist can act as an antagonist by competing for the same receptor. Example: Buprenorphine is a partial agonist at mu opioid receptors.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "drc-004",
+      "category": "Drug-Receptor Concepts",
+      "front": "What is an inverse agonist?",
+      "back": "An inverse agonist binds to a receptor and produces a pharmacological effect OPPOSITE to that of an agonist. It reduces the constitutive (basal) activity of a receptor below baseline. Unlike an antagonist (which has no effect on its own), an inverse agonist produces a negative effect. Example: Some beta-carbolines act as inverse agonists at GABA-A benzodiazepine sites, causing anxiety instead of sedation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "drc-005",
+      "category": "Drug-Receptor Concepts",
+      "front": "What is the difference between competitive and non-competitive antagonism?",
+      "back": "Competitive antagonist: Binds reversibly to the same (orthosteric) site as the agonist. The effect can be overcome by increasing agonist concentration. Shifts dose-response curve to the RIGHT without reducing Emax. Example: Atropine at muscarinic receptors.\n\nNon-competitive antagonist: Binds irreversibly or at an allosteric site. Cannot be overcome by increasing agonist concentration. Reduces Emax without shifting EC50. Example: Phenoxybenzamine at alpha-1 adrenergic receptors.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "drc-006",
+      "category": "Drug-Receptor Concepts",
+      "front": "What is receptor desensitization (tachyphylaxis)?",
+      "back": "Receptor desensitization is a reduction in receptor response after prolonged or repeated exposure to an agonist. Mechanisms include: (1) Receptor phosphorylation by kinases (e.g., GRKs), (2) Beta-arrestin recruitment leading to receptor internalization, (3) Downregulation of receptor expression. Tachyphylaxis refers to rapid desensitization occurring after very few doses.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "drc-007",
+      "category": "Drug-Receptor Concepts",
+      "front": "What is the Therapeutic Index (TI)?",
+      "back": "The Therapeutic Index (TI) is a measure of drug safety. TI = TD50 / ED50 (or LD50 / ED50 in animal studies), where TD50 is the dose that causes toxicity in 50% of the population and ED50 is the dose that produces the desired effect in 50% of the population. A HIGHER TI means a SAFER drug (wider margin between effective and toxic doses). Example: Penicillin has a very high TI; Warfarin and Digoxin have low TIs.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "drc-008",
+      "category": "Drug-Receptor Concepts",
+      "front": "What is the difference between affinity and efficacy?",
+      "back": "Affinity: The strength of binding between a drug and its receptor. Measured by the dissociation constant Kd (lower Kd = higher affinity). Both agonists and antagonists have affinity.\n\nEfficacy (intrinsic activity): The ability of a drug-receptor complex to produce a biological response. Full agonist: efficacy = 1, Partial agonist: 0 < efficacy < 1, Antagonist: efficacy = 0, Inverse agonist: efficacy < 0.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "drc-009",
+      "category": "Drug-Receptor Concepts",
+      "front": "What does a dose-response curve show and what are its key parameters?",
+      "back": "A dose-response curve plots drug concentration (x-axis, usually log scale) vs. biological response (y-axis, % of maximum). Key parameters: (1) EC50 (or ED50): concentration/dose producing 50% of maximal effect — reflects potency. (2) Emax: maximal response — reflects efficacy. (3) A leftward shift = higher potency. (4) A higher plateau = greater efficacy. Graded curves show individual response; quantal curves show population response.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "drc-010",
+      "category": "Drug-Receptor Concepts",
+      "front": "What are spare receptors?",
+      "back": "Spare receptors exist when the maximum biological response (Emax) can be achieved by occupying only a fraction of the total receptor population. This means EC50 < Kd. Consequence: There is a receptor reserve. Even if some receptors are blocked (e.g., by an irreversible antagonist), the tissue can still reach Emax as long as enough receptors remain. Common in tissues with high receptor density, such as smooth muscle.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sar-001",
+      "category": "SAR Rules",
+      "front": "What is the general pharmacophore structure of beta-blockers?",
+      "back": "Beta-blockers share the aryloxypropanolamine structure:\n\nAr–O–CH₂–CHOH–CH₂–NH–R\n\nKey features: (1) Aromatic ring (Ar) — needed for receptor binding. (2) Ether oxygen (–O–) linking Ar to the propanolamine chain. (3) Secondary hydroxyl (–CHOH–) on the propanolamine — essential for activity. (4) Isopropylamine or tert-butylamine (R = isopropyl or tert-butyl) — determines beta-receptor affinity. The (S)-enantiomer is typically the active form (eutomer).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sar-002",
+      "category": "SAR Rules",
+      "front": "What structural feature makes a beta-blocker cardioselective (beta-1 selective)?",
+      "back": "Cardioselectivity (beta-1 selectivity) is achieved by adding a polar, bulky substituent at the PARA position of the aromatic ring. Examples: Metoprolol has a –OCH₂CH₂OCH₃ group; Atenolol has a –OCH₂CONH₂ group. These para-substituents create steric and electronic interactions that favor binding to beta-1 over beta-2 receptors. Non-selective beta-blockers (e.g., Propranolol) lack such para-substituents.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sar-003",
+      "category": "SAR Rules",
+      "front": "What is the C5 substitution rule for barbiturates?",
+      "back": "Barbiturates require TWO substituents at the C5 position for CNS depressant (hypnotic/sedative) activity. The unsubstituted barbituric acid has NO pharmacological activity. At least one C5 substituent must be a carbon chain or ring. Increasing the total carbon count at C5 (up to ~8 carbons) increases lipophilicity and potency, but beyond that, convulsant activity may appear.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sar-004",
+      "category": "SAR Rules",
+      "front": "How does branching at C5 affect barbiturate duration of action?",
+      "back": "Branching of the C5 alkyl substituents SHORTENS the duration of action. Branched chains are more easily metabolized by CYP450 enzymes (increased oxidation sites). Example: Pentobarbital (branched chain at C5) has a shorter duration than Phenobarbital (phenyl group, aromatic ring resistant to metabolism). Unsaturation (double bond) at C5 also shortens duration.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sar-005",
+      "category": "SAR Rules",
+      "front": "What happens when sulfur replaces oxygen at C2 of a barbiturate?",
+      "back": "Replacing the C2 oxygen with sulfur (thiobarbiturate) produces an ULTRASHORT-acting barbiturate. The C2=S increases lipophilicity, allowing rapid crossing of the blood-brain barrier for fast onset. Duration is ultrashort because of rapid REDISTRIBUTION from brain to peripheral fat stores (not due to faster metabolism). Example: Thiopental (C2=S) has ~20 second onset and ~20 minute duration. Used for IV induction of anesthesia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sar-006",
+      "category": "SAR Rules",
+      "front": "What is the effect of N-methylation on barbiturates?",
+      "back": "N-methylation (adding a methyl group to nitrogen at N1 or N3) of barbiturates produces CONVULSANT activity instead of sedative/hypnotic activity. This is because N-methylation prevents the lactam-lactim tautomerism needed for proper hydrogen bonding with the GABA-A receptor. Therefore, N-methylated barbiturates are NOT used clinically as sedatives. Exception: Methohexital (N1-methyl) retains anesthetic activity because of its other structural features.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sar-007",
+      "category": "SAR Rules",
+      "front": "Why is the beta-lactam ring essential for penicillin activity?",
+      "back": "The strained 4-membered beta-lactam ring is essential for penicillin's antibacterial activity. The ring strain makes the carbonyl carbon highly electrophilic, mimicking the D-Ala-D-Ala terminus of bacterial peptidoglycan. This allows it to acylate the serine residue in the active site of penicillin-binding proteins (PBPs/transpeptidases), irreversibly inhibiting cell wall synthesis. Opening or destruction of the beta-lactam ring (e.g., by beta-lactamase enzymes) abolishes activity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sar-008",
+      "category": "SAR Rules",
+      "front": "How do side chain modifications affect penicillin properties?",
+      "back": "The 6-APA (6-aminopenicillanic acid) side chain at C6 determines: (1) Acid stability — bulky, electron-withdrawing groups (e.g., phenoxy in Penicillin V) improve oral bioavailability. (2) Spectrum of activity — aminopenicillins (Ampicillin, Amoxicillin) with a free amino group on the side chain have broader Gram-negative coverage. (3) Beta-lactamase resistance — bulky groups near the beta-lactam (e.g., Methicillin, Oxacillin) provide steric protection against beta-lactamases.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sar-009",
+      "category": "SAR Rules",
+      "front": "What is the importance of the C2 electron-withdrawing group in phenothiazine antipsychotics?",
+      "back": "An electron-withdrawing group (EWG) at the C2 position of the phenothiazine ring is ESSENTIAL for antipsychotic (neuroleptic) activity. Examples: –Cl (Chlorpromazine), –CF₃ (Trifluoperazine), –SCH₃, –COCH₃. The EWG increases the electron density distribution needed for optimal D2 receptor binding. Without a C2 substituent or with an electron-donating group, antipsychotic activity is greatly reduced or lost.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sar-010",
+      "category": "SAR Rules",
+      "front": "What is the significance of the N10 side chain in phenothiazine antipsychotics?",
+      "back": "The N10 nitrogen of the phenothiazine ring must have a side chain with exactly 3 CARBON atoms between N10 and the terminal nitrogen. A 2-carbon chain shifts activity to antihistaminic (e.g., Promethazine). A 3-carbon chain is required for antipsychotic activity (e.g., Chlorpromazine). The 3-carbon chain positions the terminal amine at the correct distance for D2 receptor interaction.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sar-011",
+      "category": "SAR Rules",
+      "front": "How does the terminal group on the N10 chain classify phenothiazine antipsychotics?",
+      "back": "The terminal amine group determines potency and side effect profile: (1) Aliphatic amines (dimethylamino): Low potency, high sedation. Example: Chlorpromazine. (2) Piperidine ring: Medium potency, fewer EPS. Example: Thioridazine. (3) Piperazine ring: HIGH potency, more EPS, less sedation. Example: Fluphenazine, Trifluoperazine. Piperazine > Piperidine > Aliphatic in terms of D2 receptor affinity and antipsychotic potency.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sar-012",
+      "category": "SAR Rules",
+      "front": "What is the role of the C6-fluorine in fluoroquinolones?",
+      "back": "The fluorine at C6 of the quinolone ring: (1) Increases antibacterial potency by 5-10 fold. (2) Enhances cell penetration due to optimal lipophilicity. (3) Improves binding to DNA gyrase (topoisomerase II) and topoisomerase IV. All modern clinically used quinolones contain C6-F (hence 'fluoroquinolones'). Examples: Ciprofloxacin, Levofloxacin, Moxifloxacin.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sar-013",
+      "category": "SAR Rules",
+      "front": "Why are C3-COOH and C4=O essential in fluoroquinolones?",
+      "back": "The C3 carboxylic acid (–COOH) and C4 keto group (C4=O) form the critical pharmacophore for DNA gyrase binding. They chelate the Mg²⁺ ion in the DNA gyrase-DNA complex, which is essential for the drug's mechanism of action. Removing or modifying either group abolishes antibacterial activity. The C3-COOH also contributes to the zwitterionic nature of fluoroquinolones at physiological pH.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sar-014",
+      "category": "SAR Rules",
+      "front": "What is the general structural template of local anesthetics?",
+      "back": "Local anesthetics have three structural components:\n\nLipophilic group — Linker — Hydrophilic group\n(Aromatic ring) — (Ester or Amide) — (Tertiary amine)\n\nLipophilic part: Usually a substituted aromatic ring (e.g., para-aminobenzoic acid derivatives). Linker: Ester (–COO–) or Amide (–NHCO–) determines classification and metabolism. Hydrophilic part: Tertiary amine (ionizable), the charged form blocks the Na⁺ channel from inside the cell.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sar-015",
+      "category": "SAR Rules",
+      "front": "Why is an electron-withdrawing group (EWG) at position 7 important for benzodiazepine activity?",
+      "back": "An EWG at the 7-position of the benzodiazepine ring (typically –NO₂ or a halogen like –Cl, –Br) is essential for high-affinity binding to the GABA-A benzodiazepine site. The EWG increases the electron density in the aromatic ring, facilitating a critical interaction with the receptor. Examples: Diazepam (7-Cl), Nitrazepam (7-NO₂), Clonazepam (7-NO₂). Removing the 7-EWG drastically reduces activity.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cls-001",
+      "category": "Drug Classifications",
+      "front": "Give examples of direct-acting cholinergic (muscarinic) agonists.",
+      "back": "Direct-acting cholinergic agonists bind directly to muscarinic receptors:\n• Acetylcholine (ACh) — endogenous, non-selective, rapidly hydrolyzed by AChE\n• Carbachol — resistant to AChE, acts at M and nicotinic receptors\n• Bethanechol — selective M3 agonist, used for urinary retention\n• Pilocarpine — natural alkaloid, used in glaucoma (M3) and dry mouth (Sjögren's)\n• Methacholine — used in bronchial provocation testing",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cls-002",
+      "category": "Drug Classifications",
+      "front": "Give examples of acetylcholinesterase (AChE) inhibitors and their classification.",
+      "back": "Reversible AChE inhibitors:\n• Neostigmine — quaternary amine, does not cross BBB, used for myasthenia gravis\n• Pyridostigmine — longer acting, used for myasthenia gravis\n• Physostigmine — tertiary amine, crosses BBB, used for atropine poisoning\n• Donepezil, Rivastigmine, Galantamine — used for Alzheimer's disease\n\nIrreversible AChE inhibitors:\n• Organophosphates (e.g., Malathion, Sarin) — form stable covalent bond. Reactivated by Pralidoxime (2-PAM) if given early.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cls-003",
+      "category": "Drug Classifications",
+      "front": "Classify beta-blockers as non-selective vs cardioselective (beta-1 selective).",
+      "back": "Non-selective (beta-1 + beta-2):\n• Propranolol (prototype), Nadolol, Timolol, Pindolol (ISA), Carvedilol (also alpha-1 blocker), Labetalol (alpha + beta blocker)\n\nCardioselective (beta-1 selective):\n• Metoprolol, Atenolol, Bisoprolol, Esmolol (ultrashort IV), Nebivolol\n\nMnemonic: 'A-BMEN' for cardioselective: Atenolol, Bisoprolol, Metoprolol, Esmolol, Nebivolol. Note: Selectivity is dose-dependent and lost at high doses.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cls-004",
+      "category": "Drug Classifications",
+      "front": "Classify barbiturates by duration of action with examples.",
+      "back": "Ultrashort-acting (minutes): Thiopental, Methohexital — IV anesthesia induction. Contain C2=S (thio) or special substitution.\n\nShort-acting (3-4 hours): Pentobarbital, Secobarbital — contain branched C5 chains.\n\nIntermediate-acting (6-8 hours): Amobarbital, Butabarbital.\n\nLong-acting (10-12+ hours): Phenobarbital — C5 phenyl group resists metabolism, used as anticonvulsant. Mephobarbital — N-methylated prodrug of phenobarbital.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cls-005",
+      "category": "Drug Classifications",
+      "front": "What is the difference between ester and amide local anesthetics?",
+      "back": "Ester type (–COO– linker):\n• Procaine, Tetracaine, Benzocaine, Cocaine\n• Metabolized by plasma cholinesterases (butyrylcholinesterase)\n• Shorter duration, higher allergy risk (PABA metabolite)\n\nAmide type (–NHCO– linker):\n• Lidocaine, Bupivacaine, Mepivacaine, Prilocaine, Ropivacaine\n• Metabolized by hepatic CYP450\n• Longer duration, very rare allergic reactions\n\nMnemonic: Amides have two 'i's before '-caine' (lidocaine, bupivacaine). Esters have one 'i' or none (procaine, cocaine).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cls-006",
+      "category": "Drug Classifications",
+      "front": "What is the difference between typical and atypical antipsychotics?",
+      "back": "Typical (first-generation/conventional):\n• Primarily D2 antagonists. High EPS risk (dystonia, akathisia, tardive dyskinesia). Examples: Chlorpromazine (low potency), Haloperidol (high potency), Fluphenazine.\n\nAtypical (second-generation):\n• Block both D2 and 5-HT2A receptors. Lower EPS risk, but higher metabolic side effects (weight gain, diabetes). Examples: Clozapine (gold standard for refractory schizophrenia, risk of agranulocytosis), Risperidone, Olanzapine, Quetiapine, Aripiprazole (partial D2 agonist).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cls-007",
+      "category": "Drug Classifications",
+      "front": "Give examples of commonly used benzodiazepines and their primary indications.",
+      "back": "Anxiolytics: Diazepam (also muscle relaxant, anticonvulsant), Alprazolam (panic disorder), Lorazepam (anxiety, status epilepticus IV)\n\nHypnotics (sleep): Triazolam (short-acting), Flurazepam (long-acting), Temazepam, Midazolam (preoperative sedation)\n\nAnticonvulsants: Clonazepam (absence, myoclonic seizures), Clobazam\n\nAll act as positive allosteric modulators at GABA-A receptors (benzodiazepine site), increasing the FREQUENCY of chloride channel opening.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cls-008",
+      "category": "Drug Classifications",
+      "front": "Give examples of ACE inhibitors and their structural classification.",
+      "back": "ACE inhibitors block angiotensin-converting enzyme (ACE), preventing Angiotensin I → Angiotensin II conversion.\n\nSulfhydryl-containing: Captopril (first oral ACE inhibitor, short-acting, taste disturbance)\n\nDicarboxylate-containing: Enalapril (prodrug → Enalaprilat), Lisinopril (active drug, no hepatic activation needed), Ramipril, Benazepril\n\nPhosphonate-containing: Fosinopril (unique dual elimination: hepatic + renal)\n\nCommon suffix: '-pril'. Side effects: dry cough (bradykinin), angioedema, hyperkalemia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cls-009",
+      "category": "Drug Classifications",
+      "front": "Give examples of statins (HMG-CoA reductase inhibitors).",
+      "back": "Statins competitively inhibit HMG-CoA reductase, the rate-limiting enzyme in cholesterol synthesis.\n\nFungal-derived (Type 1): Lovastatin (prodrug, lactone), Simvastatin (prodrug, lactone), Pravastatin (active acid form, hydrophilic)\n\nSynthetic (Type 2): Atorvastatin, Fluvastatin, Rosuvastatin (most potent, longest half-life), Pitavastatin\n\nCommon suffix: '-statin'. Side effects: Myopathy/rhabdomyolysis (especially with CYP3A4 inhibitors), elevated liver enzymes. All contain an HMG-like moiety (dihydroxyheptanoic acid).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cls-010",
+      "category": "Drug Classifications",
+      "front": "What are the main classes of anticoagulant drugs?",
+      "back": "1. Vitamin K antagonists: Warfarin (oral, inhibits vitamin K epoxide reductase, monitored by INR)\n\n2. Heparins: Unfractionated Heparin (UFH, activates antithrombin III, monitored by aPTT), Low Molecular Weight Heparins (Enoxaparin, Dalteparin — mainly anti-Xa, no routine monitoring)\n\n3. Direct Oral Anticoagulants (DOACs): Direct thrombin inhibitors: Dabigatran. Direct Factor Xa inhibitors: Rivaroxaban, Apixaban, Edoxaban\n\n4. Others: Fondaparinux (synthetic pentasaccharide, anti-Xa)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "moa-001",
+      "category": "Mechanisms of Action",
+      "front": "What is the mechanism of action of Carbachol?",
+      "back": "Carbachol is a direct-acting cholinomimetic that acts as an agonist at both muscarinic (M) and nicotinic (N) receptors. It is a carbamyl ester of choline, making it RESISTANT to hydrolysis by acetylcholinesterase (AChE) and butyrylcholinesterase. Clinical uses: Glaucoma (topical, M3-mediated miosis and increased aqueous outflow), bladder atony (stimulates detrusor muscle via M3).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "moa-002",
+      "category": "Mechanisms of Action",
+      "front": "What is the mechanism of action of Neostigmine?",
+      "back": "Neostigmine is a REVERSIBLE acetylcholinesterase (AChE) inhibitor. It contains a carbamate group that forms a covalent (but hydrolyzable) bond with the serine residue in the AChE active site. This prevents ACh breakdown, increasing ACh concentration at cholinergic synapses. It is a quaternary ammonium compound — does NOT cross the BBB. Uses: Myasthenia gravis, reversal of non-depolarizing neuromuscular blockade (post-surgery).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "moa-003",
+      "category": "Mechanisms of Action",
+      "front": "What is the mechanism of action of Ipratropium?",
+      "back": "Ipratropium bromide is a non-selective muscarinic ANTAGONIST (blocks M1, M2, M3). It is a quaternary ammonium derivative of atropine, meaning it is permanently charged and does NOT cross the BBB or mucous membranes well. When inhaled, it blocks M3 receptors on bronchial smooth muscle, causing bronchodilation. Unlike atropine, minimal systemic side effects. Used in COPD (first-line) and acute asthma (combined with beta-2 agonists).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "moa-004",
+      "category": "Mechanisms of Action",
+      "front": "What is the mechanism of action of Salbutamol (Albuterol)?",
+      "back": "Salbutamol is a selective SHORT-ACTING beta-2 adrenergic agonist (SABA). It activates beta-2 receptors on bronchial smooth muscle → stimulates adenylyl cyclase → increases intracellular cAMP → activates PKA → relaxation of smooth muscle (bronchodilation). Also inhibits mast cell mediator release and stimulates mucociliary clearance. Onset: 5-15 minutes (inhaled). Duration: 4-6 hours. Used as rescue inhaler for acute asthma and bronchospasm.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "moa-005",
+      "category": "Mechanisms of Action",
+      "front": "What is the mechanism of action of Phenobarbital?",
+      "back": "Phenobarbital is a long-acting barbiturate that enhances GABA-A receptor activity. Unlike benzodiazepines (which increase frequency of Cl⁻ channel opening), phenobarbital INCREASES THE DURATION of chloride channel opening. At high doses, it can directly activate the GABA-A Cl⁻ channel even WITHOUT GABA (hence greater overdose risk than benzodiazepines). Also blocks AMPA/kainate glutamate receptors. Uses: Epilepsy (tonic-clonic, partial seizures), neonatal seizures. Long half-life (~80-120 hours).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "moa-006",
+      "category": "Mechanisms of Action",
+      "front": "Why is Thiopental ultrashort-acting despite having a long elimination half-life?",
+      "back": "Thiopental's ultrashort duration of action (~20 minutes) is due to REDISTRIBUTION, not rapid metabolism. After IV injection: (1) The highly lipophilic drug rapidly crosses the BBB and concentrates in the brain (onset ~20 seconds). (2) Within minutes, it redistributes from the brain to skeletal muscle (less blood flow) and then slowly to adipose tissue. (3) Brain concentration drops rapidly, ending the anesthetic effect. The elimination half-life is actually ~11 hours (slow release from fat stores). This is a classic pharmacokinetic, not pharmacodynamic, phenomenon.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "moa-007",
+      "category": "Mechanisms of Action",
+      "front": "What is the mechanism of action of Penicillin?",
+      "back": "Penicillin inhibits bacterial cell wall synthesis by mimicking D-Ala-D-Ala, the terminal dipeptide of the peptidoglycan precursor (UDP-MurNAc-pentapeptide). The beta-lactam ring acylates the active-site serine of Penicillin-Binding Proteins (PBPs/transpeptidases), forming an irreversible covalent bond. This prevents the cross-linking (transpeptidation) step of peptidoglycan synthesis. The result is a weakened cell wall → osmotic lysis → bactericidal effect. It is effective mainly against actively dividing bacteria.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "moa-008",
+      "category": "Mechanisms of Action",
+      "front": "What is the mechanism of action of Chlorpromazine?",
+      "back": "Chlorpromazine is a low-potency typical (first-generation) antipsychotic of the phenothiazine class. Primary MOA: Blocks dopamine D2 receptors in the mesolimbic pathway, reducing positive symptoms of schizophrenia (hallucinations, delusions). Also blocks: H1 receptors (sedation, weight gain), alpha-1 adrenergic (orthostatic hypotension), muscarinic M1 (dry mouth, urinary retention, constipation). Side effects include EPS (due to D2 block in nigrostriatal pathway), hyperprolactinemia (D2 block in tuberoinfundibular pathway).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "moa-009",
+      "category": "Mechanisms of Action",
+      "front": "What is the mechanism of action of Diazepam?",
+      "back": "Diazepam is a benzodiazepine that acts as a POSITIVE ALLOSTERIC MODULATOR (PAM) at the GABA-A receptor. It binds to the benzodiazepine site (at the alpha-gamma subunit interface), which is DISTINCT from the GABA binding site. Binding increases the FREQUENCY of Cl⁻ channel opening in response to GABA (requires GABA to be present). This enhances inhibitory neurotransmission. Effects: anxiolytic, sedative, anticonvulsant, muscle relaxant, amnestic. Diazepam is long-acting (active metabolite: desmethyldiazepam, t½ ~100 hours).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "moa-010",
+      "category": "Mechanisms of Action",
+      "front": "What is the mechanism of action of Imipramine?",
+      "back": "Imipramine is a tricyclic antidepressant (TCA). It inhibits the reuptake of both serotonin (5-HT) and norepinephrine (NE) by blocking SERT and NET transporters, respectively. This increases monoamine concentrations in the synaptic cleft. It also blocks muscarinic (M1), histamine (H1), and alpha-1 adrenergic receptors — accounting for its side effects: anticholinergic effects, sedation/weight gain, and orthostatic hypotension. Narrow therapeutic index. Cardiotoxic in overdose (Na⁺ channel blockade → arrhythmias).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "moa-011",
+      "category": "Mechanisms of Action",
+      "front": "What is the mechanism of action of Phenytoin?",
+      "back": "Phenytoin is a hydantoin anticonvulsant that blocks voltage-gated Na⁺ channels in a USE-DEPENDENT (state-dependent) manner. It preferentially binds to and stabilizes the INACTIVATED state of the Na⁺ channel. This prolongs the refractory period, preventing repetitive firing of action potentials in epileptic foci. It does NOT affect normal low-frequency neuronal firing. Uses: Tonic-clonic seizures, partial seizures, status epilepticus (IV fosphenytoin). Notable: Zero-order (saturation) kinetics, narrow TI, CYP2C9/2C19 substrate.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "moa-012",
+      "category": "Mechanisms of Action",
+      "front": "What is the mechanism of action of Lisinopril?",
+      "back": "Lisinopril is an ACE (angiotensin-converting enzyme) inhibitor. It competitively inhibits ACE, preventing the conversion of Angiotensin I → Angiotensin II (a potent vasoconstrictor and aldosterone secretagogue). Results: Decreased vasoconstriction, decreased aldosterone (reduced Na⁺/water retention), decreased cardiac remodeling. Also prevents ACE-mediated breakdown of bradykinin (→ accumulation → vasodilation but also dry cough). Unlike Enalapril, Lisinopril is NOT a prodrug — it is active as administered. Excreted unchanged by kidneys.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "moa-013",
+      "category": "Mechanisms of Action",
+      "front": "What is the mechanism of action of Atorvastatin?",
+      "back": "Atorvastatin is an HMG-CoA reductase inhibitor (statin). It competitively inhibits HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate in the cholesterol biosynthesis pathway. The dihydroxyheptanoic acid moiety mimics the tetrahedral intermediate of HMG-CoA. Reduced intracellular cholesterol → upregulation of hepatic LDL receptors → increased LDL clearance from blood. Also: decreases VLDL production, mild increase in HDL, anti-inflammatory/pleiotropic effects. Atorvastatin is long-acting (t½ ~14 hours, active metabolites).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "moa-014",
+      "category": "Mechanisms of Action",
+      "front": "What is the mechanism of action of Warfarin?",
+      "back": "Warfarin inhibits Vitamin K Epoxide Reductase (VKORC1), the enzyme that recycles oxidized vitamin K epoxide back to its active (reduced) form. Reduced vitamin K is a cofactor for gamma-carboxylation of clotting factors II, VII, IX, and X (and proteins C and S). Without active vitamin K, these factors are produced as non-functional (PIVKA — Proteins Induced by Vitamin K Absence). Onset is delayed (2-5 days) because existing functional clotting factors must be depleted first. Factor VII (shortest t½ ~6 hours) is affected first. Monitored by INR/PT.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "moa-015",
+      "category": "Mechanisms of Action",
+      "front": "What is the mechanism of action of Procaine?",
+      "back": "Procaine is an ester-type local anesthetic. It blocks voltage-gated Na⁺ channels from the INTRACELLULAR side, preventing Na⁺ influx and thus blocking nerve impulse conduction. The unionized (base) form crosses the nerve membrane, then the ionized (cation) form binds to the channel. Procaine preferentially blocks small, unmyelinated C-fibers (pain) first. It has a short duration due to rapid hydrolysis by plasma esterases (butyrylcholinesterase) to PABA and diethylaminoethanol. PABA metabolite can cause allergic reactions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "for-001",
+      "category": "Key Formulas",
+      "front": "What is the Henderson-Hasselbalch equation and its significance in pharmacology?",
+      "back": "For weak acids: pH = pKa + log([A⁻]/[HA])\nFor weak bases: pH = pKa + log([B]/[BH⁺])\n\nSignificance: Determines the ionization state of a drug at a given pH. The unionized form is more lipophilic and crosses membranes better (passive diffusion). At pH = pKa, the drug is 50% ionized.\n\nIon trapping: Weak acids accumulate in basic compartments; weak bases accumulate in acidic compartments. Example: Aspirin (weak acid, pKa 3.5) is mostly unionized in stomach acid (pH 1.5) → absorbed there.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "for-002",
+      "category": "Key Formulas",
+      "front": "What is the Hansch Analysis equation in QSAR?",
+      "back": "The Hansch equation is a linear free-energy relationship used in QSAR:\n\nlog(1/C) = a·logP − b·(logP)² + c·σ + d·Es + constant\n\nWhere: C = minimum effective concentration, logP = partition coefficient (lipophilicity), σ = Hammett substituent constant (electronic effects), Es = Taft steric parameter, a/b/c/d = regression coefficients.\n\nThe parabolic logP term reflects that optimal activity requires intermediate lipophilicity. Used to predict biological activity from physicochemical properties and optimize drug design.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "for-003",
+      "category": "Key Formulas",
+      "front": "What is the Partition Coefficient (LogP)?",
+      "back": "The Partition Coefficient (P) measures a drug's lipophilicity:\n\nP = [Drug] in octanol / [Drug] in water\nLogP = log₁₀(P)\n\nHigher LogP = more lipophilic. Optimal LogP for oral drugs is generally 1-3 (Lipinski). LogP affects: membrane permeability, absorption, protein binding, CNS penetration, metabolism, and duration of action. LogD is the distribution coefficient at a specific pH (accounts for ionization). For ionizable drugs, LogD is more relevant than LogP at physiological pH.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "for-004",
+      "category": "Key Formulas",
+      "front": "What is Bioavailability (F%) and how is it calculated?",
+      "back": "Bioavailability (F) is the fraction of an administered drug that reaches the systemic circulation in its active form.\n\nF = (AUC_oral / AUC_IV) × (Dose_IV / Dose_oral) × 100%\n\nBy definition, IV administration has F = 100%. Factors reducing oral bioavailability: (1) Incomplete absorption. (2) First-pass metabolism (hepatic + intestinal + gut wall). (3) Chemical degradation in GI tract. (4) Efflux transporters (P-gp). Absolute bioavailability compares to IV; relative bioavailability compares two oral formulations.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "for-005",
+      "category": "Key Formulas",
+      "front": "What is the Hammett substituent constant (sigma, σ)?",
+      "back": "The Hammett constant (σ) quantifies the electronic (inductive + resonance) effect of a substituent on aromatic ring reactivity.\n\nσ = log(Kx/KH)\n\nWhere Kx = equilibrium constant for substituted benzoic acid, KH = for unsubstituted benzoic acid.\n\nσ > 0: Electron-withdrawing group (EWG) — e.g., –NO₂ (σp = +0.78), –CN, –CF₃\nσ < 0: Electron-donating group (EDG) — e.g., –OH (σp = −0.37), –NH₂, –OCH₃\nσ = 0: H (reference)\n\nUsed in QSAR (Hansch equation) to correlate electronic effects with biological activity.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "for-006",
+      "category": "Key Formulas",
+      "front": "What is Lipinski's Rule of Five?",
+      "back": "Lipinski's Rule of Five predicts whether a compound will have good oral bioavailability. A drug is likely to be poorly absorbed if it violates TWO or more of these rules:\n\n1. Molecular weight ≤ 500 Da\n2. LogP ≤ 5 (lipophilicity)\n3. Hydrogen bond donors ≤ 5 (–OH, –NH)\n4. Hydrogen bond acceptors ≤ 10 (N, O atoms)\n\nAll cutoffs are multiples of 5 (hence 'Rule of Five'). Exceptions: natural products, substrates of active transporters, and antibiotics often violate Lipinski's rules. Developed by Christopher Lipinski at Pfizer (1997).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "for-007",
+      "category": "Key Formulas",
+      "front": "What is the Therapeutic Index (TI) formula?",
+      "back": "TI = TD₅₀ / ED₅₀ (clinical) or TI = LD₅₀ / ED₅₀ (preclinical/animal)\n\nWhere: TD₅₀ = dose causing toxicity in 50% of population, LD₅₀ = lethal dose for 50%, ED₅₀ = effective dose in 50%.\n\nHigher TI = safer drug. Examples: Penicillin (TI > 100, very safe), Warfarin (TI ≈ 1.5-2, very narrow), Digoxin (narrow TI). For narrow TI drugs, the Certain Safety Factor (CSF = TD₁/ED₉₉) is more clinically relevant. Narrow TI drugs require therapeutic drug monitoring (TDM).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "for-008",
+      "category": "Key Formulas",
+      "front": "What is the difference between potency and efficacy?",
+      "back": "Potency: The amount of drug needed to produce a given effect. Measured by EC₅₀ or ED₅₀. Lower EC₅₀ = higher potency (leftward shift on dose-response curve). Relates to AFFINITY.\n\nEfficacy: The MAXIMUM effect a drug can produce regardless of dose. Measured by Emax. Higher Emax = greater efficacy. Relates to INTRINSIC ACTIVITY.\n\nExample: Morphine vs. Codeine — Morphine is both more potent (lower dose needed) AND more efficacious (higher max effect). A partial agonist has lower efficacy than a full agonist, regardless of its potency. Clinically, efficacy is usually more important than potency.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "nam-001",
+      "category": "Drug Names & IUPAC",
+      "front": "What is the IUPAC name of Carbachol?",
+      "back": "IUPAC: 2-(Aminocarbonyloxy)-N,N,N-trimethylethan-1-aminium chloride\n\nAlternative: Carbamylcholine chloride\n\nStructure: (CH₃)₃N⁺–CH₂–CH₂–O–CO–NH₂ Cl⁻\n\nIt is the carbamate ester of choline. The carbamate group makes it resistant to AChE hydrolysis (unlike ACh, which has an acetyl ester that is rapidly cleaved).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "nam-002",
+      "category": "Drug Names & IUPAC",
+      "front": "What is the IUPAC name of Neostigmine?",
+      "back": "IUPAC: 3-[(Dimethylcarbamoyl)oxy]-N,N,N-trimethylanilinium bromide\n\nAlternative: (m-Hydroxyphenyl)trimethylammonium bromide dimethylcarbamate\n\nKey features: Quaternary ammonium (permanent positive charge → does not cross BBB), aromatic carbamate ester (binds to AChE esteratic site).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "nam-003",
+      "category": "Drug Names & IUPAC",
+      "front": "What is the IUPAC name of Phenobarbital?",
+      "back": "IUPAC: 5-Ethyl-5-phenylpyrimidine-2,4,6(1H,3H,5H)-trione\n\nAlternative: 5-Ethyl-5-phenylbarbituric acid\n\nKey structural feature: C5 has phenyl (aromatic, resists metabolism → long-acting) and ethyl groups. C2, C4, C6 = three keto/oxo groups (barbituric acid core). Phenobarbital is the oldest still-widely-used anticonvulsant.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "nam-004",
+      "category": "Drug Names & IUPAC",
+      "front": "What is the IUPAC name of Chlorpromazine?",
+      "back": "IUPAC: 3-(2-Chloro-10H-phenothiazin-10-yl)-N,N-dimethylpropan-1-amine\n\nKey structural features: Phenothiazine tricyclic core, Cl at C2 (EWG for antipsychotic activity), 3-carbon chain from N10 to terminal dimethylamine (aliphatic = low potency phenothiazine).\n\nChlorpromazine was the first antipsychotic drug (1952, 'Thorazine').",
+      "difficulty": "hard"
+    },
+    {
+      "id": "nam-005",
+      "category": "Drug Names & IUPAC",
+      "front": "What is the IUPAC name of Diazepam?",
+      "back": "IUPAC: 7-Chloro-1-methyl-5-phenyl-1,3-dihydro-2H-1,4-benzodiazepin-2-one\n\nKey features: 7-Cl (EWG, essential for BZD activity), 5-phenyl ring, N1-methyl group, 1,4-benzodiazepine core with C2=O. Diazepam ('Valium') is the prototypical benzodiazepine. Active metabolite: N-desmethyldiazepam (nordiazepam), long-acting.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "nam-006",
+      "category": "Drug Names & IUPAC",
+      "front": "What is the IUPAC name of Phenytoin?",
+      "back": "IUPAC: 5,5-Diphenylimidazolidine-2,4-dione\n\nAlternative: 5,5-Diphenylhydantoin\n\nKey features: Hydantoin ring (5-membered, unlike 6-membered barbituric acid), two phenyl groups at C5 (similar to phenobarbital concept but on hydantoin). Phenytoin shows zero-order kinetics at therapeutic doses (saturation of CYP2C9).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "nam-007",
+      "category": "Drug Names & IUPAC",
+      "front": "What is the IUPAC name of Procaine?",
+      "back": "IUPAC: 2-(Diethylamino)ethyl 4-aminobenzoate\n\nKey features: PABA (para-aminobenzoic acid) derivative = ester local anesthetic. Ester linkage (–COO–) → hydrolyzed by plasma cholinesterases → PABA (can cause allergy) + diethylaminoethanol. Short duration. Also known as Novocain.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "nam-008",
+      "category": "Drug Names & IUPAC",
+      "front": "What is the IUPAC name of Benzocaine?",
+      "back": "IUPAC: Ethyl 4-aminobenzoate\n\nKey features: Simplest ester-type local anesthetic. Lacks a terminal tertiary amine — therefore it is permanently UNIONIZED at physiological pH. This means it only works as a topical/surface anesthetic (cannot be injected for nerve block). Used in lozenges, ointments, and sprays for mucous membranes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "nam-009",
+      "category": "Drug Names & IUPAC",
+      "front": "What is the IUPAC name of Halothane?",
+      "back": "IUPAC: 2-Bromo-2-chloro-1,1,1-trifluoroethane\n\nMolecular formula: CF₃CHBrCl\n\nKey features: Halogenated alkane inhaled anesthetic. Contains F, Cl, and Br atoms. Not flammable (unlike older agents like ether). Can cause halothane hepatitis (rare but serious, immune-mediated). Has a chiral center but used as racemic mixture. Largely replaced by newer agents (Sevoflurane, Desflurane).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "nam-010",
+      "category": "Drug Names & IUPAC",
+      "front": "What is the IUPAC name of Imipramine?",
+      "back": "IUPAC: 3-(10,11-Dihydro-5H-dibenzo[b,f]azepin-5-yl)-N,N-dimethylpropan-1-amine\n\nKey features: Tricyclic structure (dibenzazepine — two benzene rings fused to a 7-membered azepine ring). 3-carbon side chain with terminal dimethylamine. Structurally related to chlorpromazine (phenothiazine → replaced S with –CH₂CH₂– bridge). Imipramine was the first TCA (1958). Metabolized to desipramine (active metabolite, more NE-selective).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "nam-011",
+      "category": "Drug Names & IUPAC",
+      "front": "What is the chemical name of Lidocaine?",
+      "back": "IUPAC: 2-(Diethylamino)-N-(2,6-dimethylphenyl)acetamide\n\nKey features: Amide-type local anesthetic (–NHCO– linker). The 2,6-dimethyl groups on the aromatic ring sterically protect the amide bond from rapid hydrolysis, giving it a longer duration than ester-type agents. Metabolized by hepatic CYP3A4 and CYP1A2 (not plasma esterases). Also used as a Class IB antiarrhythmic (Na⁺ channel blocker in cardiac tissue).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "nam-012",
+      "category": "Drug Names & IUPAC",
+      "front": "What is the pKa of Aspirin and why is it pharmacologically significant?",
+      "back": "Aspirin (Acetylsalicylic acid) has a pKa of ~3.5.\n\nSignificance: In the stomach (pH ≈ 1.5), using Henderson-Hasselbalch: pH - pKa = 1.5 - 3.5 = -2, so [HA]/[A⁻] = 100:1. Aspirin is ~99% UNIONIZED in the stomach → lipophilic → readily absorbed across the gastric mucosa.\n\nIn plasma (pH 7.4): pH - pKa = 7.4 - 3.5 = 3.9, so [A⁻]/[HA] ≈ 8000:1. Aspirin is ~99.99% IONIZED in blood → trapped in plasma (ion trapping). This is why urinary alkalinization increases aspirin excretion in overdose.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "met-001",
+      "category": "Metabolism",
+      "front": "What are the three main types of Phase I metabolic reactions?",
+      "back": "Phase I reactions introduce or unmask a functional group (–OH, –NH₂, –SH) via:\n\n1. OXIDATION (most common): Catalyzed by CYP450 enzymes. Examples: Aromatic hydroxylation, N-dealkylation, O-dealkylation, S-oxidation, deamination.\n\n2. REDUCTION: Azo reduction (–N=N– → –NH₂), nitro reduction (–NO₂ → –NH₂), carbonyl reduction (C=O → C–OH).\n\n3. HYDROLYSIS: Ester hydrolysis (by esterases), amide hydrolysis. Examples: Procaine → PABA + diethylaminoethanol.\n\nPhase I usually converts drugs to more polar (and often active or toxic) metabolites.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "met-002",
+      "category": "Metabolism",
+      "front": "What are the five main types of Phase II metabolic (conjugation) reactions?",
+      "back": "Phase II reactions attach an endogenous polar molecule to form a more water-soluble, inactive conjugate:\n\n1. GLUCURONIDATION — Most common. UDP-glucuronosyltransferases (UGT). Cofactor: UDPGA.\n2. SULFATION — Sulfotransferases (SULT). Cofactor: PAPS.\n3. ACETYLATION — N-acetyltransferases (NAT1, NAT2). Cofactor: Acetyl-CoA. Genetic polymorphism: slow vs. fast acetylators.\n4. GLUTATHIONE CONJUGATION — GSH transferases. Protective against reactive metabolites (e.g., NAPQI from paracetamol).\n5. METHYLATION — COMT, TPMT. Cofactor: SAM.\n\nAlso: Amino acid conjugation (glycine, glutamine).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "met-003",
+      "category": "Metabolism",
+      "front": "What is the role of CYP450 enzymes in drug metabolism?",
+      "back": "Cytochrome P450 (CYP450) enzymes are a superfamily of heme-containing monooxygenases primarily located in the liver ER (microsomal fraction). They catalyze Phase I OXIDATION reactions using the general reaction:\n\nDrug + O₂ + NADPH + H⁺ → Drug-OH + H₂O + NADP⁺\n\nKey isoforms: CYP3A4 (metabolizes ~50% of drugs), CYP2D6 (~25%), CYP2C9, CYP2C19, CYP1A2, CYP2E1.\n\nClinically important because: Genetic polymorphisms (poor/extensive/ultra-rapid metabolizers), drug-drug interactions (induction: Rifampin, Carbamazepine; inhibition: Ketoconazole, Erythromycin, Grapefruit juice).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "met-004",
+      "category": "Metabolism",
+      "front": "What is glucuronidation and why is it the most important Phase II reaction?",
+      "back": "Glucuronidation is the conjugation of a drug (or Phase I metabolite) with glucuronic acid, catalyzed by UDP-glucuronosyltransferases (UGTs) in the liver ER.\n\nCofactor: UDP-glucuronic acid (UDPGA)\nBond formed: Beta-glucuronide bond at –OH, –COOH, –NH₂, or –SH groups.\n\nWhy most important: (1) High capacity (abundant UDPGA supply). (2) Accepts many substrates (broad specificity). (3) Produces highly polar, water-soluble conjugates for renal/biliary excretion. (4) Almost always inactivates the drug.\n\nExample: Morphine → morphine-3-glucuronide (inactive) and morphine-6-glucuronide (active, more potent!).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "met-005",
+      "category": "Metabolism",
+      "front": "What is a prodrug? Give examples.",
+      "back": "A prodrug is a pharmacologically INACTIVE (or less active) compound that is converted to the active drug in vivo through metabolic or chemical transformation.\n\nPurposes: Improve oral bioavailability, improve stability, reduce toxicity, target specific tissues, improve taste.\n\nExamples:\n• Enalapril → Enalaprilat (ester hydrolysis in liver, improves oral absorption)\n• Codeine → Morphine (CYP2D6 O-demethylation)\n• Levodopa → Dopamine (decarboxylation in CNS by DOPA decarboxylase)\n• Omeprazole → sulfenamide active form (acid-catalyzed in parietal cell canaliculus)\n• Valacyclovir → Acyclovir (ester hydrolysis, 5x better bioavailability)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "met-006",
+      "category": "Metabolism",
+      "front": "What is first-pass metabolism (first-pass effect)?",
+      "back": "First-pass metabolism is the extensive metabolism of a drug that occurs between oral administration and systemic circulation. After oral absorption, the drug travels via the portal vein to the liver BEFORE reaching the systemic circulation.\n\nSites: (1) Gut lumen (pH, enzymes), (2) Gut wall (CYP3A4, UGTs), (3) Liver (primary site, CYP450).\n\nConsequences: Reduced oral bioavailability (F << 100%). Examples: Morphine (~25% oral F), Propranolol (~25% oral F), Nitroglycerin (~1% oral F — given sublingual to avoid first-pass).\n\nRoutes that AVOID first-pass: IV, sublingual, rectal (lower 2/3), transdermal, inhalation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "met-007",
+      "category": "Metabolism",
+      "front": "How is Enalapril converted to its active form?",
+      "back": "Enalapril is an ethyl ESTER prodrug. After oral absorption, it undergoes hydrolysis (de-esterification) by hepatic carboxylesterases to form Enalaprilat, the active diacid metabolite.\n\nEnalapril (ethyl ester, inactive) → [hepatic esterases] → Enalaprilat (free carboxylic acid, active ACE inhibitor)\n\nWhy use a prodrug? Enalaprilat itself has poor oral bioavailability (~10%) due to its two free carboxyl groups (too polar for good membrane permeation). Esterification of one –COOH improves lipophilicity and oral absorption (~60% for Enalapril). Compare: Lisinopril is a direct-acting ACE inhibitor (not a prodrug) with ~25% bioavailability.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "met-008",
+      "category": "Metabolism",
+      "front": "How is Codeine converted to Morphine and why is this clinically significant?",
+      "back": "Codeine is a PRODRUG that is O-demethylated to Morphine by CYP2D6 in the liver.\n\nCodeine (3-methoxymorphine) → [CYP2D6] → Morphine (active, ~10% of dose)\n\nClinical significance of CYP2D6 polymorphism:\n• Poor metabolizers (PM, ~5-10% Caucasians): Cannot convert codeine to morphine → inadequate pain relief.\n• Ultra-rapid metabolizers (UM, ~1-7%): Excessive morphine formation → risk of toxicity, respiratory depression, death. ESPECIALLY DANGEROUS in neonates (breastfeeding mothers who are UM).\n• FDA Black Box Warning: Avoid codeine in children <12 years and breastfeeding women.\n\nOther codeine metabolites: Norcodeine (CYP3A4), Codeine-6-glucuronide (UGT).",
+      "difficulty": "hard"
+    }
+  ]
+}

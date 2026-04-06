@@ -1,0 +1,704 @@
+{
+  "questions": [
+    {
+      "id": "q-001",
+      "topic": "Cholinergic Agents",
+      "question": "Which cholinergic agonist is resistant to acetylcholinesterase and acts on BOTH muscarinic and nicotinic receptors?",
+      "options": [
+        { "id": "A", "text": "Bethanechol" },
+        { "id": "B", "text": "Carbachol" },
+        { "id": "C", "text": "Pilocarpine" },
+        { "id": "D", "text": "Methacholine" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Carbachol is a carbamyl ester of choline that is resistant to AChE hydrolysis and activates both muscarinic and nicotinic receptors. Bethanechol is selective for muscarinic receptors. Pilocarpine is a partial muscarinic agonist. Methacholine is susceptible to AChE and is mainly muscarinic.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q-002",
+      "topic": "Cholinergic Agents",
+      "question": "A patient with myasthenia gravis is treated with a reversible AChE inhibitor that does NOT cross the blood-brain barrier. Which drug is this?",
+      "options": [
+        { "id": "A", "text": "Physostigmine" },
+        { "id": "B", "text": "Donepezil" },
+        { "id": "C", "text": "Neostigmine" },
+        { "id": "D", "text": "Edrophonium" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Neostigmine is a quaternary ammonium compound (permanently charged) that cannot cross the BBB. It is a reversible AChE inhibitor used for myasthenia gravis and reversal of neuromuscular blockade. Physostigmine is a tertiary amine that crosses the BBB. Donepezil is used for Alzheimer's (CNS-active). Edrophonium is used for diagnosis, not treatment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q-003",
+      "topic": "Anticholinergics",
+      "question": "Ipratropium bromide is preferred over atropine for bronchodilation because it:",
+      "options": [
+        { "id": "A", "text": "Has higher affinity for M3 receptors" },
+        { "id": "B", "text": "Is a quaternary ammonium compound with minimal systemic absorption" },
+        { "id": "C", "text": "Has a faster onset of action" },
+        { "id": "D", "text": "Also activates beta-2 receptors" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Ipratropium bromide is a quaternary ammonium derivative of atropine. Its permanent positive charge limits systemic absorption when inhaled, minimizing side effects like tachycardia, mydriasis, and CNS effects that would occur with atropine. It does not activate beta-2 receptors and is not more selective for M3 than atropine.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-004",
+      "topic": "Adrenergics",
+      "question": "Salbutamol (albuterol) produces bronchodilation primarily by:",
+      "options": [
+        { "id": "A", "text": "Blocking muscarinic M3 receptors on bronchial smooth muscle" },
+        { "id": "B", "text": "Inhibiting phosphodiesterase, increasing cAMP" },
+        { "id": "C", "text": "Activating beta-2 receptors, stimulating adenylyl cyclase and increasing cAMP" },
+        { "id": "D", "text": "Blocking alpha-1 receptors on bronchial vasculature" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Salbutamol is a selective short-acting beta-2 agonist (SABA). Activation of beta-2 receptors on bronchial smooth muscle stimulates adenylyl cyclase → increased cAMP → PKA activation → smooth muscle relaxation. It does not block muscarinic or alpha receptors, and it is not a PDE inhibitor (that would be theophylline).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q-005",
+      "topic": "Beta-Blockers",
+      "question": "Which structural feature confers cardioselectivity (beta-1 selectivity) to beta-blockers?",
+      "options": [
+        { "id": "A", "text": "A naphthalene ring system" },
+        { "id": "B", "text": "A tert-butyl group on the amine nitrogen" },
+        { "id": "C", "text": "A polar substituent at the para position of the aromatic ring" },
+        { "id": "D", "text": "Substitution of the ether oxygen with a methylene group" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Cardioselectivity in beta-blockers is achieved by adding a polar, bulky group at the para position of the aromatic ring. For example, metoprolol has –OCH₂CH₂OCH₃ and atenolol has –OCH₂CONH₂ at the para position. These groups create preferential binding to beta-1 receptors. Non-selective agents like propranolol (naphthalene) lack such para-substituents.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-006",
+      "topic": "Beta-Blockers",
+      "question": "Which of the following beta-blockers is cardioselective (beta-1 selective)?",
+      "options": [
+        { "id": "A", "text": "Propranolol" },
+        { "id": "B", "text": "Timolol" },
+        { "id": "C", "text": "Carvedilol" },
+        { "id": "D", "text": "Atenolol" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Atenolol is a cardioselective (beta-1 selective) beta-blocker. Propranolol and Timolol are non-selective (block both beta-1 and beta-2). Carvedilol is a non-selective beta-blocker that also blocks alpha-1 receptors. Cardioselective agents are preferred in patients with asthma/COPD to minimize bronchoconstriction risk.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q-007",
+      "topic": "Barbiturates",
+      "question": "What structural modification at C2 of a barbiturate produces an ultrashort-acting agent?",
+      "options": [
+        { "id": "A", "text": "Addition of a phenyl group" },
+        { "id": "B", "text": "N-methylation" },
+        { "id": "C", "text": "Replacement of C2=O with C2=S (thio substitution)" },
+        { "id": "D", "text": "Addition of a carboxyl group" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Replacing the oxygen at C2 with sulfur (thiobarbiturate) greatly increases lipophilicity, enabling rapid BBB penetration and ultrashort onset (~20 seconds). Thiopental is the classic example. Duration is short due to redistribution to fat, not rapid metabolism. N-methylation produces convulsant activity. A phenyl group at C5 (not C2) makes it long-acting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-008",
+      "topic": "Barbiturates",
+      "question": "Thiopental has an ultrashort duration of action primarily because of:",
+      "options": [
+        { "id": "A", "text": "Rapid hepatic metabolism by CYP450 enzymes" },
+        { "id": "B", "text": "Rapid renal excretion" },
+        { "id": "C", "text": "Redistribution from the brain to muscle and adipose tissue" },
+        { "id": "D", "text": "Rapid hydrolysis by plasma esterases" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Thiopental's ultrashort duration (~20 minutes) is due to rapid redistribution from the highly perfused brain to less perfused tissues (muscle, then fat), not metabolism. Its elimination half-life is actually ~11 hours. This is a classic pharmacokinetic redistribution phenomenon, not a pharmacodynamic or metabolic one.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-009",
+      "topic": "Barbiturates",
+      "question": "N-methylation of barbiturates leads to:",
+      "options": [
+        { "id": "A", "text": "Increased sedative potency" },
+        { "id": "B", "text": "Longer duration of action" },
+        { "id": "C", "text": "Convulsant activity" },
+        { "id": "D", "text": "Improved anticonvulsant properties" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "N-methylation of barbiturates produces convulsant rather than sedative/hypnotic activity. This occurs because the methyl group prevents the lactam-lactim tautomerism necessary for proper hydrogen bonding at the GABA-A receptor. Therefore, N-methylated barbiturates are not used as sedatives.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q-010",
+      "topic": "Penicillins",
+      "question": "Penicillin's bactericidal mechanism involves:",
+      "options": [
+        { "id": "A", "text": "Inhibition of 30S ribosomal subunit" },
+        { "id": "B", "text": "Irreversible acylation of penicillin-binding proteins (PBPs) via D-Ala-D-Ala mimicry" },
+        { "id": "C", "text": "Inhibition of DNA gyrase" },
+        { "id": "D", "text": "Disruption of the cytoplasmic membrane" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Penicillin mimics the D-Ala-D-Ala terminal dipeptide of the peptidoglycan precursor. The strained beta-lactam ring acylates the active-site serine of PBPs (transpeptidases), irreversibly inhibiting the cross-linking step of cell wall synthesis. This leads to osmotic lysis and bacterial death. DNA gyrase inhibition is the mechanism of fluoroquinolones.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q-011",
+      "topic": "Penicillins",
+      "question": "Which modification to the penicillin side chain provides resistance to beta-lactamase enzymes?",
+      "options": [
+        { "id": "A", "text": "Addition of a free amino group (aminopenicillins)" },
+        { "id": "B", "text": "Addition of a phenoxy group for acid stability" },
+        { "id": "C", "text": "Bulky substituents near the beta-lactam ring providing steric protection" },
+        { "id": "D", "text": "Removal of the side chain entirely" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Bulky groups at the C6 side chain near the beta-lactam ring provide steric hindrance that prevents beta-lactamase from accessing the beta-lactam bond. Examples include methicillin (dimethoxyphenyl) and oxacillin. Aminopenicillins (ampicillin) extend the spectrum but are NOT beta-lactamase resistant. The phenoxy group improves acid stability (penicillin V).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-012",
+      "topic": "Local Anesthetics",
+      "question": "The general structure of local anesthetics consists of:",
+      "options": [
+        { "id": "A", "text": "Hydrophilic group – peptide bond – lipophilic group" },
+        { "id": "B", "text": "Lipophilic aromatic group – ester or amide linker – hydrophilic tertiary amine" },
+        { "id": "C", "text": "Steroid nucleus – glycosidic bond – sugar moiety" },
+        { "id": "D", "text": "Beta-lactam ring – thiazolidine ring – side chain" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "All local anesthetics share a three-part structure: a lipophilic aromatic ring, a linker region (ester –COO– or amide –NHCO–), and a hydrophilic ionizable tertiary amine. The linker type determines the classification (ester vs amide) and the route of metabolism.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q-013",
+      "topic": "Local Anesthetics",
+      "question": "Which local anesthetic lacks a tertiary amine and therefore can only be used topically?",
+      "options": [
+        { "id": "A", "text": "Procaine" },
+        { "id": "B", "text": "Lidocaine" },
+        { "id": "C", "text": "Benzocaine" },
+        { "id": "D", "text": "Tetracaine" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Benzocaine (ethyl 4-aminobenzoate) lacks a tertiary amine group. It is permanently unionized at physiological pH, making it suitable only for topical/surface anesthesia (lozenges, sprays, ointments). It cannot be used for injection-based nerve blockade because it cannot achieve the ionized form needed for intracellular Na+ channel blockade.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-014",
+      "topic": "Local Anesthetics",
+      "question": "Ester-type local anesthetics are primarily metabolized by:",
+      "options": [
+        { "id": "A", "text": "Hepatic CYP3A4 enzymes" },
+        { "id": "B", "text": "Monoamine oxidase (MAO)" },
+        { "id": "C", "text": "Plasma cholinesterases (butyrylcholinesterase)" },
+        { "id": "D", "text": "Renal tubular enzymes" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Ester-type local anesthetics (procaine, tetracaine, chloroprocaine) are rapidly hydrolyzed by plasma cholinesterases (pseudocholinesterase/butyrylcholinesterase) to PABA and an amino alcohol. This accounts for their shorter duration and the risk of allergic reactions (PABA is a known allergen). Amide-type agents are metabolized by hepatic CYP450.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-015",
+      "topic": "Inhaled Anesthetics",
+      "question": "Halothane (2-bromo-2-chloro-1,1,1-trifluoroethane) is associated with which rare but serious adverse effect?",
+      "options": [
+        { "id": "A", "text": "Malignant hyperthermia only" },
+        { "id": "B", "text": "Immune-mediated hepatitis (halothane hepatitis)" },
+        { "id": "C", "text": "Methemoglobinemia" },
+        { "id": "D", "text": "Serotonin syndrome" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Halothane can cause halothane hepatitis, a rare but potentially fatal immune-mediated hepatotoxicity. The oxidative metabolite (trifluoroacetyl chloride) binds to hepatic proteins, forming neoantigens that trigger an immune response on re-exposure. While halothane can also trigger malignant hyperthermia, the unique and most notable adverse effect is halothane hepatitis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-016",
+      "topic": "Antipsychotics",
+      "question": "In phenothiazine antipsychotics, what is required at the C2 position for antipsychotic activity?",
+      "options": [
+        { "id": "A", "text": "An electron-donating group (EDG)" },
+        { "id": "B", "text": "A hydroxyl group" },
+        { "id": "C", "text": "An electron-withdrawing group (EWG)" },
+        { "id": "D", "text": "No substituent is needed" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "An electron-withdrawing group (EWG) at C2 is essential for antipsychotic activity in phenothiazines. Examples include –Cl (chlorpromazine), –CF₃ (trifluoperazine), and –SCH₃. The EWG optimizes the electronic distribution required for D2 receptor binding. Without it, antipsychotic activity is greatly reduced.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-017",
+      "topic": "Antipsychotics",
+      "question": "Which phenothiazine terminal amine group is associated with the HIGHEST antipsychotic potency?",
+      "options": [
+        { "id": "A", "text": "Aliphatic dimethylamine" },
+        { "id": "B", "text": "Piperidine" },
+        { "id": "C", "text": "Piperazine" },
+        { "id": "D", "text": "Morpholine" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Piperazine-substituted phenothiazines (e.g., fluphenazine, trifluoperazine) have the highest D2 receptor affinity and antipsychotic potency, but also the highest risk of extrapyramidal side effects (EPS). Potency order: Piperazine > Piperidine > Aliphatic. Aliphatic (e.g., chlorpromazine) is low potency with high sedation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q-018",
+      "topic": "Antipsychotics",
+      "question": "Changing the N10 side chain from 3 carbons to 2 carbons in phenothiazines converts the activity from antipsychotic to:",
+      "options": [
+        { "id": "A", "text": "Anticholinergic" },
+        { "id": "B", "text": "Antihistaminic" },
+        { "id": "C", "text": "Antidepressant" },
+        { "id": "D", "text": "Analgesic" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A 3-carbon chain between N10 and the terminal nitrogen is required for antipsychotic activity. A 2-carbon chain shifts the pharmacological profile to antihistaminic activity. Promethazine is a classic example: it is a phenothiazine with a 2-carbon side chain that acts as an H1 antihistamine with no significant antipsychotic activity.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q-019",
+      "topic": "Antipsychotics",
+      "question": "Which atypical antipsychotic is considered the gold standard for treatment-resistant schizophrenia but requires regular blood monitoring?",
+      "options": [
+        { "id": "A", "text": "Risperidone" },
+        { "id": "B", "text": "Olanzapine" },
+        { "id": "C", "text": "Clozapine" },
+        { "id": "D", "text": "Quetiapine" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Clozapine is the gold standard for treatment-resistant schizophrenia (effective in ~30% of patients who fail other antipsychotics). It requires mandatory regular blood monitoring due to the risk of agranulocytosis (1-2%), a potentially fatal drop in white blood cells. It also has the lowest EPS risk among antipsychotics and is the only antipsychotic proven to reduce suicidality.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q-020",
+      "topic": "Benzodiazepines",
+      "question": "Benzodiazepines enhance GABA-A receptor function by:",
+      "options": [
+        { "id": "A", "text": "Directly opening the chloride channel without GABA" },
+        { "id": "B", "text": "Increasing the DURATION of chloride channel opening" },
+        { "id": "C", "text": "Increasing the FREQUENCY of chloride channel opening" },
+        { "id": "D", "text": "Blocking glutamate NMDA receptors" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Benzodiazepines are positive allosteric modulators at the GABA-A receptor that increase the FREQUENCY of Cl⁻ channel opening in response to GABA. They require GABA to be present (unlike barbiturates at high doses). Barbiturates increase the DURATION of channel opening. This GABA-dependence makes benzodiazepines safer than barbiturates in overdose.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-021",
+      "topic": "Benzodiazepines",
+      "question": "Which structural feature is essential at the 7-position of the benzodiazepine ring for high activity?",
+      "options": [
+        { "id": "A", "text": "A hydroxyl group (–OH)" },
+        { "id": "B", "text": "A methyl group (–CH₃)" },
+        { "id": "C", "text": "An electron-withdrawing group (–Cl, –NO₂)" },
+        { "id": "D", "text": "An amino group (–NH₂)" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "An electron-withdrawing group at position 7 (such as –Cl or –NO₂) is essential for high-affinity binding to the GABA-A benzodiazepine site. Examples: Diazepam (7-Cl), Nitrazepam (7-NO₂), Clonazepam (7-NO₂). Removing or replacing the 7-EWG with an electron-donating group dramatically reduces activity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-022",
+      "topic": "TCAs",
+      "question": "Imipramine exerts its antidepressant effect primarily by:",
+      "options": [
+        { "id": "A", "text": "Inhibiting monoamine oxidase (MAO)" },
+        { "id": "B", "text": "Selectively blocking serotonin reuptake (SERT only)" },
+        { "id": "C", "text": "Blocking reuptake of both serotonin and norepinephrine (SERT and NET)" },
+        { "id": "D", "text": "Blocking dopamine D2 receptors" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Imipramine is a tricyclic antidepressant (TCA) that non-selectively inhibits the reuptake of both serotonin (via SERT) and norepinephrine (via NET), increasing their synaptic concentrations. It is not an MAO inhibitor and does not selectively block SERT (that would be an SSRI). Its active metabolite desipramine is more norepinephrine-selective.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q-023",
+      "topic": "TCAs",
+      "question": "The major danger of TCA overdose is due to:",
+      "options": [
+        { "id": "A", "text": "Serotonin syndrome" },
+        { "id": "B", "text": "Cardiac arrhythmias from Na⁺ channel blockade" },
+        { "id": "C", "text": "Hepatic necrosis" },
+        { "id": "D", "text": "Rhabdomyolysis" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "TCA overdose is life-threatening primarily due to cardiac toxicity. TCAs block cardiac Na⁺ channels (quinidine-like effect), leading to QRS widening, arrhythmias, and potentially fatal cardiac arrest. Treatment includes IV sodium bicarbonate (to overcome Na⁺ channel blockade and correct acidosis). TCAs have a narrow therapeutic index.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-024",
+      "topic": "Anticonvulsants",
+      "question": "Phenytoin blocks seizure activity by which mechanism?",
+      "options": [
+        { "id": "A", "text": "Enhancing GABA-A receptor chloride conductance" },
+        { "id": "B", "text": "Use-dependent blockade of voltage-gated Na⁺ channels in their inactivated state" },
+        { "id": "C", "text": "Blocking T-type Ca²⁺ channels" },
+        { "id": "D", "text": "Inhibiting GABA transaminase" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Phenytoin selectively binds to and stabilizes the inactivated state of voltage-gated Na⁺ channels (use-dependent/state-dependent blockade). This prolongs the refractory period in rapidly firing neurons (epileptic foci) without affecting normal neuronal activity. T-type Ca²⁺ channel blocking is the mechanism of ethosuximide (for absence seizures).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-025",
+      "topic": "Anticonvulsants",
+      "question": "Phenytoin displays zero-order (saturation) kinetics at therapeutic doses. This means:",
+      "options": [
+        { "id": "A", "text": "The rate of elimination is proportional to the plasma concentration" },
+        { "id": "B", "text": "A fixed amount of drug is eliminated per unit time, and small dose increases can cause toxicity" },
+        { "id": "C", "text": "The drug is eliminated entirely by renal filtration" },
+        { "id": "D", "text": "The half-life decreases as the dose increases" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Phenytoin saturates its metabolizing enzyme (CYP2C9) at therapeutic concentrations, leading to zero-order kinetics where a constant AMOUNT (not fraction) is eliminated per unit time. This means small dose increases can cause disproportionately large increases in plasma levels, potentially reaching toxic concentrations. This is why phenytoin requires careful therapeutic drug monitoring.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q-026",
+      "topic": "ACE Inhibitors",
+      "question": "Which ACE inhibitor is a prodrug that requires hepatic conversion to its active diacid form?",
+      "options": [
+        { "id": "A", "text": "Lisinopril" },
+        { "id": "B", "text": "Captopril" },
+        { "id": "C", "text": "Enalapril" },
+        { "id": "D", "text": "Fosinopril" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Enalapril is an ethyl ester prodrug that is hydrolyzed by hepatic carboxylesterases to enalaprilat (the active diacid). This prodrug strategy improves oral bioavailability since enalaprilat itself is too polar for good absorption (~10%). Lisinopril is active as administered (not a prodrug). Captopril is also active as-is (sulfhydryl group binds ACE).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q-027",
+      "topic": "ACE Inhibitors",
+      "question": "The dry cough associated with ACE inhibitors is caused by:",
+      "options": [
+        { "id": "A", "text": "Increased angiotensin II levels" },
+        { "id": "B", "text": "Accumulation of bradykinin due to reduced degradation" },
+        { "id": "C", "text": "Direct irritation of the bronchial mucosa" },
+        { "id": "D", "text": "Histamine release from mast cells" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "ACE (kininase II) normally degrades bradykinin. When ACE is inhibited, bradykinin accumulates in the lungs. Bradykinin stimulates sensory C-fibers and increases prostaglandin and substance P production, triggering a persistent dry cough in ~10-20% of patients. This is why ARBs (which do not affect bradykinin) are used as alternatives in patients with ACE inhibitor cough.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-028",
+      "topic": "Statins",
+      "question": "Statins lower LDL cholesterol by:",
+      "options": [
+        { "id": "A", "text": "Inhibiting cholesterol absorption in the intestine" },
+        { "id": "B", "text": "Competitively inhibiting HMG-CoA reductase, leading to upregulation of hepatic LDL receptors" },
+        { "id": "C", "text": "Increasing bile acid excretion" },
+        { "id": "D", "text": "Activating lipoprotein lipase in capillaries" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Statins competitively inhibit HMG-CoA reductase (the rate-limiting enzyme in cholesterol biosynthesis). Reduced intracellular cholesterol in hepatocytes triggers upregulation of LDL receptor expression via SREBP pathway, increasing clearance of LDL from the blood. Intestinal absorption inhibition is the mechanism of ezetimibe. Bile acid sequestrants increase bile acid excretion.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q-029",
+      "topic": "Statins",
+      "question": "Which statin is a prodrug in lactone form that must be hydrolyzed to its active open-acid form?",
+      "options": [
+        { "id": "A", "text": "Atorvastatin" },
+        { "id": "B", "text": "Rosuvastatin" },
+        { "id": "C", "text": "Simvastatin" },
+        { "id": "D", "text": "Pravastatin" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Simvastatin (and lovastatin) are administered as inactive lactone prodrugs that require hepatic hydrolysis to their active open-acid (hydroxy acid) forms. Atorvastatin, rosuvastatin, and pravastatin are already in the active acid form. Simvastatin's lactone form improves oral absorption compared to the active acid.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-030",
+      "topic": "Anticoagulants",
+      "question": "Warfarin exerts its anticoagulant effect by:",
+      "options": [
+        { "id": "A", "text": "Directly inhibiting thrombin (Factor IIa)" },
+        { "id": "B", "text": "Activating antithrombin III" },
+        { "id": "C", "text": "Inhibiting vitamin K epoxide reductase (VKORC1)" },
+        { "id": "D", "text": "Directly inhibiting Factor Xa" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Warfarin inhibits vitamin K epoxide reductase (VKORC1), preventing the recycling of vitamin K to its active reduced form. Without reduced vitamin K, clotting factors II, VII, IX, and X cannot be gamma-carboxylated and remain non-functional. Direct thrombin inhibition is dabigatran's mechanism; antithrombin III activation is heparin's mechanism; direct Factor Xa inhibition is rivaroxaban/apixaban.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q-031",
+      "topic": "Anticoagulants",
+      "question": "Warfarin's anticoagulant effect has a delayed onset (2-5 days) because:",
+      "options": [
+        { "id": "A", "text": "It takes time to reach steady-state plasma levels" },
+        { "id": "B", "text": "Existing functional clotting factors must be depleted through natural degradation" },
+        { "id": "C", "text": "It requires hepatic activation to an active metabolite" },
+        { "id": "D", "text": "Vitamin K stores must first be exhausted" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Warfarin prevents the synthesis of NEW functional clotting factors but does not affect factors already circulating. The anticoagulant effect is delayed until existing functional factors II, VII, IX, and X are naturally degraded. Factor VII (shortest half-life ~6 hours) is depleted first, followed by factors IX, X, and II (longest half-life ~60 hours). Full anticoagulation takes 2-5 days.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-032",
+      "topic": "Fluoroquinolones",
+      "question": "The fluorine at C6 in fluoroquinolones is important because it:",
+      "options": [
+        { "id": "A", "text": "Provides resistance to beta-lactamases" },
+        { "id": "B", "text": "Increases antibacterial potency by 5-10 fold and enhances cell penetration" },
+        { "id": "C", "text": "Changes the spectrum from Gram-positive to Gram-negative" },
+        { "id": "D", "text": "Prevents hepatic metabolism" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The C6-fluorine increases antibacterial potency by 5-10 fold compared to non-fluorinated quinolones. It enhances cell penetration through improved lipophilicity and improves binding to the DNA gyrase-DNA complex. All modern clinically used quinolones are fluoroquinolones (ciprofloxacin, levofloxacin, moxifloxacin). Beta-lactamase resistance is relevant to beta-lactam antibiotics, not quinolones.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-033",
+      "topic": "Fluoroquinolones",
+      "question": "The C3-COOH and C4=O groups of fluoroquinolones are essential because they:",
+      "options": [
+        { "id": "A", "text": "Improve oral absorption" },
+        { "id": "B", "text": "Chelate Mg²⁺ in the DNA gyrase-DNA complex" },
+        { "id": "C", "text": "Prevent efflux pump-mediated resistance" },
+        { "id": "D", "text": "Enable renal tubular secretion" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The C3 carboxylic acid and C4 keto group form the critical pharmacophore that chelates the Mg²⁺ ion in the DNA gyrase (topoisomerase II) and topoisomerase IV-DNA complex. This chelation is essential for the drug-enzyme-DNA ternary complex formation and antibacterial activity. Removing either group abolishes activity.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q-034",
+      "topic": "Lipinski Rule of Five",
+      "question": "According to Lipinski's Rule of Five, poor oral absorption is likely when a compound violates TWO or more of which criteria?",
+      "options": [
+        { "id": "A", "text": "MW ≤ 300, LogP ≤ 3, HBD ≤ 3, HBA ≤ 6" },
+        { "id": "B", "text": "MW ≤ 500, LogP ≤ 5, HBD ≤ 5, HBA ≤ 10" },
+        { "id": "C", "text": "MW ≤ 500, LogP ≤ 3, HBD ≤ 3, HBA ≤ 5" },
+        { "id": "D", "text": "MW ≤ 1000, LogP ≤ 10, HBD ≤ 10, HBA ≤ 20" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Lipinski's Rule of Five states that poor absorption is likely if ≥2 of: MW > 500 Da, LogP > 5, H-bond donors > 5 (OH + NH), H-bond acceptors > 10 (N + O). All cutoffs are multiples of 5. This rule helps predict oral bioavailability in drug development. Notable exceptions include natural products and actively transported drugs.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q-035",
+      "topic": "Bioisosterism",
+      "question": "Which of the following is a classical bioisosteric replacement?",
+      "options": [
+        { "id": "A", "text": "Replacing –CH₃ with –Cl (size and lipophilicity similarity)" },
+        { "id": "B", "text": "Replacing –COOH with –SO₃H" },
+        { "id": "C", "text": "Replacing a phenyl ring with a pyridine ring" },
+        { "id": "D", "text": "All of the above" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "All are valid bioisosteric replacements. Classical bioisosteres have similar size, shape, and electronic properties: –CH₃/–Cl (univalent), –COOH/–SO₃H (acidic groups). Ring equivalents like phenyl/pyridine maintain shape while altering electronic properties. Bioisosterism is used in drug design to improve pharmacokinetics, reduce toxicity, or circumvent patents while maintaining biological activity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-036",
+      "topic": "QSAR",
+      "question": "In the Hansch equation, the parabolic term for LogP (a·logP − b·(logP)²) indicates that:",
+      "options": [
+        { "id": "A", "text": "Activity increases linearly with lipophilicity" },
+        { "id": "B", "text": "There is an optimal lipophilicity (LogP₀) for maximum biological activity" },
+        { "id": "C", "text": "The most hydrophilic compounds are always the most active" },
+        { "id": "D", "text": "LogP has no effect on biological activity" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The parabolic LogP relationship in the Hansch equation shows that biological activity first increases with lipophilicity (better membrane penetration), reaches an OPTIMUM (LogP₀), then decreases (too lipophilic = sequestered in fat, poor aqueous solubility). This reflects the need for a balance between aqueous solubility and membrane permeability for optimal drug delivery.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q-037",
+      "topic": "QSAR",
+      "question": "The Hammett substituent constant (σ) is positive for:",
+      "options": [
+        { "id": "A", "text": "Electron-donating groups like –NH₂ and –OCH₃" },
+        { "id": "B", "text": "Electron-withdrawing groups like –NO₂ and –CN" },
+        { "id": "C", "text": "Hydrogen (reference substituent)" },
+        { "id": "D", "text": "All alkyl groups" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The Hammett constant (σ) is positive for electron-withdrawing groups (EWG) such as –NO₂ (σ = +0.78), –CN, –CF₃, and –COCH₃. It is negative for electron-donating groups (EDG) such as –NH₂, –OH, –OCH₃. σ = 0 for hydrogen (reference). σ is used in QSAR to quantify the electronic effects of substituents on biological activity.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q-038",
+      "topic": "Prodrugs",
+      "question": "Which of the following is NOT an example of a prodrug?",
+      "options": [
+        { "id": "A", "text": "Enalapril" },
+        { "id": "B", "text": "Codeine" },
+        { "id": "C", "text": "Lisinopril" },
+        { "id": "D", "text": "Levodopa" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Lisinopril is an ACTIVE drug that does not require metabolic conversion — it is administered as the active diacid form and excreted unchanged by the kidneys. Enalapril is a prodrug (→ enalaprilat), Codeine is a prodrug (→ morphine via CYP2D6), and Levodopa is a prodrug (→ dopamine via DOPA decarboxylase in the CNS).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q-039",
+      "topic": "Prodrugs",
+      "question": "Codeine is converted to its active metabolite morphine by which enzyme?",
+      "options": [
+        { "id": "A", "text": "CYP3A4" },
+        { "id": "B", "text": "CYP2D6" },
+        { "id": "C", "text": "CYP2C9" },
+        { "id": "D", "text": "CYP1A2" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Codeine undergoes O-demethylation to morphine via CYP2D6. This is clinically significant because of CYP2D6 genetic polymorphism: poor metabolizers get inadequate pain relief, while ultra-rapid metabolizers produce excessive morphine (risk of respiratory depression and death). This is especially dangerous in children and breastfeeding neonates.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-040",
+      "topic": "Drug Metabolism",
+      "question": "Which CYP450 isoform metabolizes the largest proportion (~50%) of clinically used drugs?",
+      "options": [
+        { "id": "A", "text": "CYP2D6" },
+        { "id": "B", "text": "CYP2C9" },
+        { "id": "C", "text": "CYP3A4" },
+        { "id": "D", "text": "CYP1A2" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "CYP3A4 is the most abundant CYP450 isoform in the liver and intestine, responsible for the metabolism of approximately 50% of all clinically used drugs. It is involved in numerous drug-drug interactions. Inhibitors: ketoconazole, erythromycin, grapefruit juice. Inducers: rifampin, carbamazepine, phenytoin, St. John's wort.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q-041",
+      "topic": "Drug Metabolism",
+      "question": "Glucuronidation is the most important Phase II reaction because:",
+      "options": [
+        { "id": "A", "text": "It uses a rare and expensive cofactor" },
+        { "id": "B", "text": "It has high capacity, broad substrate specificity, and produces highly water-soluble conjugates" },
+        { "id": "C", "text": "It only occurs in the kidney" },
+        { "id": "D", "text": "It always produces active metabolites" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Glucuronidation is the most important Phase II reaction due to: (1) High capacity — UDPGA cofactor is abundantly available, (2) Broad substrate specificity — can conjugate –OH, –COOH, –NH₂, and –SH groups, (3) Products are highly polar and water-soluble for efficient renal/biliary excretion. It occurs primarily in the liver (not kidney) and usually produces inactive metabolites (with rare exceptions like morphine-6-glucuronide).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-042",
+      "topic": "Drug Metabolism",
+      "question": "First-pass metabolism can be avoided by which route of administration?",
+      "options": [
+        { "id": "A", "text": "Oral" },
+        { "id": "B", "text": "Sublingual" },
+        { "id": "C", "text": "Nasogastric tube" },
+        { "id": "D", "text": "Oral sustained-release" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Sublingual administration avoids first-pass metabolism because the drug is absorbed directly into the systemic circulation via the sublingual veins, bypassing the portal circulation and liver. Oral administration (including nasogastric and sustained-release oral) always subjects the drug to first-pass hepatic metabolism. Other routes that avoid first-pass: IV, transdermal, inhalation, rectal (lower 2/3).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q-043",
+      "topic": "Drug-Receptor Concepts",
+      "question": "A drug with high affinity but zero intrinsic efficacy is classified as:",
+      "options": [
+        { "id": "A", "text": "Full agonist" },
+        { "id": "B", "text": "Partial agonist" },
+        { "id": "C", "text": "Antagonist" },
+        { "id": "D", "text": "Inverse agonist" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "An antagonist has affinity for the receptor (it binds) but zero intrinsic efficacy (it produces no response on its own). It blocks the receptor, preventing agonists from binding. A full agonist has high affinity + full efficacy, a partial agonist has affinity + submaximal efficacy, and an inverse agonist has affinity + negative efficacy (reduces basal activity).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q-044",
+      "topic": "Drug-Receptor Concepts",
+      "question": "The Henderson-Hasselbalch equation predicts that a weak acid drug (pKa 3.5) in the stomach (pH 1.5) will be:",
+      "options": [
+        { "id": "A", "text": "Mostly ionized and well absorbed" },
+        { "id": "B", "text": "Mostly unionized and well absorbed" },
+        { "id": "C", "text": "Mostly ionized and poorly absorbed" },
+        { "id": "D", "text": "Completely degraded" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Using Henderson-Hasselbalch for a weak acid: pH = pKa + log([A⁻]/[HA]). At pH 1.5: 1.5 = 3.5 + log([A⁻]/[HA]), log([A⁻]/[HA]) = −2, so [HA]/[A⁻] = 100:1. The drug is ~99% unionized (protonated, neutral HA form) in the acidic stomach. The unionized form is lipophilic and crosses membranes readily → good absorption. This applies to aspirin (pKa 3.5).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-045",
+      "topic": "Drug-Receptor Concepts",
+      "question": "If the Therapeutic Index (TI) = LD₅₀/ED₅₀ of a drug is 1.5, this indicates:",
+      "options": [
+        { "id": "A", "text": "The drug is very safe with a wide margin" },
+        { "id": "B", "text": "The drug has a very narrow margin between therapeutic and toxic doses" },
+        { "id": "C", "text": "The drug is inactive" },
+        { "id": "D", "text": "The drug has high efficacy" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A TI of 1.5 means the toxic/lethal dose is only 1.5 times the effective dose — an extremely narrow safety margin. Such drugs (like warfarin, digoxin, lithium) require careful dose titration and therapeutic drug monitoring (TDM). A high TI (e.g., penicillin >100) indicates a wide safety margin. TI does not measure efficacy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q-046",
+      "topic": "SAR Rules",
+      "question": "In barbiturates, the minimum structural requirement for sedative-hypnotic activity is:",
+      "options": [
+        { "id": "A", "text": "One substituent at C5" },
+        { "id": "B", "text": "Two substituents at C5" },
+        { "id": "C", "text": "An aromatic ring at N1" },
+        { "id": "D", "text": "A sulfur atom at C2" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Two substituents at C5 are the minimum requirement for sedative-hypnotic activity. Unsubstituted barbituric acid and monosubstituted barbituric acid have NO CNS depressant activity. At least one of the C5 substituents must be a carbon chain. Increasing total carbon count increases potency up to ~8 carbons, beyond which convulsant activity may appear.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-047",
+      "topic": "Mechanisms of Action",
+      "question": "Phenobarbital differs from diazepam in its GABA-A receptor mechanism because phenobarbital:",
+      "options": [
+        { "id": "A", "text": "Increases the frequency of Cl⁻ channel opening" },
+        { "id": "B", "text": "Increases the duration of Cl⁻ channel opening and can directly activate the channel without GABA" },
+        { "id": "C", "text": "Blocks the GABA binding site competitively" },
+        { "id": "D", "text": "Only works at GABA-B receptors" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Phenobarbital (barbiturate) increases the DURATION of Cl⁻ channel opening, while diazepam (benzodiazepine) increases the FREQUENCY. Critically, at high doses, phenobarbital can DIRECTLY activate the GABA-A Cl⁻ channel even without GABA present. This is why barbiturate overdose is more dangerous than benzodiazepine overdose — there is no ceiling effect.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q-048",
+      "topic": "Mechanisms of Action",
+      "question": "Chlorpromazine produces extrapyramidal side effects (EPS) by blocking D2 receptors in which pathway?",
+      "options": [
+        { "id": "A", "text": "Mesolimbic pathway" },
+        { "id": "B", "text": "Mesocortical pathway" },
+        { "id": "C", "text": "Nigrostriatal pathway" },
+        { "id": "D", "text": "Tuberoinfundibular pathway" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "EPS (dystonia, akathisia, parkinsonism, tardive dyskinesia) result from D2 blockade in the nigrostriatal pathway, which normally regulates voluntary movement. Mesolimbic D2 blockade → reduces positive symptoms (therapeutic). Mesocortical D2 blockade → may worsen negative symptoms. Tuberoinfundibular D2 blockade → hyperprolactinemia (galactorrhea, amenorrhea).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-049",
+      "topic": "Drug Metabolism",
+      "question": "Genetic polymorphism of N-acetyltransferase 2 (NAT2) divides the population into slow and fast acetylators. Slow acetylators are at increased risk of toxicity from which drug?",
+      "options": [
+        { "id": "A", "text": "Atorvastatin" },
+        { "id": "B", "text": "Isoniazid" },
+        { "id": "C", "text": "Aspirin" },
+        { "id": "D", "text": "Penicillin" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Isoniazid (anti-tuberculosis drug) is primarily metabolized by NAT2 acetylation. Slow acetylators have reduced NAT2 activity, leading to higher plasma isoniazid levels and increased risk of peripheral neuropathy and hepatotoxicity. Slow acetylators are also at higher risk with other NAT2 substrates like hydralazine, procainamide, sulfonamides, and dapsone.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q-050",
+      "topic": "Bioisosterism",
+      "question": "Replacing a carboxylic acid (–COOH) with a tetrazole ring in drug design is an example of:",
+      "options": [
+        { "id": "A", "text": "Classical bioisosterism" },
+        { "id": "B", "text": "Non-classical bioisosterism" },
+        { "id": "C", "text": "Prodrug strategy" },
+        { "id": "D", "text": "Soft drug design" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Replacing –COOH with a tetrazole ring is a classic example of NON-CLASSICAL bioisosterism. They have similar pKa values (~4-5) and both are ionized at physiological pH, but they differ greatly in size and shape. Non-classical bioisosteres do not meet the strict electronic/size criteria of classical bioisosteres but produce similar biological effects. This replacement is used in ARBs (e.g., losartan) to improve metabolic stability and oral bioavailability.",
+      "difficulty": "hard"
+    }
+  ]
+}

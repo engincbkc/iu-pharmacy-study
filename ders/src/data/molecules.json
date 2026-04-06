@@ -1,0 +1,218 @@
+{
+  "molecules": [
+    {
+      "id": "beta-blocker-core",
+      "name": "Aryloxypropanolamine (Beta-Blocker Core)",
+      "description": "General structure of beta-adrenergic antagonists: Ar-O-CH2-CHOH-CH2-NH-R",
+      "nodes": [
+        { "id": "ar", "type": "functional-group", "position": { "x": 50, "y": 200 }, "data": { "label": "Ar", "element": "ring" } },
+        { "id": "o1", "type": "atom", "position": { "x": 150, "y": 200 }, "data": { "label": "O", "element": "O" } },
+        { "id": "c1", "type": "atom", "position": { "x": 230, "y": 200 }, "data": { "label": "CH2", "element": "C" } },
+        { "id": "c2", "type": "atom", "position": { "x": 310, "y": 200 }, "data": { "label": "CH", "element": "C" } },
+        { "id": "oh", "type": "functional-group", "position": { "x": 310, "y": 120 }, "data": { "label": "OH", "element": "O" } },
+        { "id": "c3", "type": "atom", "position": { "x": 390, "y": 200 }, "data": { "label": "CH2", "element": "C" } },
+        { "id": "nh", "type": "atom", "position": { "x": 470, "y": 200 }, "data": { "label": "NH", "element": "N" } },
+        { "id": "r", "type": "functional-group", "position": { "x": 550, "y": 200 }, "data": { "label": "R", "element": "R" } }
+      ],
+      "edges": [
+        { "id": "e1", "source": "ar", "target": "o1", "type": "single" },
+        { "id": "e2", "source": "o1", "target": "c1", "type": "single" },
+        { "id": "e3", "source": "c1", "target": "c2", "type": "single" },
+        { "id": "e4", "source": "c2", "target": "oh", "type": "single" },
+        { "id": "e5", "source": "c2", "target": "c3", "type": "single" },
+        { "id": "e6", "source": "c3", "target": "nh", "type": "single" },
+        { "id": "e7", "source": "nh", "target": "r", "type": "single" }
+      ],
+      "sarAnnotations": [
+        { "nodeId": "ar", "text": "Aromatic ring", "effect": "Essential for receptor binding" },
+        { "nodeId": "o1", "text": "Ether oxygen", "effect": "Critical for receptor geometry" },
+        { "nodeId": "oh", "text": "Secondary -OH", "effect": "(R)-config active; critical for beta-receptor interaction" },
+        { "nodeId": "nh", "text": "Amino group", "effect": "Isopropyl = optimal; bulky = beta-1 selective" },
+        { "nodeId": "r", "text": "R group", "effect": "iPr = non-selective; tert-butyl = beta-1 selective" }
+      ]
+    },
+    {
+      "id": "barbituric-acid",
+      "name": "Barbituric Acid Core",
+      "description": "2,4,6-Trioxohexahydropyrimidine - base structure of barbiturates",
+      "nodes": [
+        { "id": "n1", "type": "atom", "position": { "x": 100, "y": 100 }, "data": { "label": "NH", "element": "N" } },
+        { "id": "c2", "type": "atom", "position": { "x": 200, "y": 50 }, "data": { "label": "C", "element": "C" } },
+        { "id": "o2", "type": "atom", "position": { "x": 200, "y": -30 }, "data": { "label": "O", "element": "O" } },
+        { "id": "n3", "type": "atom", "position": { "x": 300, "y": 100 }, "data": { "label": "NH", "element": "N" } },
+        { "id": "c4", "type": "atom", "position": { "x": 300, "y": 200 }, "data": { "label": "C", "element": "C" } },
+        { "id": "o4", "type": "atom", "position": { "x": 400, "y": 200 }, "data": { "label": "O", "element": "O" } },
+        { "id": "c5", "type": "atom", "position": { "x": 200, "y": 280 }, "data": { "label": "C", "element": "C" } },
+        { "id": "r1", "type": "functional-group", "position": { "x": 120, "y": 360 }, "data": { "label": "R1", "element": "R" } },
+        { "id": "r2", "type": "functional-group", "position": { "x": 280, "y": 360 }, "data": { "label": "R2", "element": "R" } },
+        { "id": "c6", "type": "atom", "position": { "x": 100, "y": 200 }, "data": { "label": "C", "element": "C" } },
+        { "id": "o6", "type": "atom", "position": { "x": 0, "y": 200 }, "data": { "label": "O", "element": "O" } }
+      ],
+      "edges": [
+        { "id": "e1", "source": "n1", "target": "c2", "type": "single" },
+        { "id": "e2", "source": "c2", "target": "o2", "type": "double" },
+        { "id": "e3", "source": "c2", "target": "n3", "type": "single" },
+        { "id": "e4", "source": "n3", "target": "c4", "type": "single" },
+        { "id": "e5", "source": "c4", "target": "o4", "type": "double" },
+        { "id": "e6", "source": "c4", "target": "c5", "type": "single" },
+        { "id": "e7", "source": "c5", "target": "r1", "type": "single" },
+        { "id": "e8", "source": "c5", "target": "r2", "type": "single" },
+        { "id": "e9", "source": "c5", "target": "c6", "type": "single" },
+        { "id": "e10", "source": "c6", "target": "o6", "type": "double" },
+        { "id": "e11", "source": "c6", "target": "n1", "type": "single" }
+      ],
+      "sarAnnotations": [
+        { "nodeId": "c2", "text": "C2 Position", "effect": "O=normal duration; S=ultra-short (Thiopental)" },
+        { "nodeId": "c5", "text": "C5 Position", "effect": "TWO substituents required; mono=INACTIVE" },
+        { "nodeId": "r1", "text": "R1 (e.g., Ethyl)", "effect": "Alkyl group required" },
+        { "nodeId": "r2", "text": "R2", "effect": "Phenyl=long+antiepileptic; Branched=short duration" },
+        { "nodeId": "n1", "text": "N1/N3", "effect": "N-methylation = convulsant effect!" }
+      ]
+    },
+    {
+      "id": "penicillin-core",
+      "name": "Penicillin Core (6-APA)",
+      "description": "Beta-lactam ring (4-membered) fused with thiazolidine ring (5-membered)",
+      "nodes": [
+        { "id": "s", "type": "atom", "position": { "x": 250, "y": 50 }, "data": { "label": "S", "element": "S" } },
+        { "id": "c2", "type": "atom", "position": { "x": 350, "y": 80 }, "data": { "label": "C", "element": "C" } },
+        { "id": "me1", "type": "functional-group", "position": { "x": 430, "y": 30 }, "data": { "label": "CH3", "element": "C" } },
+        { "id": "me2", "type": "functional-group", "position": { "x": 430, "y": 130 }, "data": { "label": "CH3", "element": "C" } },
+        { "id": "c3", "type": "atom", "position": { "x": 350, "y": 180 }, "data": { "label": "C", "element": "C" } },
+        { "id": "cooh", "type": "functional-group", "position": { "x": 440, "y": 230 }, "data": { "label": "COOH", "element": "O" } },
+        { "id": "n4", "type": "atom", "position": { "x": 250, "y": 200 }, "data": { "label": "N", "element": "N" } },
+        { "id": "c5", "type": "atom", "position": { "x": 180, "y": 150 }, "data": { "label": "C", "element": "C" } },
+        { "id": "c6", "type": "atom", "position": { "x": 180, "y": 80 }, "data": { "label": "C", "element": "C" } },
+        { "id": "c7", "type": "atom", "position": { "x": 100, "y": 200 }, "data": { "label": "C=O", "element": "C" } },
+        { "id": "nh", "type": "atom", "position": { "x": 100, "y": 80 }, "data": { "label": "NH", "element": "N" } },
+        { "id": "acyl", "type": "functional-group", "position": { "x": 20, "y": 30 }, "data": { "label": "R-CO-", "element": "R" } }
+      ],
+      "edges": [
+        { "id": "e1", "source": "s", "target": "c2", "type": "single" },
+        { "id": "e2", "source": "c2", "target": "me1", "type": "single" },
+        { "id": "e3", "source": "c2", "target": "me2", "type": "single" },
+        { "id": "e4", "source": "c2", "target": "c3", "type": "single" },
+        { "id": "e5", "source": "c3", "target": "cooh", "type": "single" },
+        { "id": "e6", "source": "c3", "target": "n4", "type": "single" },
+        { "id": "e7", "source": "n4", "target": "c5", "type": "single" },
+        { "id": "e8", "source": "n4", "target": "c7", "type": "single" },
+        { "id": "e9", "source": "c5", "target": "c6", "type": "single" },
+        { "id": "e10", "source": "c6", "target": "s", "type": "single" },
+        { "id": "e11", "source": "c6", "target": "nh", "type": "single" },
+        { "id": "e12", "source": "nh", "target": "acyl", "type": "single" },
+        { "id": "e13", "source": "c5", "target": "c7", "type": "single" }
+      ],
+      "sarAnnotations": [
+        { "nodeId": "c7", "text": "Beta-lactam ring", "effect": "Absolutely required; opening = inactivation" },
+        { "nodeId": "s", "text": "Thiazolidine ring", "effect": "Structural stability" },
+        { "nodeId": "acyl", "text": "C6 Acyl side chain", "effect": "Determines spectrum; amino=broad (Amoxicillin); steric=BL-resistant (Methicillin)" },
+        { "nodeId": "cooh", "text": "C3 Carboxyl", "effect": "Required for antibacterial activity" }
+      ]
+    },
+    {
+      "id": "phenothiazine-core",
+      "name": "Phenothiazine Core",
+      "description": "Tricyclic structure with non-planar butterfly conformation (~140 degrees)",
+      "nodes": [
+        { "id": "ring-a1", "type": "functional-group", "position": { "x": 50, "y": 150 }, "data": { "label": "A Ring", "element": "ring" } },
+        { "id": "r2", "type": "functional-group", "position": { "x": 0, "y": 80 }, "data": { "label": "R2 (EWG)", "element": "R" } },
+        { "id": "s", "type": "atom", "position": { "x": 200, "y": 80 }, "data": { "label": "S", "element": "S" } },
+        { "id": "ring-b", "type": "functional-group", "position": { "x": 200, "y": 180 }, "data": { "label": "B Ring", "element": "ring" } },
+        { "id": "n10", "type": "atom", "position": { "x": 200, "y": 280 }, "data": { "label": "N", "element": "N" } },
+        { "id": "ring-c", "type": "functional-group", "position": { "x": 350, "y": 150 }, "data": { "label": "C Ring", "element": "ring" } },
+        { "id": "chain", "type": "functional-group", "position": { "x": 200, "y": 380 }, "data": { "label": "-(CH2)3-NR2", "element": "N" } }
+      ],
+      "edges": [
+        { "id": "e1", "source": "ring-a1", "target": "s", "type": "single" },
+        { "id": "e2", "source": "ring-a1", "target": "r2", "type": "single" },
+        { "id": "e3", "source": "s", "target": "ring-c", "type": "single" },
+        { "id": "e4", "source": "ring-a1", "target": "ring-b", "type": "single" },
+        { "id": "e5", "source": "ring-b", "target": "ring-c", "type": "single" },
+        { "id": "e6", "source": "ring-b", "target": "n10", "type": "single" },
+        { "id": "e7", "source": "n10", "target": "chain", "type": "single" }
+      ],
+      "sarAnnotations": [
+        { "nodeId": "r2", "text": "C2 Position", "effect": "EWG required: -Cl (Chlorpromazine), -CF3 (Triflupromazine), -SCH3 (Thioridazine)" },
+        { "nodeId": "s", "text": "Sulfur bridge", "effect": "Creates butterfly conformation; regulates electron distribution" },
+        { "nodeId": "n10", "text": "N10 Position", "effect": "3-carbon side chain MANDATORY (2 or 4 = decreased activity)" },
+        { "nodeId": "chain", "text": "Terminal group", "effect": "-NMe2=low potency; Piperazine=high potency; Piperidine=medium" }
+      ]
+    },
+    {
+      "id": "benzodiazepine-core",
+      "name": "1,4-Benzodiazepine Core",
+      "description": "Core structure of benzodiazepines (e.g., Diazepam)",
+      "nodes": [
+        { "id": "ring-a", "type": "functional-group", "position": { "x": 80, "y": 150 }, "data": { "label": "Benzene Ring", "element": "ring" } },
+        { "id": "r7", "type": "functional-group", "position": { "x": 0, "y": 80 }, "data": { "label": "R7 (EWG)", "element": "R" } },
+        { "id": "n1", "type": "atom", "position": { "x": 180, "y": 80 }, "data": { "label": "N1", "element": "N" } },
+        { "id": "r1", "type": "functional-group", "position": { "x": 180, "y": 10 }, "data": { "label": "R1", "element": "R" } },
+        { "id": "c2", "type": "atom", "position": { "x": 270, "y": 100 }, "data": { "label": "C2=O", "element": "C" } },
+        { "id": "c3", "type": "atom", "position": { "x": 320, "y": 180 }, "data": { "label": "C3", "element": "C" } },
+        { "id": "n4", "type": "atom", "position": { "x": 270, "y": 260 }, "data": { "label": "N4", "element": "N" } },
+        { "id": "c5", "type": "atom", "position": { "x": 180, "y": 260 }, "data": { "label": "C5", "element": "C" } },
+        { "id": "ph", "type": "functional-group", "position": { "x": 180, "y": 350 }, "data": { "label": "Phenyl", "element": "ring" } }
+      ],
+      "edges": [
+        { "id": "e1", "source": "ring-a", "target": "r7", "type": "single" },
+        { "id": "e2", "source": "ring-a", "target": "n1", "type": "single" },
+        { "id": "e3", "source": "n1", "target": "r1", "type": "single" },
+        { "id": "e4", "source": "n1", "target": "c2", "type": "single" },
+        { "id": "e5", "source": "c2", "target": "c3", "type": "single" },
+        { "id": "e6", "source": "c3", "target": "n4", "type": "single" },
+        { "id": "e7", "source": "n4", "target": "c5", "type": "double" },
+        { "id": "e8", "source": "c5", "target": "ring-a", "type": "single" },
+        { "id": "e9", "source": "c5", "target": "ph", "type": "single" }
+      ],
+      "sarAnnotations": [
+        { "nodeId": "r7", "text": "Position 7", "effect": "EWG required (-Cl, -NO2) for anxiolytic activity" },
+        { "nodeId": "r1", "text": "Position 1", "effect": "N-methyl increases lipophilicity (Diazepam)" },
+        { "nodeId": "c2", "text": "Position 2", "effect": "C=O required for activity" },
+        { "nodeId": "c3", "text": "Position 3", "effect": "-OH -> active metabolite, shorter acting (Oxazepam)" },
+        { "nodeId": "ph", "text": "Position 5", "effect": "Phenyl ring required for activity" }
+      ]
+    },
+    {
+      "id": "fluoroquinolone-core",
+      "name": "Fluoroquinolone Core",
+      "description": "Quinolone core with key SAR positions",
+      "nodes": [
+        { "id": "ring-a", "type": "functional-group", "position": { "x": 100, "y": 150 }, "data": { "label": "Ring A", "element": "ring" } },
+        { "id": "ring-b", "type": "functional-group", "position": { "x": 250, "y": 150 }, "data": { "label": "Ring B", "element": "ring" } },
+        { "id": "n1", "type": "atom", "position": { "x": 100, "y": 260 }, "data": { "label": "N1", "element": "N" } },
+        { "id": "r-n1", "type": "functional-group", "position": { "x": 30, "y": 330 }, "data": { "label": "R (Cyclopropyl)", "element": "R" } },
+        { "id": "c3", "type": "atom", "position": { "x": 200, "y": 260 }, "data": { "label": "C3", "element": "C" } },
+        { "id": "cooh", "type": "functional-group", "position": { "x": 200, "y": 340 }, "data": { "label": "COOH", "element": "O" } },
+        { "id": "c4", "type": "atom", "position": { "x": 300, "y": 260 }, "data": { "label": "C4=O", "element": "C" } },
+        { "id": "c6", "type": "atom", "position": { "x": 310, "y": 80 }, "data": { "label": "C6", "element": "C" } },
+        { "id": "f", "type": "functional-group", "position": { "x": 400, "y": 50 }, "data": { "label": "F", "element": "F" } },
+        { "id": "c7", "type": "atom", "position": { "x": 250, "y": 40 }, "data": { "label": "C7", "element": "C" } },
+        { "id": "pip", "type": "functional-group", "position": { "x": 250, "y": -40 }, "data": { "label": "Piperazinyl", "element": "N" } },
+        { "id": "c8", "type": "atom", "position": { "x": 150, "y": 50 }, "data": { "label": "C8", "element": "C" } },
+        { "id": "r8", "type": "functional-group", "position": { "x": 80, "y": -10 }, "data": { "label": "R8", "element": "R" } }
+      ],
+      "edges": [
+        { "id": "e1", "source": "ring-a", "target": "ring-b", "type": "single" },
+        { "id": "e2", "source": "ring-a", "target": "n1", "type": "single" },
+        { "id": "e3", "source": "n1", "target": "r-n1", "type": "single" },
+        { "id": "e4", "source": "n1", "target": "c3", "type": "single" },
+        { "id": "e5", "source": "c3", "target": "cooh", "type": "single" },
+        { "id": "e6", "source": "c3", "target": "c4", "type": "single" },
+        { "id": "e7", "source": "ring-b", "target": "c6", "type": "single" },
+        { "id": "e8", "source": "c6", "target": "f", "type": "single" },
+        { "id": "e9", "source": "ring-b", "target": "c7", "type": "single" },
+        { "id": "e10", "source": "c7", "target": "pip", "type": "single" },
+        { "id": "e11", "source": "ring-a", "target": "c8", "type": "single" },
+        { "id": "e12", "source": "c8", "target": "r8", "type": "single" }
+      ],
+      "sarAnnotations": [
+        { "nodeId": "f", "text": "C6-Fluorine", "effect": "10-100x activity increase; defines fluoroquinolones" },
+        { "nodeId": "pip", "text": "C7-Piperazinyl", "effect": "Gram(-) activity increase" },
+        { "nodeId": "cooh", "text": "C3-COOH", "effect": "DNA gyrase binding (critical)" },
+        { "nodeId": "c4", "text": "C4=O", "effect": "DNA gyrase binding (critical)" },
+        { "nodeId": "r8", "text": "C8 Position", "effect": "-OCH3 = anaerobic coverage (Moxifloxacin)" },
+        { "nodeId": "r-n1", "text": "N1 Substituent", "effect": "Cyclopropyl = broad spectrum" }
+      ]
+    }
+  ]
+}

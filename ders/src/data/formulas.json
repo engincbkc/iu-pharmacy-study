@@ -1,0 +1,109 @@
+{
+  "formulas": [
+    {
+      "id": "henderson-hasselbalch",
+      "name": "Henderson-Hasselbalch Equation",
+      "category": "Pharmacokinetics / Drug Absorption",
+      "equation": "pH = pKa + log([A⁻]/[HA])",
+      "variables": [
+        { "symbol": "pH", "meaning": "pH of the biological environment (e.g., stomach pH 1.5-3.5, blood pH 7.4, intestinal pH 5-8)" },
+        { "symbol": "pKa", "meaning": "Negative log of the acid dissociation constant; pH at which 50% of the drug is ionized" },
+        { "symbol": "[A⁻]", "meaning": "Concentration of the ionized (conjugate base) form of the drug" },
+        { "symbol": "[HA]", "meaning": "Concentration of the unionized (protonated acid) form of the drug" }
+      ],
+      "description": "Predicts the ratio of ionized to unionized forms of a weak acid or weak base drug at a given pH. For weak acids: unionized form predominates when pH < pKa. For weak bases: pH = pKa + log([B]/[BH⁺]), unionized form predominates when pH > pKa. Only the unionized form can passively diffuse across lipid membranes (pH-partition hypothesis).",
+      "example": "Aspirin (weak acid, pKa = 3.5) in the stomach (pH = 2.0): pH - pKa = 2.0 - 3.5 = -1.5, so [A⁻]/[HA] = 10^(-1.5) = 0.032. This means ratio is 1:31.6 (ionized:unionized). Thus ~97% of aspirin is unionized in the stomach, favoring gastric absorption across the lipid membrane.",
+      "clinicalUse": "Predicts the site and extent of drug absorption in the GI tract; explains ion trapping (e.g., weak bases trapped in acidic stomach); guides understanding of drug distribution across pH barriers (e.g., placenta, blood-brain barrier); relevant for urinary pH manipulation to enhance drug elimination (e.g., alkalinizing urine to increase aspirin excretion in overdose)"
+    },
+    {
+      "id": "hansch-analysis",
+      "name": "Hansch Analysis (QSAR - Quantitative Structure-Activity Relationship)",
+      "category": "Drug Design / Medicinal Chemistry",
+      "equation": "log(1/C) = k₁·π + k₂·σ + k₃·Es + k₄",
+      "variables": [
+        { "symbol": "C", "meaning": "Minimum effective concentration (molar); lower C = more potent drug" },
+        { "symbol": "π (pi)", "meaning": "Hansch hydrophobicity constant: π = log P(X) - log P(H), measures the contribution of a substituent to overall lipophilicity" },
+        { "symbol": "σ (sigma)", "meaning": "Hammett electronic substituent constant: σ = log(Ka_X/Ka_H), measures electron-withdrawing (+σ) or electron-donating (-σ) character" },
+        { "symbol": "Es", "meaning": "Taft steric parameter: measures the steric bulk of a substituent relative to hydrogen; more negative = bulkier" },
+        { "symbol": "k₁, k₂, k₃", "meaning": "Regression coefficients determined by fitting experimental data; indicate the relative importance of each physicochemical parameter" },
+        { "symbol": "k₄", "meaning": "Constant (y-intercept) from multilinear regression analysis" }
+      ],
+      "description": "The Hansch equation is the foundational QSAR model that correlates biological activity with physicochemical properties of substituents. It uses multiple linear regression to quantify how lipophilicity (π), electronic effects (σ), and steric effects (Es) of molecular modifications affect drug potency. The model assumes biological activity is a linear function of these independent parameters within a congeneric series of compounds.",
+      "example": "For a series of substituted benzoic acids tested as antimicrobials: log(1/C) = 1.22π - 0.46σ + 0.31Es + 2.15. A positive k₁ (1.22) means increasing lipophilicity improves activity. A negative k₂ (-0.46) means electron-donating groups are preferred.",
+      "clinicalUse": "Rational drug design: guides the selection of optimal substituents to maximize potency while minimizing toxicity; lead optimization in medicinal chemistry; predicting activity of untested analogs before synthesis; reducing the number of compounds that need to be synthesized and tested in drug discovery programs"
+    },
+    {
+      "id": "partition-coefficient",
+      "name": "Partition Coefficient (LogP)",
+      "category": "Physicochemical Properties / Drug Design",
+      "equation": "LogP = log(C_octanol / C_water)",
+      "variables": [
+        { "symbol": "LogP", "meaning": "Logarithm of the partition coefficient; measure of molecular lipophilicity/hydrophilicity" },
+        { "symbol": "C_octanol", "meaning": "Concentration of unionized drug in n-octanol phase at equilibrium" },
+        { "symbol": "C_water", "meaning": "Concentration of unionized drug in aqueous (buffer) phase at equilibrium" }
+      ],
+      "description": "The partition coefficient P is the ratio of drug concentration in octanol (mimicking lipid membranes) to water at equilibrium. LogP > 0 indicates lipophilicity (prefers organic phase), LogP < 0 indicates hydrophilicity (prefers aqueous phase). Optimal LogP for CNS drugs: 2-3 (sufficient to cross the blood-brain barrier). Optimal LogP for oral absorption: 1-3. Very high LogP (>5) leads to poor aqueous solubility and sequestration in adipose tissue.",
+      "example": "Diazepam has LogP = 2.82 (highly lipophilic, rapidly crosses BBB → fast CNS onset). Atenolol has LogP = 0.16 (hydrophilic, does not significantly cross BBB → no CNS side effects). Amoxicillin has LogP = 0.87 (moderate, good oral absorption but does not penetrate CNS).",
+      "clinicalUse": "Predicts membrane permeability and passive diffusion across biological barriers; estimates oral absorption potential; predicts CNS penetration; guides formulation decisions; key parameter in Lipinski's Rule of Five for oral bioavailability prediction; used in QSAR models as a key descriptor"
+    },
+    {
+      "id": "bioavailability",
+      "name": "Absolute Bioavailability",
+      "category": "Pharmacokinetics",
+      "equation": "F(%) = (AUC_oral / AUC_iv) × (Dose_iv / Dose_oral) × 100",
+      "variables": [
+        { "symbol": "F(%)", "meaning": "Absolute bioavailability expressed as percentage; represents the fraction of administered dose that reaches systemic circulation in active form" },
+        { "symbol": "AUC_oral", "meaning": "Area under the plasma concentration-time curve after oral (or other extravascular) administration" },
+        { "symbol": "AUC_iv", "meaning": "Area under the plasma concentration-time curve after intravenous administration (reference, F=100%)" },
+        { "symbol": "Dose_iv", "meaning": "Dose administered intravenously" },
+        { "symbol": "Dose_oral", "meaning": "Dose administered orally (or by other extravascular route)" }
+      ],
+      "description": "Absolute bioavailability compares the systemic exposure (AUC) of a drug given by an extravascular route to that given intravenously (100% bioavailability). It accounts for losses due to incomplete absorption, first-pass hepatic metabolism, gut wall metabolism, and efflux transporter activity. Dose correction is applied when different doses are used for IV and oral administration.",
+      "example": "Propranolol: AUC_oral = 250 ng·h/mL (50 mg dose), AUC_iv = 400 ng·h/mL (5 mg dose). F = (250/400) × (5/50) × 100 = 6.25%. The low oral bioavailability (~26% in practice) is due to extensive first-pass hepatic metabolism by CYP2D6 and CYP1A2.",
+      "clinicalUse": "Comparing drug formulations (brand vs generic); determining appropriate oral dose relative to IV dose; evaluating the impact of first-pass metabolism; bioequivalence studies for generic drug approval; understanding why some drugs require parenteral administration"
+    },
+    {
+      "id": "hammett-constant",
+      "name": "Hammett Substituent Constant (σ)",
+      "category": "Physical Organic Chemistry / Drug Design",
+      "equation": "σ = log(Ka_X / Ka_H)",
+      "variables": [
+        { "symbol": "σ (sigma)", "meaning": "Hammett substituent constant; quantifies the electronic effect of a substituent on a reaction center" },
+        { "symbol": "Ka_X", "meaning": "Acid dissociation constant of substituted benzoic acid (with substituent X at meta or para position)" },
+        { "symbol": "Ka_H", "meaning": "Acid dissociation constant of unsubstituted benzoic acid (reference compound)" }
+      ],
+      "description": "The Hammett equation quantifies how meta- and para-substituents on an aromatic ring affect the acidity of benzoic acid, serving as a general measure of electronic effects. σ > 0 = electron-withdrawing group (EWG) that stabilizes negative charge (increases acidity): -NO2 (σp=+0.78), -Cl (σp=+0.23), -CF3 (σp=+0.54), -COCH3 (σp=+0.50). σ < 0 = electron-donating group (EDG) that destabilizes negative charge (decreases acidity): -OH (σp=-0.37), -NH2 (σp=-0.66), -CH3 (σp=-0.17), -OCH3 (σp=-0.27).",
+      "example": "For para-nitrobenzoic acid: Ka = 36.3 × 10⁻⁵, and for benzoic acid: Ka = 6.27 × 10⁻⁵. σ(p-NO2) = log(36.3/6.27) = log(5.79) = +0.76. The positive value confirms -NO2 is electron-withdrawing, making the acid stronger.",
+      "clinicalUse": "Predicts how structural modifications affect drug-receptor electronic interactions; essential parameter in Hansch QSAR analysis; guides rational drug design when electronic properties influence binding affinity or metabolic stability; helps predict substituent effects on pKa of drug molecules"
+    },
+    {
+      "id": "lipinski-rule-of-five",
+      "name": "Lipinski's Rule of Five",
+      "category": "Drug Design / Oral Bioavailability Prediction",
+      "equation": "MW ≤ 500, LogP ≤ 5, HBD ≤ 5, HBA ≤ 10",
+      "variables": [
+        { "symbol": "MW", "meaning": "Molecular weight in Daltons; should be ≤ 500 Da for adequate absorption" },
+        { "symbol": "LogP", "meaning": "Calculated partition coefficient; should be ≤ 5 for adequate aqueous solubility" },
+        { "symbol": "HBD", "meaning": "Number of hydrogen bond donors (OH + NH groups); should be ≤ 5 to allow membrane passage" },
+        { "symbol": "HBA", "meaning": "Number of hydrogen bond acceptors (N + O atoms); should be ≤ 10 to allow membrane passage" }
+      ],
+      "description": "Lipinski's Rule of Five (Ro5) is an empirical guideline developed by Christopher Lipinski at Pfizer (1997) to predict whether a compound is likely to be orally bioavailable based on its physicochemical properties. A compound violating TWO or more rules is predicted to have poor oral absorption. All threshold values are multiples of 5 (hence the name). Notable exceptions: natural products, vitamins, and substrate mimics for active transporters can violate Ro5 and still be orally absorbed.",
+      "example": "Atorvastatin: MW=558.6 (VIOLATION >500), LogP=4.06 (pass), HBD=4 (pass), HBA=9 (pass). Only 1 violation → predicted adequate oral absorption, which is confirmed clinically (14% bioavailability, but therapeutically effective). Cyclosporine: MW=1202, LogP=2.92, HBD=5, HBA=23 → 3 violations, requires special formulation for oral use.",
+      "clinicalUse": "Early-stage drug discovery screening: filtering compound libraries for likely oral candidates; guiding lead optimization to maintain drug-likeness; explaining why certain drug classes require parenteral administration; quick assessment of oral drug-likeness without experimental testing"
+    },
+    {
+      "id": "therapeutic-index",
+      "name": "Therapeutic Index (TI)",
+      "category": "Pharmacology / Drug Safety",
+      "equation": "TI = TD₅₀ / ED₅₀",
+      "variables": [
+        { "symbol": "TI", "meaning": "Therapeutic index; ratio of toxic dose to effective dose; higher value = greater safety margin" },
+        { "symbol": "TD₅₀", "meaning": "Median toxic dose: dose that produces toxicity in 50% of the population (in animal studies); in clinical practice, often replaced by LD₅₀ (median lethal dose)" },
+        { "symbol": "ED₅₀", "meaning": "Median effective dose: dose that produces the desired therapeutic effect in 50% of the population" }
+      ],
+      "description": "The therapeutic index quantifies the safety margin of a drug by comparing the dose causing toxicity to the dose producing the desired effect. A HIGH TI (e.g., >10) indicates a wide safety margin (e.g., penicillins TI >100, benzodiazepines TI ~100). A LOW TI (narrow therapeutic index, NTI) indicates a small safety margin requiring careful dose monitoring (e.g., warfarin TI ~2, digoxin TI ~2-3, lithium TI ~3, theophylline TI ~2). For NTI drugs, therapeutic drug monitoring (TDM) is essential.",
+      "example": "Diazepam: LD₅₀ (mice) = 720 mg/kg, ED₅₀ = 1.5 mg/kg → TI = 720/1.5 = 480 (very safe). Digoxin: TD₅₀ ≈ 2-3 mg, ED₅₀ ≈ 1 mg → TI ≈ 2-3 (very narrow, requires TDM with target plasma level 0.5-2.0 ng/mL).",
+      "clinicalUse": "Determines the need for therapeutic drug monitoring (TDM); guides dosing in special populations (renal/hepatic impairment, elderly, pediatric); regulatory decisions about prescription vs OTC status; critical for narrow therapeutic index drugs where small dose changes can cause toxicity or therapeutic failure"
+    }
+  ]
+}

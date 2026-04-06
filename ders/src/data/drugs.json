@@ -1,0 +1,515 @@
+{
+  "drugs": [
+    {
+      "id": "carbachol",
+      "genericName": "Carbachol",
+      "brandNames": ["Miostat", "Carbastat", "Isopto Carbachol"],
+      "iupacName": "2-(aminocarbonyloxy)-N,N,N-trimethylpropan-1-aminium chloride",
+      "chemicalFormula": "C6H15ClN2O2",
+      "drugClass": "Direct-acting cholinergic agonist (parasympathomimetic)",
+      "moa": "Directly stimulates both muscarinic (M1-M5) and nicotinic cholinergic receptors. Resistant to hydrolysis by acetylcholinesterase (AChE) and butyrylcholinesterase due to the carbamyl ester group, resulting in a prolonged duration of action compared to acetylcholine.",
+      "uses": [
+        "Intraocular miosis during ophthalmic surgery",
+        "Open-angle glaucoma (topical ophthalmic)",
+        "Postoperative urinary retention (historical use)",
+        "Neurogenic bladder atony (historical use)"
+      ],
+      "sarPoints": [
+        "Carbamyl ester (-OCONH2) replaces acetyl ester of ACh, conferring resistance to cholinesterase hydrolysis",
+        "Quaternary ammonium group retained for receptor binding but limits oral absorption and BBB penetration",
+        "Dual muscarinic and nicotinic activity due to the carbamyl group maintaining structural similarity to acetylcholine",
+        "Choline backbone is essential for interaction with the anionic site of the cholinergic receptor"
+      ],
+      "synthesis": [
+        { "step": 1, "description": "Start with 2-chloroethanol (ethylene chlorohydrin)", "reagents": "2-chloroethanol" },
+        { "step": 2, "description": "React with trimethylamine to form choline chloride via quaternization", "reagents": "Trimethylamine, solvent" },
+        { "step": 3, "description": "React choline with phosgene followed by ammonia to introduce the carbamyl group, or directly react with carbamyl chloride (ClCONH2)", "reagents": "Carbamyl chloride or phosgene + ammonia" },
+        { "step": 4, "description": "Purification by recrystallization from ethanol-ether mixture", "reagents": "Ethanol, diethyl ether" }
+      ]
+    },
+    {
+      "id": "neostigmine",
+      "genericName": "Neostigmine",
+      "brandNames": ["Prostigmin", "Bloxiverz"],
+      "iupacName": "3-[(dimethylaminocarbonyl)oxy]-N,N,N-trimethylanilinium bromide",
+      "chemicalFormula": "C12H19BrN2O2",
+      "drugClass": "Reversible acetylcholinesterase inhibitor (indirect parasympathomimetic)",
+      "moa": "Inhibits acetylcholinesterase (AChE) by carbamylating the serine hydroxyl at the enzyme active site. The carbamylated enzyme regenerates slowly (t1/2 ~15-30 min) compared to the acetylated enzyme (microseconds). This increases acetylcholine concentration at cholinergic synapses, enhancing muscarinic and nicotinic transmission.",
+      "uses": [
+        "Reversal of non-depolarizing neuromuscular blockade (postoperative)",
+        "Myasthenia gravis (symptomatic treatment)",
+        "Postoperative urinary retention",
+        "Paralytic ileus",
+        "Diagnosis of myasthenia gravis (edrophonium preferred)"
+      ],
+      "sarPoints": [
+        "Carbamyl ester group provides mechanism-based inhibition of AChE (carbamylation > acetylation in stability)",
+        "Quaternary ammonium (trimethylammonium) on the aromatic ring provides ionic interaction with the anionic site of AChE",
+        "Quaternary nitrogen prevents CNS penetration (does not cross BBB)",
+        "Meta-substitution pattern on phenyl ring optimizes geometry for AChE active site binding",
+        "Dimethylcarbamyl group is essential; the two N-methyl groups slow decarbamylation of the enzyme"
+      ]
+    },
+    {
+      "id": "ipratropium-bromide",
+      "genericName": "Ipratropium Bromide",
+      "brandNames": ["Atrovent", "Apovent", "Aerovent"],
+      "iupacName": "(1R,3r,5S,8r)-3-[(3-hydroxy-2-phenylpropanoyl)oxy]-8-methyl-8-(propan-2-yl)-8-azoniabicyclo[3.2.1]octane bromide",
+      "chemicalFormula": "C20H30BrNO3",
+      "drugClass": "Anticholinergic bronchodilator (muscarinic antagonist)",
+      "moa": "Competitive antagonist at muscarinic receptors (M1, M2, M3) in airway smooth muscle. Blocks acetylcholine-mediated bronchoconstriction by inhibiting M3-receptor-mediated increase in intracellular cGMP and subsequent smooth muscle contraction. The quaternary ammonium structure limits systemic absorption from the lungs.",
+      "uses": [
+        "COPD maintenance therapy (primary indication)",
+        "Acute bronchospasm (combined with beta-2 agonist)",
+        "Asthma exacerbation (adjunct therapy)",
+        "Rhinorrhea associated with common cold (nasal spray)"
+      ],
+      "sarPoints": [
+        "Quaternary nitrogen (N-isopropyl-N-methyl) prevents systemic absorption and CNS penetration, localizing action to airways",
+        "Tropane ring (azabicyclo[3.2.1]octane) provides the rigid scaffold for muscarinic receptor antagonism similar to atropine",
+        "Phenylacetic acid ester at C3 is essential for antimuscarinic activity",
+        "Isopropyl group on nitrogen creates the quaternary salt that limits bioavailability to <2% when inhaled",
+        "Derived structurally from atropine by N-isopropylation to quaternize the nitrogen"
+      ]
+    },
+    {
+      "id": "salbutamol",
+      "genericName": "Salbutamol (Albuterol)",
+      "brandNames": ["Ventolin", "ProAir", "Proventil"],
+      "iupacName": "(RS)-4-[2-(tert-butylamino)-1-hydroxyethyl]-2-(hydroxymethyl)phenol",
+      "chemicalFormula": "C13H21NO3",
+      "drugClass": "Short-acting beta-2 adrenergic agonist (SABA)",
+      "moa": "Selective agonist at beta-2 adrenergic receptors in bronchial smooth muscle. Activates adenylyl cyclase via Gs protein, increasing intracellular cAMP, which activates protein kinase A (PKA). PKA phosphorylates myosin light chain kinase (MLCK), reducing its affinity for calcium-calmodulin complex, causing smooth muscle relaxation and bronchodilation.",
+      "uses": [
+        "Acute bronchospasm relief (rescue inhaler)",
+        "Exercise-induced bronchospasm prevention",
+        "Asthma (acute exacerbation)",
+        "COPD (acute symptom relief)",
+        "Hyperkalemia (IV or nebulized, drives K+ intracellularly)"
+      ],
+      "sarPoints": [
+        "tert-Butyl group on nitrogen provides beta-2 selectivity over beta-1 (bulky N-substituent favors beta-2)",
+        "Hydroxymethyl (-CH2OH) at meta position of the ring replaces the catechol 3-OH of catecholamines, conferring resistance to COMT metabolism",
+        "Phenolic 4-OH is essential for beta-receptor hydrogen bonding with Ser204 and Ser207",
+        "Beta-hydroxyl group on the ethanolamine side chain is critical for receptor activation; (R)-enantiomer is the active eutomer",
+        "Absence of catechol structure prevents MAO and COMT metabolism, allowing oral administration and longer duration (~4-6h)"
+      ]
+    },
+    {
+      "id": "propranolol",
+      "genericName": "Propranolol",
+      "brandNames": ["Inderal", "Inderal LA", "InnoPran XL"],
+      "iupacName": "(RS)-1-(naphthalen-1-yloxy)-3-(propan-2-ylamino)propan-2-ol",
+      "chemicalFormula": "C16H21NO2",
+      "drugClass": "Non-selective beta-adrenergic antagonist (beta-blocker)",
+      "moa": "Competitively blocks both beta-1 (cardiac) and beta-2 (bronchial, vascular) adrenergic receptors. Reduces heart rate, contractility, cardiac output, and renin secretion (beta-1). Blocks beta-2-mediated bronchodilation and glycogenolysis. Also exhibits membrane-stabilizing activity (local anesthetic effect) at high concentrations. Highly lipophilic, readily crosses BBB.",
+      "uses": [
+        "Hypertension",
+        "Angina pectoris",
+        "Cardiac arrhythmias (supraventricular tachycardia)",
+        "Migraine prophylaxis",
+        "Essential tremor",
+        "Performance anxiety (stage fright)",
+        "Thyrotoxicosis (symptomatic control)",
+        "Portal hypertension (variceal bleeding prophylaxis)"
+      ],
+      "sarPoints": [
+        "Naphthalene ring provides high lipophilicity (LogP ~3.65) for CNS penetration and non-selectivity between beta-1 and beta-2",
+        "Oxypropanolamine side chain (-O-CH2-CHOH-CH2-NH-) is the essential pharmacophore for all beta-blockers",
+        "Secondary hydroxyl: (S)-(-) enantiomer is 100x more potent as beta-blocker than (R)-(+) enantiomer",
+        "Isopropylamine: optimal N-substituent for beta-blocking activity",
+        "No para-polar substituent on aromatic ring results in non-selective beta blockade",
+        "Ether oxygen (-O-) linker is critical for proper receptor interaction geometry"
+      ]
+    },
+    {
+      "id": "atenolol",
+      "genericName": "Atenolol",
+      "brandNames": ["Tenormin"],
+      "iupacName": "(RS)-2-{4-[2-hydroxy-3-(propan-2-ylamino)propoxy]phenyl}acetamide",
+      "chemicalFormula": "C14H22N2O3",
+      "drugClass": "Selective beta-1 adrenergic antagonist (cardioselective beta-blocker)",
+      "moa": "Selectively blocks beta-1 adrenergic receptors in the heart at therapeutic doses. Reduces heart rate (negative chronotropy), contractility (negative inotropy), conduction velocity through the AV node (negative dromotropy), and renin release from juxtaglomerular cells. Selectivity is lost at higher doses. Does not significantly cross the BBB due to hydrophilicity.",
+      "uses": [
+        "Hypertension",
+        "Angina pectoris (chronic stable)",
+        "Acute myocardial infarction (early intervention)",
+        "Supraventricular tachyarrhythmias"
+      ],
+      "sarPoints": [
+        "Para-position -CH2CONH2 (acetamide group) on the phenyl ring confers beta-1 selectivity by adding a polar group that reduces beta-2 receptor affinity",
+        "Hydrophilic character (LogP ~0.16) prevents CNS penetration, reducing central side effects",
+        "Standard oxypropanolamine pharmacophore maintained for beta-blocking activity",
+        "Isopropylamine group provides optimal beta-antagonist activity",
+        "Phenyl ring (instead of naphthalene) with para-polar substituent is the structural basis for cardioselectivity"
+      ]
+    },
+    {
+      "id": "phenobarbital",
+      "genericName": "Phenobarbital",
+      "brandNames": ["Luminal", "Solfoton"],
+      "iupacName": "5-ethyl-5-phenyl-1,3-diazinane-2,4,6-trione",
+      "chemicalFormula": "C12H12N2O3",
+      "drugClass": "Barbiturate (long-acting sedative-hypnotic / antiepileptic)",
+      "moa": "Enhances GABA-A receptor function by binding to an allosteric site on the receptor and prolonging the duration of chloride channel opening (contrast with benzodiazepines which increase frequency of opening). At higher concentrations, can directly activate the GABA-A receptor even without GABA (hence greater toxicity potential). Also blocks AMPA/kainate glutamate receptors, contributing to anticonvulsant activity.",
+      "uses": [
+        "Epilepsy (tonic-clonic and partial seizures)",
+        "Neonatal seizures (drug of choice)",
+        "Status epilepticus (second-line after benzodiazepines)",
+        "Sedation (historical, largely replaced)",
+        "Neonatal hyperbilirubinemia (induces hepatic glucuronyl transferase)"
+      ],
+      "sarPoints": [
+        "C5 ethyl + phenyl disubstitution is essential for CNS depressant activity (monosubstituted barbituric acid is inactive)",
+        "Phenyl group at C5 confers selective antiepileptic activity with relatively less sedation compared to two alkyl groups",
+        "C2=O (oxo) retained; slow metabolism contributes to very long half-life (80-120 hours)",
+        "Phenyl group is metabolized by CYP2C9 to para-hydroxyphenyl metabolite, which is then glucuronidated and excreted",
+        "N-H groups at N1 and N3 are unsubstituted; N-methylation would convert to a convulsant",
+        "Potent inducer of CYP450 enzymes (CYP2B6, CYP2C9, CYP3A4) causing significant drug interactions"
+      ]
+    },
+    {
+      "id": "thiopental",
+      "genericName": "Thiopental",
+      "brandNames": ["Pentothal"],
+      "iupacName": "5-ethyl-5-(pentan-2-yl)-2-sulfanylidene-1,3-diazinane-4,6-dione",
+      "chemicalFormula": "C11H18N2O2S",
+      "drugClass": "Thiobarbiturate (ultra-short acting IV anesthetic)",
+      "moa": "Rapidly crosses the BBB due to extreme lipophilicity (C2=S increases LogP). Enhances GABA-A receptor activity at low doses (prolonging Cl⁻ channel opening) and directly opens GABA-A chloride channels at anesthetic doses. Action terminated primarily by rapid redistribution from brain to muscle (within minutes) and then to adipose tissue, NOT by metabolism. Metabolized slowly in the liver.",
+      "uses": [
+        "Induction of general anesthesia (historical first-line, now largely replaced by propofol)",
+        "Status epilepticus (refractory cases)",
+        "Medically induced coma (cerebral protection in neurointensive care)",
+        "Lethal injection (historical use in some jurisdictions)"
+      ],
+      "sarPoints": [
+        "C2=S (thio substitution) is the KEY modification: dramatically increases lipophilicity for ultra-rapid BBB penetration (onset ~30 seconds)",
+        "C5 ethyl + 1-methylbutyl groups provide adequate lipophilicity and branching for fast onset",
+        "Branched alkyl chain at C5 contributes to shorter duration via redistribution",
+        "Sulfur at C2 also accelerates hepatic desulfuration back to pentobarbital (minor metabolic pathway)",
+        "Ultra-short duration (5-10 min) is due to redistribution, not metabolism; repeated doses or infusions lead to accumulation and prolonged recovery"
+      ]
+    },
+    {
+      "id": "amoxicillin",
+      "genericName": "Amoxicillin",
+      "brandNames": ["Amoxil", "Moxatag", "Trimox"],
+      "iupacName": "(2S,5R,6R)-6-{[(2R)-2-amino-2-(4-hydroxyphenyl)acetyl]amino}-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid",
+      "chemicalFormula": "C16H19N3O5S",
+      "drugClass": "Aminopenicillin (broad-spectrum beta-lactam antibiotic)",
+      "moa": "Irreversibly inhibits bacterial transpeptidase (PBP, penicillin-binding protein) by acylating the active site serine residue. This prevents cross-linking of peptidoglycan chains in the bacterial cell wall (blocks the D-Ala-D-Ala transpeptidation step). The weakened cell wall cannot withstand osmotic pressure, leading to bacterial lysis. Bactericidal against actively dividing organisms.",
+      "uses": [
+        "Upper and lower respiratory tract infections",
+        "Otitis media",
+        "Urinary tract infections",
+        "H. pylori eradication (triple therapy with clarithromycin and PPI)",
+        "Dental infections",
+        "Endocarditis prophylaxis",
+        "Lyme disease (early stage)"
+      ],
+      "sarPoints": [
+        "Beta-lactam ring is the essential pharmacophore; ring opening = complete loss of activity",
+        "Alpha-amino group (-NH2) on the side chain phenylglycine enables penetration through Gram-negative outer membrane porins (broader spectrum than Pen G)",
+        "Para-hydroxyl on phenyl ring improves oral bioavailability (~90%) compared to ampicillin (~40%)",
+        "6-APA core (thiazolidine + beta-lactam) provides the structural basis for PBP binding",
+        "Gem-dimethyl groups on thiazolidine ring provide steric stability",
+        "Free carboxylic acid at C3 is essential for anchoring to PBP active site",
+        "Susceptible to beta-lactamases; overcome by combination with clavulanic acid (Augmentin)"
+      ]
+    },
+    {
+      "id": "benzocaine",
+      "genericName": "Benzocaine",
+      "brandNames": ["Americaine", "Anbesol", "Orajel", "Cetacaine"],
+      "iupacName": "Ethyl 4-aminobenzoate",
+      "chemicalFormula": "C9H11NO2",
+      "drugClass": "Ester-type local anesthetic (topical only)",
+      "moa": "Blocks voltage-gated sodium channels in sensory nerve fibers by binding to the intracellular S6 segment of domain IV in the open/inactivated state. Prevents Na⁺ influx required for action potential propagation. Unlike other local anesthetics, benzocaine lacks a tertiary amine and is essentially unionized at all physiological pH values, making it effective only for surface/topical use.",
+      "uses": [
+        "Topical anesthesia of mucous membranes (oral, pharyngeal, esophageal)",
+        "Teething pain (OTC gels)",
+        "Minor wound/burn pain relief",
+        "Otic preparations for ear pain",
+        "Endoscopy/intubation (pharyngeal spray)"
+      ],
+      "sarPoints": [
+        "Ester linkage (-COO-) connects the lipophilic and the short ethyl chain; subject to ester hydrolysis",
+        "Para-amino group (-NH2) on the aromatic ring is electron-donating, essential for local anesthetic potency",
+        "ABSENCE of tertiary amine group means it cannot become ionized/protonated at physiologic pH",
+        "pKa ~2.5 (essentially neutral at body pH); remains >99% in unionized form",
+        "Because it lacks a cationic form, it cannot bind the Na+ channel from the intracellular side in the usual manner; works primarily on surface nerves",
+        "PABA (para-aminobenzoic acid) is a hydrolysis metabolite that can cause allergic reactions",
+        "Risk of methemoglobinemia especially in infants due to oxidation of hemoglobin by metabolites"
+      ]
+    },
+    {
+      "id": "procaine",
+      "genericName": "Procaine",
+      "brandNames": ["Novocain"],
+      "iupacName": "2-(diethylamino)ethyl 4-aminobenzoate",
+      "chemicalFormula": "C13H20N2O2",
+      "drugClass": "Ester-type local anesthetic",
+      "moa": "Reversibly blocks voltage-gated sodium channels in nerve fibers. The ionized (protonated) form binds to the intracellular portion of the Na⁺ channel in the open/inactivated state, preventing depolarization and action potential propagation. Blocks nerve fibers in order: autonomic > sensory (pain, temperature) > motor (differential blockade).",
+      "uses": [
+        "Infiltration anesthesia (historical, largely replaced by lidocaine)",
+        "Spinal anesthesia (limited use)",
+        "Dental procedures (historical)"
+      ],
+      "sarPoints": [
+        "Ester linkage (-COO-) is rapidly hydrolyzed by plasma butyrylcholinesterase → short duration (~30-60 min)",
+        "Para-amino group (-NH2) on the benzoic acid aromatic ring is essential for potency (electron donation)",
+        "Diethylaminoethyl group provides the tertiary amine for ionization equilibrium (pKa 8.9)",
+        "High pKa (8.9) means only ~3% is unionized at pH 7.4, resulting in slow onset",
+        "Hydrolysis product PABA (para-aminobenzoic acid) is responsible for allergic reactions (cross-reactivity with sulfonamides)",
+        "Two-carbon intermediate chain between ester and amine is optimal for this class"
+      ]
+    },
+    {
+      "id": "lidocaine",
+      "genericName": "Lidocaine",
+      "brandNames": ["Xylocaine", "Lidoderm", "Zingo"],
+      "iupacName": "2-(diethylamino)-N-(2,6-dimethylphenyl)acetamide",
+      "chemicalFormula": "C14H22N2O",
+      "drugClass": "Amide-type local anesthetic / Class IB antiarrhythmic",
+      "moa": "As local anesthetic: blocks voltage-gated sodium channels by binding to the intracellular S6 segment in the inactivated state, preventing Na⁺ influx and action potential propagation. As Class IB antiarrhythmic: selectively blocks inactivated Na⁺ channels in ischemic myocardium (faster binding kinetics in depolarized tissue), shortening action potential duration and effective refractory period in ventricular tissue.",
+      "uses": [
+        "Local anesthesia (infiltration, nerve block, epidural, topical)",
+        "Ventricular arrhythmias (especially post-MI ventricular tachycardia)",
+        "Surface/topical anesthesia (patches, sprays, gels)",
+        "IV regional anesthesia (Bier block)",
+        "Neuropathic pain (5% lidocaine patch)"
+      ],
+      "sarPoints": [
+        "Amide linkage (-NHCO-) is metabolized by hepatic CYP enzymes (CYP1A2, CYP3A4), resulting in longer duration than ester-type agents",
+        "2,6-Dimethyl groups on the aniline ring sterically protect the amide bond from hydrolysis, contributing to metabolic stability",
+        "Diethylaminoacetyl group provides the ionizable tertiary amine (pKa 7.9)",
+        "pKa of 7.9 (close to physiologic pH) means ~25% is unionized at pH 7.4, enabling relatively fast onset",
+        "No PABA metabolite → extremely rare allergic reactions compared to ester-type anesthetics",
+        "Moderate lipophilicity provides good tissue penetration without excessive protein binding",
+        "The 'lido-' prefix indicates amide (contains 'i' before 'd') — a mnemonic to distinguish from ester-type anesthetics"
+      ]
+    },
+    {
+      "id": "halothane",
+      "genericName": "Halothane",
+      "brandNames": ["Fluothane"],
+      "iupacName": "2-bromo-2-chloro-1,1,1-trifluoroethane",
+      "chemicalFormula": "C2HBrClF3",
+      "drugClass": "Halogenated inhalational general anesthetic",
+      "moa": "Exact mechanism incompletely understood. Enhances inhibitory neurotransmission (potentiates GABA-A and glycine receptor activity) and inhibits excitatory neurotransmission (inhibits NMDA glutamate receptors and neuronal nicotinic receptors). Also inhibits certain voltage-gated ion channels. Produces dose-dependent CNS depression: analgesia → amnesia → unconsciousness → muscle relaxation → respiratory/cardiovascular depression.",
+      "uses": [
+        "General anesthesia maintenance (historical; largely replaced by sevoflurane/desflurane)",
+        "Pediatric anesthesia induction (smooth, non-irritating; historical use)",
+        "Bronchospasm during anesthesia (potent bronchodilator)"
+      ],
+      "sarPoints": [
+        "Halogenation of ethane reduces flammability (critical safety improvement over diethyl ether)",
+        "Fluorine atoms (-CF3) increase chemical stability and reduce toxicity compared to chloroform",
+        "Bromine increases anesthetic potency (higher blood:gas partition coefficient)",
+        "Chlorine contributes to potency but also to hepatic metabolism and toxicity",
+        "C-H bond is susceptible to oxidative metabolism by CYP2E1, producing trifluoroacetyl halide → hepatotoxicity (halothane hepatitis)",
+        "Low MAC value (0.75%) indicates high potency",
+        "High blood:gas partition coefficient (2.5) → slow induction and recovery compared to newer agents (sevoflurane 0.65, desflurane 0.42)",
+        "Not flammable or explosive at clinical concentrations"
+      ]
+    },
+    {
+      "id": "chlorpromazine",
+      "genericName": "Chlorpromazine",
+      "brandNames": ["Thorazine", "Largactil"],
+      "iupacName": "3-(2-chloro-10H-phenothiazin-10-yl)-N,N-dimethylpropan-1-amine",
+      "chemicalFormula": "C17H19ClN2S",
+      "drugClass": "Phenothiazine antipsychotic (typical, low potency)",
+      "moa": "Primarily blocks dopamine D2 receptors in the mesolimbic pathway, reducing positive symptoms of schizophrenia (hallucinations, delusions). Also blocks D2 in other pathways causing side effects: nigrostriatal (EPS), tuberoinfundibular (hyperprolactinemia), mesocortical (worsening negative symptoms). Additionally blocks muscarinic (M1), histamine (H1), and alpha-1 adrenergic receptors, causing anticholinergic effects, sedation, and orthostatic hypotension respectively.",
+      "uses": [
+        "Schizophrenia and psychotic disorders",
+        "Nausea and vomiting (blocks D2 in CTZ)",
+        "Intractable hiccups",
+        "Acute intermittent porphyria",
+        "Preoperative sedation (historical)"
+      ],
+      "sarPoints": [
+        "Phenothiazine tricyclic core adopts butterfly conformation (~140°) essential for D2 receptor binding",
+        "C2-Cl (electron-withdrawing group) is REQUIRED at position 2 for antipsychotic activity",
+        "Three-carbon chain (-CH2CH2CH2-) between N10 and terminal amine is MANDATORY (2C chain = antihistamine only)",
+        "Aliphatic dimethylamino terminal group (-NMe2) → low potency but high sedation and anticholinergic effects",
+        "Sulfur atom in the central ring determines the non-planar conformation and electron distribution",
+        "Multiple receptor blockade (D2, M1, H1, alpha-1) explains the broad side effect profile"
+      ]
+    },
+    {
+      "id": "diazepam",
+      "genericName": "Diazepam",
+      "brandNames": ["Valium", "Diastat", "Diazepam Intensol"],
+      "iupacName": "7-chloro-1-methyl-5-phenyl-1,3-dihydro-2H-1,4-benzodiazepin-2-one",
+      "chemicalFormula": "C16H13ClN2O",
+      "drugClass": "Benzodiazepine (long-acting anxiolytic/sedative-hypnotic)",
+      "moa": "Positive allosteric modulator at the GABA-A receptor. Binds to the benzodiazepine binding site located at the interface of alpha and gamma subunits. Increases the FREQUENCY of chloride channel opening in response to GABA binding (does not increase duration or directly open the channel). This enhances inhibitory GABAergic neurotransmission throughout the CNS. Cannot produce maximal CNS depression alone (ceiling effect, unlike barbiturates).",
+      "uses": [
+        "Anxiety disorders (generalized anxiety)",
+        "Skeletal muscle spasm",
+        "Seizures (status epilepticus - IV/rectal diazepam)",
+        "Alcohol withdrawal syndrome",
+        "Preoperative sedation and anxiolysis",
+        "Procedural sedation"
+      ],
+      "sarPoints": [
+        "7-Cl (EWG at position 7) is essential for activity; removal eliminates anxiolytic/anticonvulsant effects",
+        "5-Phenyl ring is required for binding to the GABA-A benzodiazepine site",
+        "1-Methyl (N1-CH3) increases lipophilicity (LogP 2.82) for rapid CNS penetration",
+        "2-C=O (carbonyl at position 2) is essential for hydrogen bonding with receptor",
+        "No 3-OH group → requires Phase I metabolism (N-demethylation to nordazepam, then 3-hydroxylation to oxazepam); multiple active metabolites contribute to very long effective duration",
+        "Highly protein bound (~98% to albumin)"
+      ]
+    },
+    {
+      "id": "imipramine",
+      "genericName": "Imipramine",
+      "brandNames": ["Tofranil", "Tofranil-PM"],
+      "iupacName": "3-(10,11-dihydro-5H-dibenzo[b,f]azepin-5-yl)-N,N-dimethylpropan-1-amine",
+      "chemicalFormula": "C19H24N2",
+      "drugClass": "Tricyclic antidepressant (TCA)",
+      "moa": "Inhibits reuptake of both serotonin (5-HT) and norepinephrine (NE) by blocking SERT and NET transporters at the presynaptic terminal. The parent compound imipramine preferentially inhibits serotonin reuptake, while its active metabolite desipramine preferentially inhibits norepinephrine reuptake. Also blocks muscarinic (M1), histamine (H1), and alpha-1 adrenergic receptors, causing significant side effects.",
+      "uses": [
+        "Major depressive disorder",
+        "Nocturnal enuresis in children (FDA-approved)",
+        "Panic disorder",
+        "Neuropathic pain (off-label)",
+        "Attention-deficit disorder (historical off-label)"
+      ],
+      "sarPoints": [
+        "Dibenzazepine tricyclic core: the 7-membered central ring (containing nitrogen) creates a non-planar twisted conformation that distinguishes TCAs from planar phenothiazines",
+        "The central ring nitrogen (N5) is a secondary amine bridging the two aromatic rings",
+        "Three-carbon side chain (-CH2CH2CH2-) at N5 connects to the terminal amine, similar to phenothiazines",
+        "Dimethylamino terminal group: tertiary amine preferentially blocks serotonin reuptake (5-HT > NE)",
+        "N-demethylation produces desipramine (secondary amine) which shifts selectivity to norepinephrine reuptake inhibition (NE > 5-HT)",
+        "Replacement of sulfur (phenothiazine) with -CH2CH2- bridge changes activity from antipsychotic to antidepressant",
+        "Structural similarity to phenothiazines explains shared anticholinergic, antihistaminic, and anti-alpha-1 adrenergic side effects"
+      ]
+    },
+    {
+      "id": "phenytoin",
+      "genericName": "Phenytoin",
+      "brandNames": ["Dilantin", "Phenytek", "Epanutin"],
+      "iupacName": "5,5-diphenylimidazolidine-2,4-dione",
+      "chemicalFormula": "C15H12N2O2",
+      "drugClass": "Hydantoin anticonvulsant / Class IB antiarrhythmic",
+      "moa": "Blocks voltage-gated sodium channels in the inactivated state (use-dependent blockade). Prolongs the inactivated state of Na⁺ channels, slowing recovery and reducing the ability of neurons to fire at high frequency. This stabilizes neuronal membranes and prevents the spread of seizure activity from the epileptic focus. Does not affect normal low-frequency neuronal firing. Also blocks L-type calcium channels in the heart.",
+      "uses": [
+        "Epilepsy (tonic-clonic and partial seizures; NOT absence seizures)",
+        "Status epilepticus (IV fosphenytoin preferred)",
+        "Trigeminal neuralgia",
+        "Cardiac arrhythmias (digitalis-induced ventricular arrhythmias)"
+      ],
+      "sarPoints": [
+        "Hydantoin ring (5-membered, 2 N atoms) is structurally related to barbituric acid (6-membered, 2 N atoms) but with a 5-membered ring",
+        "Two phenyl groups at C5 are essential for anticonvulsant activity (analogous to phenyl at C5 in phenobarbital)",
+        "The 5,5-diphenyl substitution pattern provides selective anticonvulsant action with minimal sedation",
+        "N-H at position 3 is important for activity; N-methylation reduces anticonvulsant activity (opposite of barbiturates where it causes convulsions)",
+        "Exhibits saturation (zero-order, Michaelis-Menten) kinetics: small dose increases cause disproportionately large plasma level changes",
+        "Highly protein-bound (~90%); monitoring free (unbound) levels is critical",
+        "Potent CYP450 inducer (CYP2C9, CYP2C19, CYP3A4); causes numerous drug interactions"
+      ]
+    },
+    {
+      "id": "lisinopril",
+      "genericName": "Lisinopril",
+      "brandNames": ["Prinivil", "Zestril"],
+      "iupacName": "(S)-1-[N²-(1-carboxy-3-phenylpropyl)-L-lysyl]-L-proline",
+      "chemicalFormula": "C21H31N3O5",
+      "drugClass": "Angiotensin-converting enzyme (ACE) inhibitor (lysine analog)",
+      "moa": "Competitively inhibits angiotensin-converting enzyme (ACE, kinase II), preventing the conversion of angiotensin I to the potent vasoconstrictor angiotensin II. Also inhibits the degradation of bradykinin (a vasodilator), contributing to the hypotensive effect. Reduces aldosterone secretion, decreasing sodium and water retention. The result is decreased peripheral vascular resistance, reduced preload and afterload.",
+      "uses": [
+        "Hypertension",
+        "Heart failure (reduces mortality)",
+        "Post-myocardial infarction (improves survival and ventricular remodeling)",
+        "Diabetic nephropathy (renoprotective, reduces proteinuria)"
+      ],
+      "sarPoints": [
+        "Lysine analog of enalaprilat — the lysyl group replaces the alanyl group of enalaprilat",
+        "Active drug (does NOT require hepatic conversion, unlike enalapril which is a prodrug)",
+        "Dicarboxylic acid: both carboxylate groups are essential for zinc chelation and binding at the ACE active site",
+        "Phenylpropyl group mimics the phenyl group of phenylalanine in angiotensin I, fitting into the S1 pocket of ACE",
+        "Proline (pyrrolidine carboxylic acid) at C-terminal interacts with the S2' pocket of ACE",
+        "(S)-configuration at the alpha-carbon is essential for ACE inhibitory activity",
+        "The primary amine (lysine side chain) provides hydrophilicity; lisinopril is the most hydrophilic ACE inhibitor (LogP = -0.85)"
+      ]
+    },
+    {
+      "id": "atorvastatin",
+      "genericName": "Atorvastatin",
+      "brandNames": ["Lipitor"],
+      "iupacName": "(3R,5R)-7-[2-(4-fluorophenyl)-3-phenyl-4-(phenylcarbamoyl)-5-(propan-2-yl)-1H-pyrrol-1-yl]-3,5-dihydroxyheptanoic acid",
+      "chemicalFormula": "C33H35FN2O5",
+      "drugClass": "HMG-CoA reductase inhibitor (statin)",
+      "moa": "Competitive inhibitor of HMG-CoA reductase, the rate-limiting enzyme in the mevalonate pathway of cholesterol biosynthesis. Blocks conversion of HMG-CoA to mevalonic acid. Reduced intracellular cholesterol upregulates LDL receptor expression on hepatocytes (via SREBP pathway), increasing LDL clearance from blood. Also modestly raises HDL and lowers triglycerides. Pleiotropic effects include improved endothelial function, anti-inflammatory activity, and plaque stabilization.",
+      "uses": [
+        "Primary hypercholesterolemia and mixed dyslipidemia",
+        "Atherosclerotic cardiovascular disease prevention (primary and secondary)",
+        "Familial hypercholesterolemia",
+        "Reduction of cardiovascular events in high-risk patients"
+      ],
+      "sarPoints": [
+        "3,5-Dihydroxyheptanoic acid (open-ring mevalonate analog) is the pharmacophore that mimics the HMG-CoA substrate and binds to the enzyme active site",
+        "(3R,5R)-configuration of the dihydroxy acid is essential for enzyme binding; (3S,5S) is inactive",
+        "Pyrrole ring is the central heterocycle (synthetic statin); differs from decalin ring of natural statins (lovastatin, simvastatin)",
+        "4-Fluorophenyl group enhances metabolic stability and potency",
+        "Phenylcarbamoyl group contributes to additional hydrophobic interactions with the enzyme binding domain",
+        "Isopropyl group optimizes fit in the hydrophobic binding pocket",
+        "Long half-life (~14 hours) and active metabolites (2-OH and 4-OH atorvastatin) contribute to sustained 24-hour cholesterol lowering",
+        "Metabolized by CYP3A4; caution with CYP3A4 inhibitors (risk of rhabdomyolysis)"
+      ]
+    },
+    {
+      "id": "warfarin",
+      "genericName": "Warfarin",
+      "brandNames": ["Coumadin", "Jantoven"],
+      "iupacName": "(RS)-4-hydroxy-3-(3-oxo-1-phenylbutyl)-2H-chromen-2-one",
+      "chemicalFormula": "C19H16O4",
+      "drugClass": "Coumarin anticoagulant (vitamin K antagonist)",
+      "moa": "Inhibits vitamin K epoxide reductase (VKORC1), the enzyme responsible for regenerating the reduced (active) form of vitamin K. Without reduced vitamin K, hepatic gamma-carboxylation of glutamic acid residues on clotting factors II (prothrombin), VII, IX, and X cannot occur. These undercarboxylated factors are biologically inactive (cannot bind calcium and phospholipid surfaces). Anticoagulant effect is delayed (24-72 hours) because existing carboxylated factors must be cleared first (factor VII t1/2 ~6h clears first).",
+      "uses": [
+        "Deep vein thrombosis (DVT) treatment and prophylaxis",
+        "Pulmonary embolism (PE) treatment and prophylaxis",
+        "Atrial fibrillation (stroke prevention)",
+        "Mechanical heart valve anticoagulation",
+        "Prevention of systemic embolism"
+      ],
+      "sarPoints": [
+        "4-Hydroxycoumarin (2H-chromen-2-one) core is essential for VKORC1 inhibition; structurally mimics vitamin K",
+        "(S)-warfarin is 3-5x more potent than (R)-warfarin; metabolized by CYP2C9 (clinically significant polymorphism)",
+        "(R)-warfarin is metabolized by CYP1A2 and CYP3A4",
+        "3-Position substituent (1-phenylbutyl with keto group) is essential for anticoagulant potency; phenyl group provides hydrophobic interaction with VKORC1",
+        "The 4-OH group is involved in the tautomeric equilibrium (keto-enol) and contributes to the pharmacophore",
+        "Extremely narrow therapeutic index (TI ~2); requires INR monitoring (target 2-3 for most indications)",
+        "Highly protein-bound (~99% to albumin); displaced by other drugs leading to dangerous interactions",
+        "Subject to significant CYP2C9 and VKORC1 pharmacogenomic variability"
+      ]
+    },
+    {
+      "id": "losartan",
+      "genericName": "Losartan",
+      "brandNames": ["Cozaar"],
+      "iupacName": "2-butyl-4-chloro-1-{[2'-(1H-tetrazol-5-yl)biphenyl-4-yl]methyl}-1H-imidazol-5-yl)methanol",
+      "chemicalFormula": "C22H23ClN6O",
+      "drugClass": "Angiotensin II receptor blocker (ARB)",
+      "moa": "Selectively and competitively blocks the angiotensin II type 1 (AT1) receptor, preventing angiotensin II from causing vasoconstriction, aldosterone release, sympathetic activation, and cardiac/vascular remodeling. Unlike ACE inhibitors, ARBs do not affect bradykinin metabolism (no cough or angioedema from bradykinin accumulation). Unblocked AT2 receptors may mediate additional vasodilation and anti-proliferative effects.",
+      "uses": [
+        "Hypertension",
+        "Diabetic nephropathy (in type 2 diabetes with proteinuria)",
+        "Heart failure (when ACE inhibitors not tolerated)",
+        "Stroke prevention in hypertension with left ventricular hypertrophy",
+        "Hyperuricemia reduction (unique uricosuric property among ARBs)"
+      ],
+      "sarPoints": [
+        "Biphenyl tetrazole moiety mimics the C-terminal carboxylate of angiotensin II; tetrazole is a bioisostere of carboxylic acid with similar pKa (~4.5) but better bioavailability",
+        "Imidazole ring serves as the central scaffold, positioning pharmacophoric groups in correct 3D orientation for AT1 receptor binding",
+        "4-Chloro on the imidazole ring enhances potency",
+        "N-butyl group on the imidazole provides hydrophobic interaction with the AT1 receptor binding pocket",
+        "Hydroxymethyl group at position 5 of imidazole is oxidized by CYP2C9 and CYP3A4 to the active carboxylic acid metabolite (EXP-3174), which is 10-40x more potent than losartan and has a longer half-life",
+        "Losartan is a prodrug; EXP-3174 (active metabolite) provides the sustained antihypertensive effect",
+        "Unique uricosuric effect among ARBs: losartan inhibits URAT1 transporter in the renal proximal tubule, increasing uric acid excretion"
+      ]
+    }
+  ]
+}

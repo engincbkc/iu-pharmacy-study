@@ -1,0 +1,389 @@
+{
+  "tables": [
+    {
+      "id": "sar-beta-blockers",
+      "drugClass": "Beta-Blockers",
+      "description": "Structure-activity relationships of beta-adrenergic receptor antagonists. All clinically used beta-blockers share the aryloxypropanolamine pharmacophore. Selectivity and pharmacokinetic properties are modulated by aromatic ring substitution and side chain modifications.",
+      "baseStructure": "Aryloxypropanolamine: Ar-O-CH2-CHOH-CH2-NH-R",
+      "modifications": [
+        {
+          "position": "Aromatic ring (Ar)",
+          "group": "Naphthalene, substituted phenyl",
+          "effect": "Essential for receptor binding via hydrophobic interactions with the beta-adrenergic receptor pocket"
+        },
+        {
+          "position": "Secondary hydroxyl (-OH)",
+          "group": "-CHOH- (chiral center)",
+          "effect": "Critical for hydrogen bonding with beta-receptor Ser and Asn residues; (R)-configuration (or S by CIP in some cases) is the eutomer with 100x greater affinity than the distomer"
+        },
+        {
+          "position": "N-substituent (R on amine)",
+          "group": "Isopropyl -CH(CH3)2 or tert-butyl -C(CH3)3",
+          "effect": "Isopropylamine provides optimal beta-blocking activity; tert-butyl increases beta-2 selectivity slightly"
+        },
+        {
+          "position": "Para-position on aromatic ring",
+          "group": "Polar groups: -CH2CONH2, -OCH2CH2OCH3, -COCH3",
+          "effect": "Polar para-substituents confer beta-1 (cardiac) selectivity by reducing affinity for beta-2 receptors in bronchial and vascular smooth muscle"
+        },
+        {
+          "position": "Ether oxygen (-O- linker)",
+          "group": "-O-CH2- between Ar and propanolamine",
+          "effect": "Optimizes spatial geometry for receptor binding; removal (arylethanolamines like pronethalol) reduces activity and increases side effects"
+        },
+        {
+          "position": "Ring substitution pattern",
+          "group": "Ortho- or meta- substituents",
+          "effect": "Ortho-/meta-substitution generally decreases beta-blocking potency compared to unsubstituted or para-substituted analogs"
+        }
+      ],
+      "clinicalExamples": [
+        {
+          "drug": "Propranolol",
+          "modification": "Naphthalene ring system, no para-polar group, isopropylamine",
+          "result": "Non-selective beta-blocker (beta-1 and beta-2); high lipophilicity allows CNS penetration; used for hypertension, angina, migraine prophylaxis, and performance anxiety"
+        },
+        {
+          "drug": "Atenolol",
+          "modification": "Para-position -CH2CONH2 (acetamide group) on phenyl ring",
+          "result": "Beta-1 selective (cardioselective); hydrophilic, minimal CNS penetration; safer in asthma patients at low doses; used for hypertension and angina"
+        },
+        {
+          "drug": "Metoprolol",
+          "modification": "Para-position -OCH2CH2OCH3 (methoxyethoxymethyl) on phenyl ring",
+          "result": "Beta-1 selective (cardioselective); moderate lipophilicity; extensive hepatic metabolism; used for hypertension, heart failure, and post-MI"
+        }
+      ]
+    },
+    {
+      "id": "sar-barbiturates",
+      "drugClass": "Barbiturates",
+      "description": "Structure-activity relationships of barbituric acid derivatives used as sedative-hypnotics, anesthetics, and antiepileptics. Activity, duration of action, and onset are primarily governed by C5 substituents and C2 oxygen/sulfur substitution.",
+      "baseStructure": "Barbituric acid (2,4,6-trioxohexahydropyrimidine)",
+      "modifications": [
+        {
+          "position": "C5 position",
+          "group": "Two alkyl/aryl substituents required",
+          "effect": "Disubstitution at C5 is MANDATORY for CNS depressant activity; monosubstituted barbituric acid is inactive because it cannot adopt the correct lactam-lactim tautomer ratio for receptor binding"
+        },
+        {
+          "position": "C5 branched alkyl chain",
+          "group": "Branched aliphatic chains (e.g., 1-methylbutyl, isopentyl)",
+          "effect": "Branching increases lipophilicity and rate of CNS penetration, leading to faster onset but shorter duration due to rapid redistribution from brain to adipose tissue"
+        },
+        {
+          "position": "C5 phenyl group",
+          "group": "Phenyl (-C6H5)",
+          "effect": "Phenyl at C5 confers long duration of action AND selective antiepileptic activity with less sedation; metabolized slowly via aromatic hydroxylation (para-position)"
+        },
+        {
+          "position": "C2 position (O to S replacement)",
+          "group": "C2=S (thiobarbiturate) replacing C2=O",
+          "effect": "Sulfur substitution dramatically increases lipophilicity, producing ultra-short acting IV anesthetics with very rapid onset (10-20 seconds) and brief duration (5-10 minutes) due to rapid redistribution"
+        },
+        {
+          "position": "N1 or N3 methylation",
+          "group": "-N-CH3 (N-methylation)",
+          "effect": "N-methylation converts sedative-hypnotic activity to CONVULSANT activity; N-methyl barbiturates are excitatory and potentially dangerous—this modification is clinically avoided"
+        },
+        {
+          "position": "Overall lipophilicity",
+          "group": "Balance of all substituents",
+          "effect": "Higher lipophilicity correlates with faster onset (rapid BBB penetration) but shorter duration (redistribution to fat stores); an optimal log P range exists for each clinical application"
+        }
+      ],
+      "clinicalExamples": [
+        {
+          "drug": "Phenobarbital",
+          "modification": "C5: ethyl + phenyl groups; C2=O retained",
+          "result": "Long-acting barbiturate with antiepileptic properties; phenyl group at C5 confers selective anticonvulsant action; used for epilepsy (tonic-clonic and partial seizures) and neonatal seizures; t1/2 ~80-120 hours"
+        },
+        {
+          "drug": "Pentobarbital",
+          "modification": "C5: ethyl + 1-methylbutyl (branched); C2=O",
+          "result": "Short-acting sedative-hypnotic; branched alkyl chain increases lipophilicity for faster onset; used for insomnia (historically) and veterinary euthanasia; t1/2 ~15-50 hours"
+        },
+        {
+          "drug": "Thiopental",
+          "modification": "C5: ethyl + 1-methylbutyl; C2=S (thio substitution)",
+          "result": "Ultra-short acting IV anesthetic; C2 sulfur produces extreme lipophilicity for immediate CNS penetration; action terminated by redistribution, not metabolism; used for induction of anesthesia; onset ~30 seconds, duration ~5-10 minutes"
+        }
+      ]
+    },
+    {
+      "id": "sar-penicillins",
+      "drugClass": "Penicillins",
+      "description": "Structure-activity relationships of beta-lactam antibiotics derived from 6-aminopenicillanic acid (6-APA). The beta-lactam ring is the pharmacophore responsible for transpeptidase inhibition, while side chain modifications determine spectrum, stability, and pharmacokinetics.",
+      "baseStructure": "Beta-lactam ring + Thiazolidine ring (6-APA: 6-aminopenicillanic acid)",
+      "modifications": [
+        {
+          "position": "Beta-lactam ring (4-membered)",
+          "group": "Cyclic amide under high ring strain",
+          "effect": "Absolutely essential for antibacterial activity; the strained ring acylates the active site serine of transpeptidase (PBP), irreversibly inhibiting cell wall synthesis; ring opening by beta-lactamases = complete inactivation"
+        },
+        {
+          "position": "Thiazolidine ring (5-membered)",
+          "group": "Fused to beta-lactam, contains sulfur and two methyl groups",
+          "effect": "Provides structural stability and correct geometry for beta-lactam ring to interact with PBPs; the gem-dimethyl groups provide steric protection; the carboxylate at C3 anchors to the enzyme"
+        },
+        {
+          "position": "C6 acyl side chain (R group)",
+          "group": "Variable acyl group on 6-amino position",
+          "effect": "Primary determinant of antibacterial spectrum, acid stability, and beta-lactamase resistance; modifications here create the different penicillin generations"
+        },
+        {
+          "position": "C6 side chain: alpha-amino group",
+          "group": "-NH2 on the alpha-carbon of the acyl chain (aminopenicillins)",
+          "effect": "Amino group enables penetration through Gram-negative outer membrane porins, extending spectrum to include E. coli, H. influenzae, Proteus; still susceptible to beta-lactamases"
+        },
+        {
+          "position": "C6 side chain: phenyl group",
+          "group": "Phenyl or phenoxymethyl group",
+          "effect": "Electron-withdrawing aromatic ring stabilizes the beta-lactam against acid hydrolysis in the stomach, enabling oral administration (Penicillin V vs Penicillin G)"
+        },
+        {
+          "position": "C6 side chain: bulky groups",
+          "group": "2,6-Dimethoxyphenyl, isoxazolyl groups",
+          "effect": "Steric hindrance around the beta-lactam ring physically blocks access of beta-lactamase enzymes, conferring resistance to penicillinase-producing Staphylococci"
+        }
+      ],
+      "clinicalExamples": [
+        {
+          "drug": "Amoxicillin",
+          "modification": "Alpha-amino group + para-hydroxyphenyl on the acyl side chain",
+          "result": "Broad-spectrum aminopenicillin; active against many Gram-positive and Gram-negative organisms; good oral bioavailability (~90%); susceptible to beta-lactamases; most commonly prescribed penicillin"
+        },
+        {
+          "drug": "Augmentin (Amoxicillin/Clavulanate)",
+          "modification": "Amoxicillin combined with clavulanic acid (beta-lactamase inhibitor with minimal antibacterial activity)",
+          "result": "Clavulanate irreversibly inhibits Class A beta-lactamases (suicide inhibitor), protecting amoxicillin from enzymatic degradation; restores activity against beta-lactamase producing strains of H. influenzae, M. catarrhalis, and S. aureus"
+        },
+        {
+          "drug": "Methicillin",
+          "modification": "2,6-Dimethoxyphenyl acyl side chain providing steric bulk",
+          "result": "Beta-lactamase resistant penicillin; bulky ortho-methoxy groups sterically block beta-lactamase access; active against penicillinase-producing S. aureus; MRSA resistance is due to altered PBP2a, not beta-lactamase"
+        }
+      ]
+    },
+    {
+      "id": "sar-fluoroquinolones",
+      "drugClass": "Fluoroquinolones",
+      "description": "Structure-activity relationships of fluorinated quinolone antibacterials. These synthetic agents inhibit bacterial DNA gyrase (topoisomerase II) and topoisomerase IV. The quinolone core with specific substitution pattern determines potency, spectrum, and pharmacokinetic properties.",
+      "baseStructure": "Quinolone core with N1, C3-COOH, C4=O",
+      "modifications": [
+        {
+          "position": "C6 position",
+          "group": "Fluorine (-F)",
+          "effect": "Fluorine substitution increases antibacterial potency 10-100 fold compared to non-fluorinated quinolones; enhances cell penetration and DNA gyrase binding affinity; defines the fluoroquinolone class"
+        },
+        {
+          "position": "C7 position",
+          "group": "Piperazinyl or substituted piperazinyl ring",
+          "effect": "Piperazine ring dramatically improves Gram-negative activity and enhances pharmacokinetics; N-methylpiperazine improves Gram-positive coverage; bulky C7 groups (e.g., diazabicyclo) enhance anaerobic activity"
+        },
+        {
+          "position": "C3 position",
+          "group": "-COOH (carboxylic acid)",
+          "effect": "CRITICAL for activity; forms a magnesium-mediated bridge with DNA gyrase active site; chelation with Mg2+ is essential for the drug-enzyme-DNA ternary complex; removal abolishes activity"
+        },
+        {
+          "position": "C4 position",
+          "group": "=O (ketone/carbonyl)",
+          "effect": "CRITICAL for activity; together with C3-COOH, forms the pharmacophoric pair that chelates Mg2+ ions in the DNA gyrase binding site; both groups are absolutely essential and non-modifiable"
+        },
+        {
+          "position": "C8 position",
+          "group": "-OCH3 (methoxy group)",
+          "effect": "Methoxy at C8 enhances activity against anaerobic bacteria and Gram-positive organisms; also reduces phototoxicity compared to C8-halogen analogs; key feature of Moxifloxacin"
+        },
+        {
+          "position": "N1 position",
+          "group": "Cyclopropyl group",
+          "effect": "Cyclopropyl at N1 provides optimal broad-spectrum activity; superior to ethyl, tert-butyl, or other N1 substituents; the small, rigid ring optimizes interaction with the enzyme binding site"
+        }
+      ],
+      "clinicalExamples": [
+        {
+          "drug": "Ciprofloxacin",
+          "modification": "C6-F, C7-piperazine (unsubstituted), N1-cyclopropyl",
+          "result": "Broad Gram-negative spectrum including Pseudomonas aeruginosa; gold standard for urinary and GI tract infections; moderate Gram-positive activity; oral and IV formulations"
+        },
+        {
+          "drug": "Moxifloxacin",
+          "modification": "C6-F, C7-diazabicyclo group, C8-OCH3, N1-cyclopropyl",
+          "result": "Extended spectrum covering anaerobes and enhanced Gram-positive activity (respiratory pathogen coverage); C8-OCH3 is the key structural feature for anaerobic coverage; used for respiratory tract infections and intra-abdominal infections"
+        },
+        {
+          "drug": "Levofloxacin",
+          "modification": "C6-F, C7-methylpiperazine, N1-bridged as oxazine ring (fused ring incorporating N1 and C8), (S)-enantiomer",
+          "result": "Broad-spectrum respiratory fluoroquinolone; the (S)-enantiomer of ofloxacin with 2x activity; good Gram-positive and Gram-negative coverage; used for pneumonia, sinusitis, UTIs"
+        }
+      ]
+    },
+    {
+      "id": "sar-phenothiazines",
+      "drugClass": "Phenothiazines (Typical Antipsychotics)",
+      "description": "Structure-activity relationships of phenothiazine antipsychotics used primarily for schizophrenia. The non-planar tricyclic core with specific substitution patterns determines receptor affinity, potency, side effect profile, and pharmacokinetic properties.",
+      "baseStructure": "Phenothiazine tricyclic core (non-planar butterfly conformation ~140° dihedral angle)",
+      "modifications": [
+        {
+          "position": "C2 position (Ring A)",
+          "group": "Electron-withdrawing group: -Cl, -CF3, -SCH3, -COCH3, -SO2NMe2",
+          "effect": "An electron-withdrawing substituent at C2 is REQUIRED for antipsychotic activity; it enhances dopamine D2 receptor affinity; substitution at C1, C3, or C4 greatly reduces or eliminates activity"
+        },
+        {
+          "position": "N10 side chain length",
+          "group": "Three-carbon chain (-CH2CH2CH2-) between N10 and terminal amine",
+          "effect": "A 3-carbon chain is MANDATORY for antipsychotic activity; 2-carbon chain compounds are antihistamines (e.g., promethazine); 4-carbon chain compounds have markedly reduced antipsychotic activity"
+        },
+        {
+          "position": "Terminal amine group: Aliphatic",
+          "group": "-N(CH3)2 (dimethylamino) or similar open-chain amine",
+          "effect": "Low potency with strong sedation, pronounced anticholinergic effects, and significant orthostatic hypotension; lower incidence of extrapyramidal symptoms (EPS)"
+        },
+        {
+          "position": "Terminal amine group: Piperazine ring",
+          "group": "4-Substituted piperazine ring as terminal group",
+          "effect": "High potency with strong D2 blockade; higher incidence of extrapyramidal symptoms (EPS) including dystonia, akathisia, and tardive dyskinesia; less sedation and anticholinergic effects"
+        },
+        {
+          "position": "Terminal amine group: Piperidine ring",
+          "group": "Piperidine ring as terminal group",
+          "effect": "Intermediate potency; relatively lower EPS compared to piperazine derivatives; significant anticholinergic effects (which may self-treat EPS); notable cardiotoxicity risk (QT prolongation)"
+        },
+        {
+          "position": "Sulfur atom in ring",
+          "group": "Thiazine sulfur at position 5",
+          "effect": "The sulfur atom is essential for the non-planar butterfly conformation (~140°); it regulates electron distribution across the tricyclic system and positions the side chain optimally for D2 receptor interaction"
+        }
+      ],
+      "clinicalExamples": [
+        {
+          "drug": "Chlorpromazine",
+          "modification": "C2-Cl (chloro), aliphatic side chain (-CH2CH2CH2-N(CH3)2)",
+          "result": "Prototype low-potency phenothiazine; high sedation, orthostatic hypotension, anticholinergic effects; lower EPS risk; dose range 200-800 mg/day; used for schizophrenia, nausea, hiccups, acute porphyria"
+        },
+        {
+          "drug": "Fluphenazine",
+          "modification": "C2-CF3 (trifluoromethyl), piperazine terminal group",
+          "result": "High-potency phenothiazine; strong D2 blockade; higher EPS risk; available as long-acting decanoate ester for depot injection (IM every 2-4 weeks); dose range 2-20 mg/day oral"
+        },
+        {
+          "drug": "Thioridazine",
+          "modification": "C2-SCH3 (methylthio), piperidine terminal group",
+          "result": "Medium-potency phenothiazine; low EPS due to inherent anticholinergic activity; RESTRICTED use due to dose-dependent QTc prolongation and risk of retinitis pigmentosa at high doses; reserved for treatment-resistant schizophrenia"
+        }
+      ]
+    },
+    {
+      "id": "sar-local-anesthetics",
+      "drugClass": "Local Anesthetics",
+      "description": "Structure-activity relationships of local anesthetics that reversibly block voltage-gated sodium channels. All share a common three-part pharmacophore: lipophilic aromatic group, intermediate chain (ester or amide linker), and hydrophilic amine group. The linker type primarily determines metabolism and duration.",
+      "baseStructure": "Lipophilic group - Linker (ester or amide) - Hydrophilic group",
+      "modifications": [
+        {
+          "position": "Aromatic ring (lipophilic portion)",
+          "group": "Substituted benzene ring (para-amino for esters, 2,6-xylidine for amides)",
+          "effect": "Essential for hydrophobic interaction with the sodium channel binding site in the S6 transmembrane segment; electron-donating groups (e.g., -NH2 at para) increase potency in ester-type anesthetics"
+        },
+        {
+          "position": "Linker: Ester (-COO-)",
+          "group": "Ester bond connecting aromatic and intermediate chain",
+          "effect": "Rapidly hydrolyzed by plasma cholinesterases (butyrylcholinesterase) and tissue esterases; results in shorter duration of action; higher incidence of allergic reactions due to PABA metabolite (para-aminobenzoic acid)"
+        },
+        {
+          "position": "Linker: Amide (-NHCO-)",
+          "group": "Amide bond connecting aromatic and intermediate chain",
+          "effect": "Metabolized slowly by hepatic CYP450 enzymes (primarily CYP1A2 and CYP3A4); results in longer duration of action; very rare allergic reactions; the 2,6-dimethyl groups on the aromatic ring sterically protect the amide from hydrolysis"
+        },
+        {
+          "position": "Tertiary amine (hydrophilic portion)",
+          "group": "Diethylamino, piperidine, or pyrrolidine group",
+          "effect": "Exists in equilibrium between ionized (cation, water-soluble) and unionized (free base, lipid-soluble) forms; unionized form penetrates nerve membrane, ionized form blocks the Na+ channel from inside; pKa determines onset speed (lower pKa = faster onset)"
+        },
+        {
+          "position": "Intermediate chain length",
+          "group": "Carbon chain between linker and amine (typically 1-3 carbons)",
+          "effect": "Increasing chain length increases lipophilicity, potency, duration, and protein binding; but also increases toxicity; optimal length is 2-3 carbons for most agents"
+        },
+        {
+          "position": "Alkyl groups on amine nitrogen",
+          "group": "Larger N-alkyl groups (e.g., butyl in bupivacaine vs. ethyl in lidocaine)",
+          "effect": "Larger alkyl groups increase lipophilicity, protein binding, potency, and duration; bupivacaine (N-butyl) is 4x more potent and longer-acting than lidocaine (N-ethyl) but also more cardiotoxic"
+        }
+      ],
+      "clinicalExamples": [
+        {
+          "drug": "Benzocaine",
+          "modification": "Ester linker; para-aminobenzoic acid ethyl ester; NO tertiary amine group",
+          "result": "Topical-only local anesthetic; uncharged at physiologic pH (no ionizable amine); cannot be injected as it lacks water solubility; used for surface anesthesia of mucous membranes (sprays, lozenges, otic drops); risk of methemoglobinemia"
+        },
+        {
+          "drug": "Procaine",
+          "modification": "Ester linker; para-aminobenzoyl group; diethylaminoethanol hydrophilic portion",
+          "result": "First injectable synthetic local anesthetic; short duration due to rapid ester hydrolysis by plasma cholinesterases; low potency; high pKa (8.9) means slow onset; PABA metabolite can cause allergic reactions; largely replaced by amide agents"
+        },
+        {
+          "drug": "Lidocaine",
+          "modification": "Amide linker; 2,6-dimethylaniline aromatic portion; diethylaminoacetyl hydrophilic group",
+          "result": "Most versatile and widely used local anesthetic; amide linkage provides longer duration than esters; moderate onset (pKa 7.9); used for infiltration, nerve block, epidural, topical, and IV regional anesthesia; also used as Class IB antiarrhythmic"
+        }
+      ]
+    },
+    {
+      "id": "sar-benzodiazepines",
+      "drugClass": "Benzodiazepines",
+      "description": "Structure-activity relationships of 1,4-benzodiazepine anxiolytics, hypnotics, and anticonvulsants. These agents act as positive allosteric modulators at the GABA-A receptor benzodiazepine binding site, enhancing chloride ion conductance. Specific substitution patterns determine potency, selectivity, and pharmacokinetic profile.",
+      "baseStructure": "1,4-Benzodiazepine core (diazepine ring fused to benzene ring)",
+      "modifications": [
+        {
+          "position": "Position 7 (Ring A)",
+          "group": "Electron-withdrawing group: -Cl, -Br, -NO2, -CF3",
+          "effect": "An EWG at position 7 is REQUIRED for biological activity; -NO2 provides highest potency (e.g., clonazepam, nitrazepam); -Cl is most common (diazepam, chlordiazepoxide); absence of EWG at C7 renders the compound inactive"
+        },
+        {
+          "position": "Position 5",
+          "group": "Phenyl ring (often with halogen at ortho position)",
+          "effect": "A phenyl ring at position 5 is REQUIRED for activity; it provides essential hydrophobic interaction at the GABA-A benzodiazepine site; ortho-halogen (2'-F or 2'-Cl) on the C5 phenyl increases potency (e.g., flurazepam, flunitrazepam)"
+        },
+        {
+          "position": "Position 1 (N1)",
+          "group": "-CH3 (N-methyl)",
+          "effect": "N1-methylation increases lipophilicity, enhancing CNS penetration and potency; seen in diazepam; demethylation produces nordazepam (active metabolite with very long half-life); unsubstituted N1 is also active"
+        },
+        {
+          "position": "Position 3",
+          "group": "-OH (hydroxyl group)",
+          "effect": "3-Hydroxylation produces compounds that are directly conjugated by glucuronidation (Phase II only, no Phase I needed); results in shorter half-life and no active metabolites; clinically useful in elderly and patients with hepatic impairment (oxazepam, lorazepam, temazepam)"
+        },
+        {
+          "position": "Positions 1,2 (ring fusion)",
+          "group": "Triazolo ring fused at positions 1,2 (e.g., [1,2,4]-triazole)",
+          "effect": "Triazolo-fusion significantly increases potency (~10x) and metabolic stability; produces compounds with antidepressant properties in addition to anxiolytic effects; examples include alprazolam and triazolam"
+        },
+        {
+          "position": "Position 2",
+          "group": "C=O (carbonyl group)",
+          "effect": "The carbonyl at position 2 is REQUIRED for receptor binding; it acts as a hydrogen bond acceptor at the benzodiazepine binding site; replacement or removal markedly decreases activity"
+        }
+      ],
+      "clinicalExamples": [
+        {
+          "drug": "Diazepam",
+          "modification": "7-Cl, 1-CH3, 5-phenyl, 2-C=O; no 3-OH, no ring fusion",
+          "result": "Long-acting benzodiazepine (t1/2 20-100h including active metabolite nordazepam); versatile uses: anxiety, muscle spasm, seizures, alcohol withdrawal, preoperative sedation; high lipophilicity ensures rapid CNS onset"
+        },
+        {
+          "drug": "Alprazolam",
+          "modification": "8-Cl (equivalent to 7-Cl in non-fused), triazolo ring fused at 1,2-position, 5-phenyl",
+          "result": "High-potency short-to-intermediate acting triazolobenzodiazepine; triazole fusion increases potency and provides mild antidepressant effect; primarily used for panic disorder and generalized anxiety; t1/2 ~6-12 hours"
+        },
+        {
+          "drug": "Oxazepam",
+          "modification": "7-Cl, 3-OH, 5-phenyl, 2-C=O; no N1-methyl, no ring fusion",
+          "result": "Short-acting benzodiazepine (t1/2 ~5-15h); 3-OH allows direct glucuronidation without Phase I metabolism; no active metabolites; preferred in elderly and hepatically impaired patients; used for anxiety and alcohol withdrawal"
+        }
+      ]
+    }
+  ]
+}

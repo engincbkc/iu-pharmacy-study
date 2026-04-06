@@ -1,0 +1,898 @@
+{
+  "years": [
+    {
+      "year": "2024-2025",
+      "midterm": [
+        {
+          "id": "2024-mid-01",
+          "questionNumber": 1,
+          "type": "open-ended",
+          "topic": "Cholinergic Agonist - Direct Acting",
+          "question": "Carbachol ilacinin IUPAC adini, yapisini, etki mekanizmasini, kullanimlarini ve sentezini yaziniz.",
+          "answer": {
+            "text": "Carbachol (Karbakol), dogrudan etkili kolinerjik agonisttir. Hem muskarinik (M3) hem de nikotinik reseptorleri uyarir. Asetilkolinesteraz tarafindan hidroliz edilmez (karbamat grubu nedeniyle), bu nedenle asetilkolinden cok daha uzun etkilidir.",
+            "iupacName": "2-(Carbamoyloxy)-N,N,N-trimethylethan-1-aminium chloride",
+            "chemicalFormula": "H2N-CO-O-CH2-CH2-N+(CH3)3 Cl-",
+            "moa": "Both muscarinic (M3) and nicotinic receptor agonist. Stimulates parasympathetic nervous system by directly activating cholinergic receptors. Unlike ACh, it is resistant to hydrolysis by acetylcholinesterase and butyrylcholinesterase due to the carbamate ester linkage.",
+            "uses": [
+              "Glaucoma treatment (lowers intraocular pressure by contracting ciliary muscle and opening trabecular meshwork)",
+              "Postoperative urinary retention",
+              "Gastrointestinal atony"
+            ],
+            "keyPoints": [
+              "Not hydrolyzed by acetylcholinesterase (carbamate group provides stability)",
+              "Long-acting compared to acetylcholine",
+              "Dual action: muscarinic + nicotinic receptor agonism",
+              "Quaternary ammonium compound - poorly absorbed from GI tract",
+              "Used topically in ophthalmology as 1.5-3% solution"
+            ],
+            "synthesis": [
+              {
+                "step": 1,
+                "description": "Choline chloride reacts with phosgene (COCl2) to form chloroformate intermediate (2-chloroformyloxyethyltrimethylammonium chloride)",
+                "reagents": "Choline chloride + Phosgene (COCl2)"
+              },
+              {
+                "step": 2,
+                "description": "The chloroformate intermediate reacts with ammonia (NH3) to yield Carbachol via nucleophilic substitution at the carbonyl carbon",
+                "reagents": "Intermediate + Ammonia (NH3)"
+              }
+            ]
+          }
+        },
+        {
+          "id": "2024-mid-02",
+          "questionNumber": 2,
+          "type": "open-ended",
+          "topic": "Cholinesterase Inhibitor - Reversible",
+          "question": "Neostigmin ilacinin IUPAC adini, yapisini, etki mekanizmasini, kullanimlarini ve sentezini yaziniz.",
+          "answer": {
+            "text": "Neostigmin, reversibl (tersinir) asetilkolinesteraz inhibitorudur. Karbamoil grubunun AChE enziminin esteratik bolgesine baglanmasi ile enzimi 15-30 dakika inaktif hale getirir. Bu sure zarfinda asetilkolin birikir ve kolinerjik etki artar.",
+            "iupacName": "3-[(Dimethylcarbamoyl)oxy]-N,N,N-trimethylanilinium",
+            "chemicalFormula": "C12H19N2O2+",
+            "moa": "Reversible acetylcholinesterase inhibitor. Binds to the esteratic site of AChE, forming a carbamoylated enzyme complex that is inactive for 15-30 minutes. During this time, acetylcholine accumulates at cholinergic synapses, enhancing cholinergic transmission. The carbamate-enzyme bond is eventually hydrolyzed, regenerating active enzyme.",
+            "uses": [
+              "Myasthenia gravis (first-line treatment)",
+              "Postoperative reversal of neuromuscular blockade (non-depolarizing agents)",
+              "Gastrointestinal atony",
+              "Urinary retention"
+            ],
+            "keyPoints": [
+              "Quaternary ammonium compound - does not cross BBB",
+              "Duration of action: 2-4 hours",
+              "Carbamate group is key to reversible AChE inhibition",
+              "Preferred over physostigmine for peripheral indications (no CNS effects)",
+              "Can cause cholinergic crisis at high doses"
+            ],
+            "synthesis": [
+              {
+                "step": 1,
+                "description": "m-Hydroxyphenyltrimethylammonium salt is treated with dimethylcarbamoyl chloride in the presence of a base (e.g., pyridine or NaOH) to form Neostigmine via O-acylation",
+                "reagents": "m-Hydroxyphenyltrimethylammonium + Dimethylcarbamoyl chloride + Base"
+              }
+            ]
+          }
+        },
+        {
+          "id": "2024-mid-03",
+          "questionNumber": 3,
+          "type": "open-ended",
+          "topic": "Muscarinic Antagonist - Anticholinergic",
+          "question": "Ipratropium Bromur ilacinin IUPAC adini, etki mekanizmasini, kullanimlarini ve onemli ozelliklerini yaziniz.",
+          "answer": {
+            "text": "Ipratropium bromur, atropinin kuaterner amonyum turevidur. Inhalasyon yoluyla uygulanir ve bronkodilatator olarak kullanilir. Kuaterner amonyum yapisi sayesinde sistemik emilimi cok azdir ve SSS yan etkileri gorulmez.",
+            "iupacName": "8-Isopropyl-8-methyl-8-azoniabicyclo[3.2.1]octan-3-yl tropate bromide",
+            "chemicalFormula": "C20H30BrNO3",
+            "moa": "Competitive muscarinic M3 receptor antagonist in bronchial smooth muscle. Blocks acetylcholine-mediated bronchoconstriction and mucus secretion. Quaternary ammonium structure ensures minimal systemic absorption from the lungs and no penetration of the blood-brain barrier.",
+            "uses": [
+              "COPD maintenance therapy (primary indication)",
+              "Asthma (adjunct to beta-2 agonists)",
+              "Rhinorrhea (nasal spray formulation)"
+            ],
+            "keyPoints": [
+              "Atropine derivative with quaternary nitrogen - very few systemic side effects",
+              "No CNS effects (does not cross blood-brain barrier)",
+              "Onset of action: 15-30 minutes",
+              "Duration of action: 4-6 hours",
+              "Often combined with salbutamol (Combivent) for synergistic bronchodilation",
+              "Delivered via metered-dose inhaler (MDI) or nebulizer"
+            ]
+          }
+        },
+        {
+          "id": "2024-mid-04",
+          "questionNumber": 4,
+          "type": "open-ended",
+          "topic": "Adrenergic Agonist",
+          "question": "Salbutamol ilacinin etki mekanizmasini, kullanimlarini ve farmakolojik ozelliklerini yaziniz.",
+          "answer": {
+            "text": "Salbutamol (Albuterol), selektif beta-2 adrenerjik reseptor agonistidir. Bronsiyal duz kasta gevseseye neden olarak bronkodilatasyon saglar. Kisa etkili beta-2 agonist (SABA) sinifindadir ve akut astim ataklarinda ilk secenektir.",
+            "iupacName": "(RS)-4-[2-(tert-Butylamino)-1-hydroxyethyl]-2-(hydroxymethyl)phenol",
+            "chemicalFormula": "C13H21NO3",
+            "moa": "Selective beta-2 adrenergic receptor agonist. Activates beta-2 receptors on bronchial smooth muscle, leading to activation of adenylyl cyclase, increased intracellular cAMP, activation of PKA, and subsequent smooth muscle relaxation (bronchodilation). Also inhibits mast cell mediator release.",
+            "uses": [
+              "Acute asthma attack relief (rescue inhaler)",
+              "COPD symptom relief",
+              "Prevention of exercise-induced bronchospasm",
+              "Hyperkalemia (drives K+ intracellularly)"
+            ],
+            "keyPoints": [
+              "Short-acting beta-2 agonist (SABA)",
+              "Onset of action: 5-15 minutes (inhaled)",
+              "Duration of action: 4-6 hours",
+              "Selectivity for beta-2 over beta-1 reduces cardiac side effects",
+              "tert-Butyl group on nitrogen confers beta-2 selectivity",
+              "Available as inhaler, nebulizer solution, oral tablet, and IV"
+            ]
+          }
+        },
+        {
+          "id": "2024-mid-05",
+          "questionNumber": 5,
+          "type": "open-ended",
+          "topic": "Inhalation Anesthetics",
+          "question": "Inhalasyon anesteziklerini siniflandiriniz ve orneklerini yaziniz.",
+          "answer": {
+            "text": "Inhalasyon anestezikleri iki ana gruba ayrilir: Volatil (ucucu) anestezikler ve Gazli anestezikler.",
+            "keyPoints": [
+              "Volatile (Ucucu) Anestezikler - Halojenli Hidrokarbonlar: Halothane (CF3-CHClBr), Isoflurane (CHF2-O-CHCl-CF3), Sevoflurane (CH2F-O-CH(CF3)2), Desflurane (CHF2-O-CHF-CF3), Enflurane (CHF2-O-CF2-CHFCl), Methoxyflurane (CH3-O-CF2-CHCl2)",
+              "Gazli Anestezikler: Nitrous Oxide (N2O - Azot protoksit)",
+              "MAC (Minimum Alveolar Concentration) potens olcusudur - dusuk MAC = yuksek potens",
+              "Halothane: MAC 0.75%, en potent volatil anestezik, hepatotoksisite riski",
+              "Isoflurane: MAC 1.15%, minimal kardiyak depresyon, standart ajan",
+              "Sevoflurane: MAC 2.0%, hos koku, induksiyonda tercih edilir, ozellikle cocuklarda",
+              "Desflurane: MAC 6.0%, en hizli derlenme, irritan koku nedeniyle induksiyonda kullanilmaz",
+              "N2O: MAC >100%, tek basina anestezi saglamaz, analjezik etkili, diger ajanlarla kombine kullanilir"
+            ],
+            "explanation": "Volatil anestezikler oda sicakliginda sivi halindedir ve ozel vaporizerlerle gaz haline getirilir. Tumu halojen atomlari icerir (F, Cl, Br). Gazli anesteziklerden N2O ise oda sicakliginda gaz halindedir. Etki mekanizmalari tam olarak aydinlatilamamis olmakla birlikte, GABA-A reseptor potansiyalizasyonu ve NMDA reseptor inhibisyonu onemli mekanizmalar arasindadir."
+          }
+        },
+        {
+          "id": "2024-mid-06",
+          "questionNumber": 6,
+          "type": "open-ended",
+          "topic": "Halothane Metabolism and Hepatotoxicity",
+          "question": "Halotanin IUPAC adini, metabolitlerini ve hepatotoksisite mekanizmasini yaziniz.",
+          "answer": {
+            "text": "Halothane, halojenli bir volatil anesteziktir. Karacigerde CYP2E1 ile oksidatif metabolizma sonucu hepatotoksik metabolit olan trifluoroasetil klorur (TFA) olusur. Bu metabolit karaciger proteinlerine kovalent olarak baglanarak neoantijen olusturur ve immun-aracili hepatotoksisite (Halothane hepatitis) gelisir.",
+            "iupacName": "2-Bromo-2-chloro-1,1,1-trifluoroethane",
+            "chemicalFormula": "CF3-CHBrCl",
+            "moa": "Halothane undergoes oxidative metabolism by CYP2E1 in the liver (~20-40% is metabolized). The major hepatotoxic pathway produces trifluoroacetyl chloride (TFA), which covalently binds to liver proteins (especially CYP2E1 and other ER proteins) forming trifluoroacetylated protein adducts (neoantigens). These neoantigens trigger an immune-mediated hepatitis (Type II halothane hepatitis - fulminant hepatic necrosis, ~1:5000-35000).",
+            "keyPoints": [
+              "Hepatotoxic metabolite: Trifluoroacetyl chloride (TFA - CF3COCl)",
+              "Metabolized by CYP2E1 (oxidative pathway ~20-40%)",
+              "Reductive pathway (hypoxic conditions) produces free radicals -> lipid peroxidation (Type I - mild, 20-30% incidence)",
+              "Type II hepatitis: Immune-mediated, fulminant, potentially fatal",
+              "TFA-protein adducts act as neoantigens triggering antibody formation",
+              "Cross-sensitization possible with enflurane and isoflurane (also produce TFA)",
+              "Halothane largely replaced by sevoflurane and desflurane due to hepatotoxicity risk"
+            ],
+            "explanation": "Halothane hepatotoxisitesi iki tiptir: Tip I hafif transaminaz yukselmesi olup hastalarin %20-30'unda gorulebilir. Tip II fulminan hepatik nekroz olup nadir ama ciddidir. Tekrarlayan halothane maruziyeti riski arttirir."
+          }
+        },
+        {
+          "id": "2024-mid-07",
+          "questionNumber": 7,
+          "type": "open-ended",
+          "topic": "Barbiturate Structure-Activity Relationships",
+          "question": "Barbiturat yapi-aktivite iliskilerini (SAR) en az 5 madde halinde yaziniz.",
+          "answer": {
+            "text": "Barbiturat SAR, pirimidin-2,4,6-trion (barbiturik asit) cekirdek yapisindaki degisikliklerin farmakolojik aktiviteye etkisini inceler.",
+            "keyPoints": [
+              "1) C5 pozisyonundaki substituentler: C5'e iki alkil veya aril grubu eklenmesi hipnotik-sedatif aktivite icin zorunludur. Barbiturik asidin kendisi aktif degildir. C5'teki gruplar lipofiligi artirarak BBB gecisini kolaylastirir.",
+              "2) C5'teki gruplardan birinin fenil (aril) grubu olmasi: Antikonvulzan aktivite kazandirir (ornek: Fenobarbital). Sadece alkil gruplari olan barbitratlar antikonvulzan degil, sedatif-hipnotiktir.",
+              "3) C5'teki dalli zincir ve uzun zincirler: Dallanma (sec-butil, isopropil) aktiviteyi ve etki baslangic hizini arttirir. Ancak 7 karbondan uzun zincirler konvulzan aktiviteye donusturur.",
+              "4) C2 pozisyonunda oksijen yerine kükurt (tiyobarbitüratlar): S atomu lipofiligi buyuk olcude artirir, BBB gecisini hizlandirir. Etki baslangiçi çok hizlidir ama etki suresi kisadir (ultrashort-acting). Ornek: Tiyopental (IV induksiyon ajani).",
+              "5) N1 ve/veya N3 metilasyonu: Etki baslangicini hizlandirir, etki suresini kisaltir. N-metilasyon lipofiligi arttirir. Ornek: Metoheksital (N1-metil). Ancak her iki azotun da metillenmesi konvulzan aktiviteye yol acar.",
+              "6) C5'te doymamis bag (allil, vinil grubu): Etki baslangicini hizlandirir ve etki suresini kisaltir. Ornek: Sekobarbital (C5'te allil grubu).",
+              "7) Stereokimya: C5'teki asimetrik karbonlu bilesiklerde S(-)enantiyomer genellikle R(+) enantiyomerden 2-3 kat daha potent sedatif-hipnotik aktivite gosterir."
+            ],
+            "explanation": "Barbituratlar barbiturik asit (2,4,6-trioksoheksahidropirimidin) turevleridir. Barbiturik asidin kendisinin SSS depresyon etkisi yoktur; C5'e substituentlerin eklenmesi aktivite icin gereklidir. SAR iliskileri ilac tasariminda etki suresi, potens ve spesifik endikasyonlarin (sedatif vs antikonvulzan) belirlenmesinde kritik oneme sahiptir."
+          }
+        },
+        {
+          "id": "2024-mid-08",
+          "questionNumber": 8,
+          "type": "open-ended",
+          "topic": "Local Anesthetic - Ester Type",
+          "question": "Benzokain ilacinin IUPAC adini, etki mekanizmasini, kullanimlarini ve ozelliklerini yaziniz.",
+          "answer": {
+            "text": "Benzokain, ester tipi lokal anesteziklerden olup sadece topikal olarak kullanilir. Suda cozunurlugu cok dusuk oldugu icin enjekte edilemez. Primer aromatik amin grubunun pKa'si dusuk oldugundan (2.5), fizyolojik pH'da neredeyse tamamen iyonize olmamis (serbest baz) formunda bulunur.",
+            "iupacName": "Ethyl 4-aminobenzoate",
+            "chemicalFormula": "C9H11NO2",
+            "moa": "Blocks voltage-gated Na+ channels in neuronal membranes, preventing depolarization and nerve impulse propagation. As a surface/topical anesthetic only - the un-ionized free base form penetrates the mucous membrane and blocks Na+ channels from the intracellular side. Cannot be injected due to extremely low water solubility.",
+            "uses": [
+              "Topical anesthesia (creams, sprays, lozenges)",
+              "Otic pain relief (ear drops)",
+              "Dental anesthesia (topical gels)",
+              "Sore throat lozenges",
+              "Sunburn relief"
+            ],
+            "keyPoints": [
+              "Ester-type local anesthetic (PABA ester)",
+              "Surface anesthetic only - not injectable (very low water solubility)",
+              "pKa ~2.5 for amino group - exists predominantly as free base at physiological pH",
+              "Metabolized by plasma esterases to PABA (para-aminobenzoic acid)",
+              "Risk of methemoglobinemia with excessive use",
+              "No vasoactive properties - does not require epinephrine",
+              "Simplest local anesthetic structure - lacks the intermediate chain and tertiary amine typical of injectable LAs"
+            ]
+          }
+        },
+        {
+          "id": "2024-mid-09",
+          "questionNumber": 9,
+          "type": "open-ended",
+          "topic": "Sedative-Hypnotic Drug Classification",
+          "question": "Sedatif-hipnotik ilaclari siniflandiriniz.",
+          "answer": {
+            "text": "Sedatif-hipnotik ilaclar, anksiyeteyi azaltan (sedatif) ve uyku olusturan (hipnotik) ilaclardir. Doz bagimli olarak sedatif dozda anksiyoliz, yuksek dozda hipnoz saglarlar.",
+            "keyPoints": [
+              "1) Barbituratlar: Fenobarbital, Sekobarbital, Pentobarbital, Tiopental. GABA-A reseptor kanal acilma suresini arttirir. Dar terapotik indeks.",
+              "2) Benzodiazepinler: Diazepam, Midazolam, Lorazepam, Alprazolam, Triazolam. GABA-A reseptor pozitif allosterik modulatorleri - kanal acilma frekansini artirir. Genis terapotik indeks.",
+              "3) Non-benzodiazepin Hipnotikler (Z-ilaclari): Zolpidem, Zaleplon, Eszopiklon. GABA-A reseptorun alfa-1 alt unitesine selektif baglanir. Daha az yan etki, daha az bagimlilik riski.",
+              "4) Melatonin Reseptor Agonistleri: Ramelteon (MT1/MT2 agonist), Tasimelteon. Sirkadiyen ritmi duzenler. Bagimlilik riski yok.",
+              "5) Antihistaminikler (H1 reseptor antagonistleri): Difenhidramin, Doksilamin, Hidroksizin. Sedatif yan etkileri hipnotik amacla kullanilir. OTC uyku ilaclari.",
+              "6) Oreksin Reseptor Antagonistleri: Suvoreksant, Lemboreksant. OX1/OX2 reseptor antagonistleri. Yeni sinif.",
+              "7) Diger: Kloral hidrat, Buspiron (anksiyolitik, 5-HT1A parsiyel agonist)"
+            ],
+            "explanation": "Sedatif-hipnotik ilac seciminde etki baslangic suresi, etki suresi, bagimlilik potansiyeli, terapotik indeks ve hastanin ozel durumu dikkate alinir. Benzodiazepinler ve Z-ilaclari, barbituratlara gore cok daha guvenli bir terapotik indekse sahiptir."
+          }
+        },
+        {
+          "id": "2024-mid-10",
+          "questionNumber": 10,
+          "type": "open-ended",
+          "topic": "Barbiturate - Anticonvulsant",
+          "question": "Fenobarbitalin IUPAC adini, yapisini ve ozelliklerini yaziniz.",
+          "answer": {
+            "text": "Fenobarbital, uzun etkili bir barbiturattir ve antikonvulzan olarak kullanilir. Barbiturik asit cekirdeginin C5 pozisyonunda etil ve fenil gruplari tasir. Fenil grubunun varligi antikonvulzan aktivite kazandirir.",
+            "iupacName": "5-Ethyl-5-phenylpyrimidine-2,4,6(1H,3H,5H)-trione",
+            "chemicalFormula": "C12H12N2O3",
+            "moa": "Enhances GABA-A receptor activity by increasing the duration of chloride channel opening. At higher concentrations, can directly activate GABA-A receptors (barbiturate site). Also blocks AMPA/kainate glutamate receptors. The phenyl group at C5 confers anticonvulsant activity distinct from purely sedative barbiturates.",
+            "uses": [
+              "Epilepsy (generalized tonic-clonic and partial seizures)",
+              "Status epilepticus (second-line after benzodiazepines)",
+              "Neonatal seizures (first-line)",
+              "Sedation (less common now)"
+            ],
+            "keyPoints": [
+              "C5 substituents: Ethyl + Phenyl (phenyl group = anticonvulsant activity)",
+              "Long-acting barbiturate (t1/2 = 80-120 hours)",
+              "pKa ~7.4 - significant ionization at physiological pH",
+              "Hepatic metabolism via CYP2C9, also renal excretion of unchanged drug (~25%)",
+              "Strong CYP enzyme inducer (CYP1A2, 2C9, 2C19, 3A4) - many drug interactions",
+              "Narrow therapeutic index",
+              "Schedule IV controlled substance",
+              "Barbituric acid core: pyrimidine-2,4,6-trione ring with C5 disubstitution"
+            ],
+            "explanation": "Fenobarbital, 1912'den beri kullanilan en eski antiepileptik ilaclardan biridir. C5'teki fenil grubu sayesinde diger barbituratlara kiyasla belirgin antikonvulzan etki gosterir (Barbiturate SAR kurali). Ucuz ve etkili olmasi nedeniyle ozellikle gelismekte olan ulkelerde hala yaygin kullanilmaktadir."
+          }
+        }
+      ],
+      "final": [
+        {
+          "id": "2024-fin-01",
+          "questionNumber": 1,
+          "type": "open-ended",
+          "topic": "Anticholinergic - Antimuscarinic",
+          "question": "Propantelin Bromur ilacinin yapisini, etki mekanizmasini ve kullanimlarini yaziniz.",
+          "answer": {
+            "text": "Propantelin bromur, sentetik kuaterner amonyum antimuskarinik bir ilactir. Gastrointestinal ve uriner duz kaslarda muskarinik reseptorleri bloke ederek spazmolitik etki gosterir.",
+            "iupacName": "N-Methyl-N-(1-methylethyl)-N-[2-[(9H-xanthen-9-ylcarbonyl)oxy]ethyl]-2-propanaminium bromide",
+            "chemicalFormula": "C23H30BrNO3",
+            "moa": "Non-selective muscarinic receptor antagonist (M1, M2, M3). Blocks parasympathetic innervation of GI and urinary smooth muscle. Quaternary ammonium structure limits CNS penetration and oral bioavailability. Reduces GI motility, gastric acid secretion, and detrusor muscle contractions.",
+            "uses": [
+              "Gastrointestinal spasm and hypermotility",
+              "Peptic ulcer disease (adjunct - reduces gastric acid secretion)",
+              "Urinary incontinence (overactive bladder)",
+              "Hyperhidrosis"
+            ],
+            "keyPoints": [
+              "Quaternary ammonium compound - poor oral absorption, no CNS effects",
+              "Xanthene-9-carboxylic acid ester (bulky lipophilic group)",
+              "Non-selective antimuscarinic - anticholinergic side effects common",
+              "Contraindicated in glaucoma, urinary obstruction, GI obstruction",
+              "Largely replaced by more selective agents (e.g., oxybutynin, tolterodine)"
+            ]
+          }
+        },
+        {
+          "id": "2024-fin-02",
+          "questionNumber": 2,
+          "type": "open-ended",
+          "topic": "Neuromuscular Blocker - Depolarizing",
+          "question": "Suksametonyum (Suksinilkolin) ilacinin yapisini, etki mekanizmasini ve kullanimlarini yaziniz.",
+          "answer": {
+            "text": "Suksametonyum (suksinilkolin), depolarize edici (faz I) noromuskuler blokordur. Yapisal olarak iki asetilkolin molekulunun sukssinik asit ile birlestirilmis halidir. Nikotinik reseptorlerde agonist etki gosterir ancak suregen depolarizasyona neden olarak noromuskuler blokaj olusturur.",
+            "iupacName": "2,2'-[(1,4-Dioxobutane-1,4-diyl)bis(oxy)]bis(N,N,N-trimethylethanaminium) dichloride",
+            "chemicalFormula": "C14H30Cl2N2O4",
+            "moa": "Depolarizing neuromuscular blocker. Acts as a nicotinic receptor agonist at the motor end plate, causing initial depolarization (fasciculations) followed by persistent depolarization (Phase I block - the end plate remains depolarized and unresponsive to ACh). Unlike ACh, succinylcholine is not rapidly hydrolyzed at the synapse (only by plasma pseudocholinesterase/butyrylcholinesterase). Prolonged exposure may lead to Phase II (desensitization) block.",
+            "uses": [
+              "Rapid sequence intubation (onset 30-60 seconds, shortest onset of all NM blockers)",
+              "Short surgical procedures requiring muscle relaxation",
+              "Electroconvulsive therapy (ECT)",
+              "Emergency airway management"
+            ],
+            "keyPoints": [
+              "Ultra-short acting (duration 5-10 minutes) due to rapid hydrolysis by plasma cholinesterase",
+              "Only depolarizing NM blocker in clinical use",
+              "Structurally: two ACh molecules linked by succinate",
+              "Side effects: hyperkalemia, malignant hyperthermia (in susceptible individuals), bradycardia, increased intraocular/intragastric pressure",
+              "Pseudocholinesterase deficiency leads to prolonged paralysis",
+              "Fasciculations precede paralysis (Phase I block characteristic)",
+              "Contraindicated in burns, crush injuries, denervation injuries (hyperkalemia risk)"
+            ]
+          }
+        },
+        {
+          "id": "2024-fin-03",
+          "questionNumber": 3,
+          "type": "open-ended",
+          "topic": "Local Anesthetic - Ester Type",
+          "question": "Prokain ilacinin IUPAC adini, yapisini, etki mekanizmasini ve sentezini yaziniz.",
+          "answer": {
+            "text": "Prokain, ester tipi lokal anesteziklerin prototip ilacidir. Enjektabl lokal anestezik olarak kullanilir. Yapisi uc kisimdan olusur: lipofilik aromatik halka (PABA), ester baglanti grubu ve hidrofilik tersiyel amin.",
+            "iupacName": "2-(Diethylamino)ethyl 4-aminobenzoate",
+            "chemicalFormula": "C13H20N2O2",
+            "moa": "Blocks voltage-gated Na+ channels from the intracellular side, preventing depolarization and nerve impulse conduction. The un-ionized (free base) form penetrates the nerve membrane, then the ionized (protonated) form binds to the Na+ channel. Ester-type local anesthetic - hydrolyzed by plasma esterases (pseudocholinesterase) to PABA and diethylaminoethanol.",
+            "uses": [
+              "Infiltration anesthesia",
+              "Spinal anesthesia (historical)",
+              "Dental anesthesia (less common now)",
+              "Procaine penicillin G (depot formulation)"
+            ],
+            "keyPoints": [
+              "Prototype ester-type local anesthetic",
+              "Structure: Lipophilic aromatic ring (PABA) + Ester linkage + Hydrophilic tertiary amine",
+              "Metabolized rapidly by plasma cholinesterases (short duration ~30-60 min)",
+              "PABA metabolite can cause allergic reactions",
+              "pKa 8.9 - mostly ionized at physiological pH (slow onset)",
+              "Low potency compared to newer agents",
+              "Largely replaced by lidocaine (amide-type) due to allergy risk and short duration"
+            ],
+            "synthesis": [
+              {
+                "step": 1,
+                "description": "4-Nitrobenzoic acid is esterified with 2-(diethylamino)ethanol using acid catalyst (Fischer esterification) to form 2-(diethylamino)ethyl 4-nitrobenzoate",
+                "reagents": "4-Nitrobenzoic acid + 2-(Diethylamino)ethanol + H+ catalyst"
+              },
+              {
+                "step": 2,
+                "description": "The nitro group is reduced to an amino group by catalytic hydrogenation (H2/Pd) or chemical reduction (Sn/HCl) to yield Procaine",
+                "reagents": "H2/Pd catalyst or Sn/HCl"
+              }
+            ]
+          }
+        },
+        {
+          "id": "2024-fin-04",
+          "questionNumber": 4,
+          "type": "open-ended",
+          "topic": "Sedative-Hypnotic Classification and Phenobarbital",
+          "question": "Sedatif-hipnotik ilaclari siniflandiriniz ve fenobarbitalin yapisi ile ozelliklerini yaziniz.",
+          "answer": {
+            "text": "Sedatif-hipnotik ilaclar SSS'yi deprese eden ilaclardir. Duse bagli olarak sedasyondan anesteziye kadar etki gosterirler. Bu siniflandirma ve fenobarbital detaylari icin midterm sorulari 9 ve 10'a bakiniz.",
+            "keyPoints": [
+              "Siniflandirma: (1) Barbituratlar, (2) Benzodiazepinler, (3) Z-ilaclari, (4) Melatonin reseptor agonistleri, (5) Antihistaminikler, (6) Oreksin reseptor antagonistleri",
+              "Fenobarbital: 5-Ethyl-5-phenylpyrimidine-2,4,6(1H,3H,5H)-trione",
+              "C5: etil + fenil grubu (fenil = antikonvulzan aktivite)",
+              "GABA-A reseptor modulatoru - klor kanali acilma suresini artirir",
+              "Uzun etkili (t1/2: 80-120 saat)",
+              "Epilepsi tedavisinde kullanilir",
+              "Guclu CYP enzim induktoru"
+            ],
+            "explanation": "Bu soru midterm sorulari 9 ve 10'un kombinasyonudur. Detayli bilgi icin ilgili sorulara bakiniz."
+          }
+        },
+        {
+          "id": "2024-fin-05",
+          "questionNumber": 5,
+          "type": "open-ended",
+          "topic": "Antiseizure Drug Classification",
+          "question": "Antiepileptik (antikonvulzan) ilaclari etki mekanizmalarina gore siniflandiriniz.",
+          "answer": {
+            "text": "Antiepileptik ilaclar, nobetleri onlemek veya kontrol altina almak icin kullanilan ilaclardir. Etki mekanizmalarina gore yedi ana sinifa ayrilirlar.",
+            "keyPoints": [
+              "1) Na+ Kanal Blokorleri (voltage-gated, use-dependent): Fenitoin, Karbamazepin, Lamotrijin, Valproik asit (kismen), Lakozamid. Noronlarda tekrarlayan ateslemeleri baskirar.",
+              "2) Ca2+ Kanal Blokorleri (T-tipi): Etosuksimid (absans nobetlerde birinci secim), Valproik asit (kismen). Talamik T-tipi kalsiyum kanallarini bloke eder.",
+              "3) GABA Etkisini Arttiranlar: (a) GABA-A reseptor modulatorleri: Benzodiazepinler (diazepam, klonazepam), Fenobarbital; (b) GABA transaminaz inhibitorleri: Vigabatrin; (c) GABA geri alim inhibitorleri: Tiagabin; (d) GABA sentezini arttiranlar: Valproik asit.",
+              "4) Glutamat Antagonistleri: Felbamat (NMDA antagonist), Perampanel (AMPA antagonist), Topiramat (kismen). Eksitator norotransmisyonu azaltir.",
+              "5) SV2A (Sinaptik Vezikul Proteini 2A) Baglayicilari: Levetirasetam, Brivarasetam. Sinaptik vezikul dongu mekanizmasini modifiye eder, norotransmitter saliverimini azaltir.",
+              "6) Karbonik Anhidraz Inhibitorleri: Asetazolamid, Topiramat (kismen), Zonisamid (kismen). HCO3- ve CO2 dengesini degistirir, noron eksitabilitesini azaltir.",
+              "7) Karisik/Coklu Mekanizmali: Valproik asit (Na+ kanal blokaji + T-tipi Ca2+ blokaj + GABA artisi), Topiramat (Na+ kanal + GABA + glutamat + CA inhibisyonu), Zonisamid, Gabapentin/Pregabalin (alfa-2-delta Ca2+ kanal alt unitesi)."
+            ],
+            "explanation": "Antiepileptik ilac secimi nobet tipine gore yapilir. Fokal (parsiyel) nobetlerde Na+ kanal blokorleri tercih edilirken, absans nobetlerde etosuksimid veya valproik asit birinci secenektir. Valproik asit genis spektrumlu olup hem fokal hem jeneralize nobetlerde etkilidir."
+          }
+        },
+        {
+          "id": "2024-fin-06",
+          "questionNumber": 6,
+          "type": "open-ended",
+          "topic": "Antiseizure - Na+ Channel Blocker",
+          "question": "Fenitoin ilacinin IUPAC adini, etki mekanizmasini ve kullanimlarini yaziniz.",
+          "answer": {
+            "text": "Fenitoin (Difenilhidantoin), hidantoin turevidir ve antiepileptik ilaclar arasinda Na+ kanal blokoru olarak siniflanir. Use-dependent (kullanima bagli) Na+ kanal blokaji yapar; yani hizli ates eden noronlarda daha etkilidir.",
+            "iupacName": "5,5-Diphenylimidazolidine-2,4-dione",
+            "chemicalFormula": "C15H12N2O2",
+            "moa": "Use-dependent (frequency-dependent) voltage-gated Na+ channel blocker. Preferentially binds to and stabilizes the inactivated state of Na+ channels, prolonging the refractory period. This selectively suppresses high-frequency repetitive firing of neurons without affecting normal neuronal activity. Does not cause generalized CNS depression (unlike barbiturates).",
+            "uses": [
+              "Epilepsy - generalized tonic-clonic seizures (first-line)",
+              "Epilepsy - focal (partial) seizures",
+              "Status epilepticus (IV fosphenytoin preferred)",
+              "Trigeminal neuralgia",
+              "Cardiac arrhythmias (digitalis-induced ventricular arrhythmias)"
+            ],
+            "keyPoints": [
+              "Hydantoin derivative with two phenyl groups at C5",
+              "Zero-order (saturation) kinetics at therapeutic doses - small dose changes cause large plasma level changes",
+              "Highly protein bound (~90% to albumin)",
+              "Metabolized by CYP2C9 and CYP2C19",
+              "Therapeutic range: 10-20 mcg/mL (narrow therapeutic index)",
+              "CYP enzyme inducer (CYP3A4)",
+              "Side effects: gingival hyperplasia, hirsutism, coarsening of facial features, osteomalacia (vitamin D interference), folate deficiency, teratogenic (fetal hydantoin syndrome)",
+              "Fosphenytoin: water-soluble prodrug for IV/IM use"
+            ]
+          }
+        },
+        {
+          "id": "2024-fin-07",
+          "questionNumber": 7,
+          "type": "open-ended",
+          "topic": "Antipsychotic - Phenothiazine",
+          "question": "Klorpromazin ilacinin IUPAC adini, etki mekanizmasini ve fenotiazin SAR iliskilerini yaziniz.",
+          "answer": {
+            "text": "Klorpromazin, fenotiazin turevi tipik (birinci kusak) antipsikotik ilaclarinin prototip bilegidir. D2 reseptor antagonizmi temel etki mekanizmasidir.",
+            "iupacName": "2-Chloro-10-[3-(dimethylamino)propyl]phenothiazine",
+            "chemicalFormula": "C17H19ClN2S",
+            "moa": "D2 dopamine receptor antagonist (primarily in mesolimbic pathway). Also blocks muscarinic (M1), histamine (H1), alpha-1 adrenergic, and serotonin (5-HT2A) receptors, accounting for its broad side effect profile. Antipsychotic effect correlates with D2 receptor binding affinity.",
+            "uses": [
+              "Schizophrenia and other psychotic disorders",
+              "Nausea and vomiting (D2 blockade in CTZ)",
+              "Intractable hiccups",
+              "Acute mania",
+              "Preoperative sedation (historical)"
+            ],
+            "keyPoints": [
+              "Phenothiazine SAR:",
+              "1) Tricyclic ring system: Phenothiazine core (two benzene rings fused to a central thiazine ring containing S and N). S atom is essential for antipsychotic activity.",
+              "2) Position 2 substitution: Electron-withdrawing groups (Cl, CF3, COCH3) at C2 increase antipsychotic potency. Chlorpromazine has Cl at C2.",
+              "3) N10 side chain: Three-carbon chain (propyl) between ring N and terminal amine is optimal for antipsychotic activity. Two-carbon chain shifts activity toward antihistaminic (e.g., promethazine).",
+              "4) Terminal amine: Dimethylamino (tertiary amine) is common. Piperazine substitution (e.g., fluphenazine, prochlorperazine) increases potency and reduces sedation but increases EPS risk.",
+              "5) Side chain branching: Branching reduces activity. Linear chain is preferred.",
+              "6) Ring sulfur replacement: Replacing S with CH2 gives iminodibenzyl (imipramine - antidepressant, not antipsychotic). S is critical for D2 binding.",
+              "7) Trifluoromethyl at C2 (e.g., trifluopromazine): Greater potency than Cl substituent."
+            ],
+            "explanation": "Fenotiazin tipleri: (1) Alifatik aminler (klorpromazin - dusuk potens, yuksek sedasyon), (2) Piperidin turevleri (tioridazin - orta potens), (3) Piperazin turevleri (flufenazin - yuksek potens, dusuk sedasyon, yuksek EPS). Potens arttikcca sedasyon azalir ama ekstrapiramidal yan etki riski artar."
+          }
+        },
+        {
+          "id": "2024-fin-08",
+          "questionNumber": 8,
+          "type": "open-ended",
+          "topic": "Anxiolytic - Benzodiazepine",
+          "question": "Diazepam ilacinin IUPAC adini, yapisini ve etki mekanizmasini yaziniz.",
+          "answer": {
+            "text": "Diazepam, 1,4-benzodiazepin turevidir ve anksiyolitik, antikonvulzan, kas gevsetici ve sedatif-hipnotik olarak kullanilir. GABA-A reseptorunde pozitif allosterik modulasyon yapar.",
+            "iupacName": "7-Chloro-1-methyl-5-phenyl-1,3-dihydro-2H-1,4-benzodiazepin-2-one",
+            "chemicalFormula": "C16H13ClN2O",
+            "moa": "Positive allosteric modulator (PAM) of GABA-A receptors. Binds to the benzodiazepine binding site (located at the interface of alpha and gamma subunits) and increases the frequency of chloride channel opening in response to GABA. Does NOT activate the receptor in the absence of GABA (unlike barbiturates). This makes benzodiazepines safer than barbiturates (wider therapeutic index).",
+            "uses": [
+              "Anxiety disorders",
+              "Status epilepticus (first-line IV treatment)",
+              "Muscle spasm and spasticity",
+              "Alcohol withdrawal",
+              "Preoperative sedation",
+              "Panic disorder"
+            ],
+            "keyPoints": [
+              "1,4-Benzodiazepine core structure with: Cl at C7, methyl at N1, phenyl at C5, keto at C2",
+              "Long-acting (t1/2 = 20-100 hours)",
+              "Active metabolite: Desmethyldiazepam (nordiazepam, t1/2 = 36-200 hours)",
+              "Highly lipophilic - rapid CNS penetration but also rapid redistribution",
+              "Metabolized by CYP3A4 and CYP2C19",
+              "Flumazenil is the specific benzodiazepine antagonist",
+              "Schedule IV controlled substance",
+              "BDZ SAR: C7 electron-withdrawing group (Cl, NO2, Br) required for activity; C5 phenyl essential; N1 methyl increases potency; C3 hydroxyl increases water solubility (lorazepam, oxazepam)"
+            ]
+          }
+        },
+        {
+          "id": "2024-fin-09",
+          "questionNumber": 9,
+          "type": "open-ended",
+          "topic": "Antidepressant - Tricyclic (TCA)",
+          "question": "Imipramin ilacinin IUPAC adini, yapisini ve etki mekanizmasini yaziniz.",
+          "answer": {
+            "text": "Imipramin, trisiklik antidepresan (TCA) ilaclarinin prototip bilesiidir. Dibenzazepin (iminodibenzil) turevidir. Serotonin ve norepinefrin geri alim inhibisyonu temel etki mekanizmasidir.",
+            "iupacName": "3-(10,11-Dihydro-5H-dibenz[b,f]azepin-5-yl)-N,N-dimethylpropan-1-amine",
+            "chemicalFormula": "C19H24N2",
+            "moa": "Non-selective serotonin and norepinephrine reuptake inhibitor (SNRI). Blocks SERT (serotonin transporter) and NET (norepinephrine transporter) at presynaptic terminals, increasing serotonin and norepinephrine levels in the synaptic cleft. Also blocks muscarinic (M1), histamine (H1), and alpha-1 adrenergic receptors, contributing to side effects.",
+            "uses": [
+              "Major depressive disorder",
+              "Enuresis (bedwetting) in children",
+              "Panic disorder",
+              "Chronic pain syndromes (neuropathic pain)",
+              "Migraine prophylaxis"
+            ],
+            "keyPoints": [
+              "Dibenzazepine (iminodibenzyl) tricyclic ring system",
+              "Structural relationship to phenothiazines: S replaced by -CH2-CH2- bridge -> loss of antipsychotic, gain of antidepressant activity",
+              "N10 side chain: 3-carbon propyl chain with dimethylamino terminal",
+              "Active metabolite: Desipramine (demethylated) - more selective for NET",
+              "Long half-life (12-24 hours)",
+              "Narrow therapeutic index - cardiotoxic in overdose (Na+ channel blockade -> arrhythmias)",
+              "Side effects: anticholinergic (dry mouth, constipation, urinary retention), orthostatic hypotension (alpha-1 block), sedation (H1 block), weight gain",
+              "CYP2D6 metabolized - pharmacogenomic considerations"
+            ]
+          }
+        },
+        {
+          "id": "2024-fin-10",
+          "questionNumber": 10,
+          "type": "open-ended",
+          "topic": "ACE Inhibitor - Cardiovascular",
+          "question": "Lisinopril ilacinin yapisini, etki mekanizmasini ve di-zwitterion kavramini aciklayiniz.",
+          "answer": {
+            "text": "Lisinopril, lizin turevi ACE (Anjiyotensin Donusturum Enzimi) inhibitorudur. Enalaprilin aktif metaboliti olan enalaprilatin lizin analogudur. Di-zwitterion yapisi gosterir.",
+            "iupacName": "(2S)-1-[(2S)-6-Amino-2-[[(1S)-1-carboxy-3-phenylpropyl]amino]hexanoyl]pyrrolidine-2-carboxylic acid",
+            "chemicalFormula": "C21H31N3O5",
+            "moa": "Competitive inhibitor of angiotensin-converting enzyme (ACE/kininase II). Prevents conversion of angiotensin I to angiotensin II (potent vasoconstrictor). Also inhibits bradykinin degradation (causing accumulation, which contributes to vasodilation but also to dry cough side effect). Results in: decreased aldosterone secretion, decreased peripheral vascular resistance, decreased blood pressure.",
+            "uses": [
+              "Hypertension",
+              "Heart failure (reduces afterload and preload)",
+              "Post-myocardial infarction (cardioprotection)",
+              "Diabetic nephropathy (renoprotective)"
+            ],
+            "keyPoints": [
+              "Di-zwitterion explanation: At physiological pH (7.4), lisinopril exists as a di-zwitterion with TWO sets of ionized groups: (1) The lysine amino group (-NH3+) and one carboxyl group (-COO-) form the first zwitterionic pair, (2) The secondary amine (-NH2+- or protonated) and the second carboxyl group (-COO-) form the second zwitterionic pair. This gives it a net neutral charge but with two internal charge pairs.",
+              "Unlike enalapril, lisinopril is NOT a prodrug - it is directly active",
+              "Does not require hepatic activation (advantage in liver disease)",
+              "Hydrophilic - not protein bound, renally excreted unchanged",
+              "Long half-life (~12 hours) - once daily dosing",
+              "Contains zinc-binding carboxylate group that chelates Zn2+ in ACE active site",
+              "Side effects: dry cough (bradykinin), hyperkalemia, angioedema (rare but serious), teratogenic"
+            ],
+            "explanation": "Di-zwitterion yapisi lisinoprilin biyolojik ortamdaki iyonizasyon durumunu aciklar. Molekulde iki amino grubu (lizin NH2 ve sekonder amin) ve iki karboksil grubu bulunur. Fizyolojik pH'da amino gruplari protonlanir (+), karboksil gruplari deprotonlanir (-). Bu durum iki ayri zwitteriyonik cift olusturur ve molekulun suda cozunurlugunu arttirir."
+          }
+        },
+        {
+          "id": "2024-fin-11",
+          "questionNumber": 11,
+          "type": "open-ended",
+          "topic": "HMG-CoA Reductase Inhibitor - Statin",
+          "question": "Atorvastatin ilacinin yapisini, etki mekanizmasini ve kullanimlarini yaziniz.",
+          "answer": {
+            "text": "Atorvastatin, HMG-CoA reduktaz inhibitoru (statin) sinifindadir. Kolesterol biyosentezinde hiz kisitlayici basamak olan HMG-CoA'nin mevalonata donusumunu kompetitif olarak inhibe eder.",
+            "iupacName": "(3R,5R)-7-[2-(4-Fluorophenyl)-3-phenyl-4-(phenylcarbamoyl)-5-(propan-2-yl)-1H-pyrrol-1-yl]-3,5-dihydroxyheptanoic acid",
+            "chemicalFormula": "C33H35FN2O5",
+            "moa": "Competitive inhibitor of HMG-CoA reductase, the rate-limiting enzyme in the mevalonate pathway of cholesterol biosynthesis. The dihydroxyheptanoic acid side chain mimics the tetrahedral intermediate of HMG-CoA (mevaldyl-CoA). Inhibition leads to: (1) decreased intracellular cholesterol synthesis, (2) upregulation of LDL receptors on hepatocytes (compensatory), (3) increased clearance of LDL-C from plasma, (4) modest decrease in triglycerides and increase in HDL-C.",
+            "uses": [
+              "Primary hypercholesterolemia",
+              "Mixed dyslipidemia",
+              "Atherosclerotic cardiovascular disease prevention (primary and secondary)",
+              "Familial hypercholesterolemia"
+            ],
+            "keyPoints": [
+              "Synthetic statin (fully synthetic, unlike lovastatin/simvastatin which are fungal-derived)",
+              "Pyrrole ring as central heterocycle (unique among statins)",
+              "Active as the open-ring dihydroxyacid form (not a lactone prodrug)",
+              "Most potent statin - can reduce LDL-C by up to 50-60%",
+              "Long half-life (~14 hours) - can be taken any time of day",
+              "Metabolized by CYP3A4 (drug interactions with CYP3A4 inhibitors)",
+              "The 3,5-dihydroxyheptanoic acid pharmacophore is essential for HMG-CoA reductase binding",
+              "Side effects: myopathy/rhabdomyolysis (rare), hepatotoxicity, increased blood glucose",
+              "Fluorophenyl group enhances lipophilicity and hepatic uptake"
+            ]
+          }
+        },
+        {
+          "id": "2024-fin-12",
+          "questionNumber": 12,
+          "type": "open-ended",
+          "topic": "Anticoagulant - Vitamin K Antagonist",
+          "question": "Warfarin ilacinin yapisini, etki mekanizmasini ve kullanimlarini yaziniz.",
+          "answer": {
+            "text": "Warfarin, kumarin turevi oral antikoagulandir. Karacigerde vitamin K epoksit reduktaz (VKORC1) enzimini inhibe ederek pihtilasma faktorlerinin sentezini engeller.",
+            "iupacName": "(RS)-4-Hydroxy-3-(3-oxo-1-phenylbutyl)-2H-chromen-2-one",
+            "chemicalFormula": "C19H16O4",
+            "moa": "Inhibits vitamin K epoxide reductase (VKORC1), preventing the recycling of vitamin K epoxide back to its active reduced form (vitamin KH2). Reduced vitamin K is essential as a cofactor for gamma-glutamyl carboxylase, which carboxylates glutamate residues on clotting factors II (prothrombin), VII, IX, and X (and proteins C and S). Without gamma-carboxylation, these clotting factors cannot bind calcium and are functionally inactive (PIVKA - Proteins Induced by Vitamin K Absence).",
+            "uses": [
+              "Venous thromboembolism (DVT and PE) treatment and prophylaxis",
+              "Atrial fibrillation (stroke prevention)",
+              "Mechanical heart valve prostheses",
+              "Prevention of recurrent thromboembolism"
+            ],
+            "keyPoints": [
+              "Coumarin (4-hydroxycoumarin) derivative",
+              "Racemic mixture: S-warfarin (3-5x more potent, metabolized by CYP2C9) and R-warfarin (metabolized by CYP1A2, CYP3A4)",
+              "Delayed onset of action (2-7 days) due to existing clotting factor half-lives (Factor VII t1/2 ~6h is depleted first, Factor II t1/2 ~60h last)",
+              "Monitored by INR (International Normalized Ratio) - target 2.0-3.0 for most indications",
+              "Highly protein bound (~99% to albumin)",
+              "Numerous drug and food interactions (vitamin K-rich foods, CYP inhibitors/inducers)",
+              "Antidote: Vitamin K (phytonadione) for non-emergent, 4-factor PCC or FFP for emergent reversal",
+              "Teratogenic (warfarin embryopathy - nasal hypoplasia, stippled epiphyses)",
+              "VKORC1 and CYP2C9 polymorphisms affect dosing requirements (pharmacogenomics)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "year": "2021-2022",
+      "midterm": [
+        {
+          "id": "2021-mid-01",
+          "questionNumber": 1,
+          "type": "multiple-choice",
+          "topic": "Cholinergic Agents",
+          "question": "Asagidakilerden hangisi dogrudan etkili kolinerjik agonisttir ve hem muskarinik hem de nikotinik reseptorleri aktive eder?",
+          "options": [
+            "A) Neostigmin",
+            "B) Pilokarpin",
+            "C) Karbakol",
+            "D) Edrofonyum",
+            "E) Fizostigmin"
+          ],
+          "correctAnswer": "C",
+          "answer": {
+            "explanation": "Karbakol (Carbachol), hem muskarinik hem de nikotinik reseptorleri dogrudan aktive eden kolinerjik agonisttir. Neostigmin, edrofonyum ve fizostigmin AChE inhibitorleridir (dolayil etki). Pilokarpin ise sadece muskarinik reseptor agonistidir (nikotinik etkisi yoktur). Karbakolun dual (cift) reseptor aktivitesi onu diger kolinerjik agonistlerden ayirir."
+          }
+        },
+        {
+          "id": "2021-mid-02",
+          "questionNumber": 2,
+          "type": "multiple-choice",
+          "topic": "Anticholinergics",
+          "question": "Ipratropium bromurun atropinden en onemli farki asagidakilerden hangisidir?",
+          "options": [
+            "A) Muskarinik reseptor selektivitesi daha yuksektir",
+            "B) Kuaterner amonyum yapisi nedeniyle sistemik emilimi cok azdir",
+            "C) Oral yoldan daha iyi emilir",
+            "D) Daha kisa etki suresine sahiptir",
+            "E) Nikotinik reseptorleri de bloke eder"
+          ],
+          "correctAnswer": "B",
+          "answer": {
+            "explanation": "Ipratropium bromur, atropinin kuaterner amonyum (N-izopropil-N-metil) turevidur. Kuaterner amonyum yapisi molekule kalici pozitif yuk kazandirir, bu nedenle: (1) Inhalasyon sonrasi sistemik emilimi minimadir, (2) Kan-beyin bariyerini gecemez (SSS yan etkisi yok), (3) Oral biyoyararlanimi cok dusuktur. Her iki ilac da nonselektif muskarinik antagonisttir, ancak ipratropiumun kuaterner yapisi sayesinde lokal (bronsiyal) etkisi on plana cikar."
+          }
+        },
+        {
+          "id": "2021-mid-03",
+          "questionNumber": 3,
+          "type": "multiple-choice",
+          "topic": "Beta-Blockers",
+          "question": "Beta-adrenerjik blokerlerde asagidaki yapisal ozelliklerden hangisi beta-1 selektivitesi kazandirir?",
+          "options": [
+            "A) Azot uzerindeki izopropil grubu",
+            "B) Aromatik halkada para-pozisyonunda hidroksi sübstitüsyon",
+            "C) Ariloksipropanolamin yapisi ve para-pozisyonunda asetamid veya metoksietil gibi gruplar",
+            "D) Naftalin halka sistemi",
+            "E) Amino grubunda tert-butil sübstitüsyon"
+          ],
+          "correctAnswer": "C",
+          "answer": {
+            "explanation": "Beta-1 selektif blokerler (atenolol, metoprolol, asebutolol) tipik olarak ariloksipropanolamin yapisina sahiptir ve aromatik halkanin para pozisyonunda nispeten buyuk, polar substituentler tasir: atenololde -CH2CONH2 (asetamid), metoprololdeki -CH2CH2OCH3 (metoksietil). Bu gruplar beta-1 reseptorune baglanma selektivitesini artirir. Izopropil (A) ve tert-butil (E) gruplari beta agonist/antagonist aktivite icin gereklidir ancak selektivite saglamaz. Naftalin halka sistemi (D) propranololdeki gibi nonselektif beta blokajla iliskilidir."
+          }
+        },
+        {
+          "id": "2021-mid-04",
+          "questionNumber": 4,
+          "type": "multiple-choice",
+          "topic": "Barbiturate SAR",
+          "question": "Barbiturat yapi-aktivite iliskisi (SAR) ile ilgili asagidaki ifadelerden hangisi YANLISTIR?",
+          "options": [
+            "A) C5'teki fenil grubu antikonvulzan aktivite kazandirir",
+            "B) C2'de oksijen yerine kukurt konulmasi etki baslangicini hizlandirir",
+            "C) N1 ve N3'un her ikisinin de metillenmesi sedatif-hipnotik aktiviteyi artirir",
+            "D) C5'te dallanmis zincirler aktiviteyi artirir",
+            "E) C5'te 7 karbondan uzun zincirler konvulzan aktiviteye neden olabilir"
+          ],
+          "correctAnswer": "C",
+          "answer": {
+            "explanation": "N1 ve N3'un HER IKISININ birden metillenmesi sedatif-hipnotik aktiviteyi artirmaz, aksine konvulzan (nöbet yapici) aktiviteye yol acar. Tek basina N1 veya N3 metilasyonu etki baslangicini hizlandirir ve etki suresini kisaltir, ancak cift metilasyon istenmeyen konvulzan etki olusturur. Diger seceneklerin hepsi dogrudur: C5-fenil = antikonvulzan (A), C2-S = hizli baslangic/tiyobarbituratlar (B), dallanmis zincirler = artmis aktivite (D), >C7 zincir = konvulzan (E)."
+          }
+        },
+        {
+          "id": "2021-mid-05",
+          "questionNumber": 5,
+          "type": "multiple-choice",
+          "topic": "Penicillin Mechanism",
+          "question": "Penisilinlerin antibakteriyel etki mekanizmasi asagidakilerden hangisidir?",
+          "options": [
+            "A) 30S ribozomal alt unite inhibisyonu",
+            "B) DNA giraz inhibisyonu",
+            "C) Hucre membran permeabilitesinin bozulmasi",
+            "D) Transpeptidaz enzimi (PBP) inhibisyonu ile hucre duvari sentezinin engellenmesi",
+            "E) Dihidrofolat reduktaz inhibisyonu"
+          ],
+          "correctAnswer": "D",
+          "answer": {
+            "explanation": "Penisilinler (ve tum beta-laktam antibiyotikler), bakteriyel hucre duvari sentezinde son basamak olan transpeptidasyonu inhibe eder. Transpeptidaz enzimi (= penisilin-baglayan protein, PBP), peptidoglikan zincirlerini capraz baglayan enzimdir. Penisilinlerin beta-laktam halkasi, transpeptidazin dogal substrati olan D-Ala-D-Ala terminalinin yapisal analogudur. Beta-laktam halkasi acilarak PBP'nin aktif bolgesindeki serin kalintisina kovalent olarak baglanir ve enzimi irreversibl olarak inhibe eder. Sonuc: zayif hucre duvari -> ozmotik lizis. (A) Aminoglikozidler, (B) Florokinolonlar, (C) Polimiksinler, (E) Trimetoprim."
+          }
+        },
+        {
+          "id": "2021-mid-06",
+          "questionNumber": 6,
+          "type": "multiple-choice",
+          "topic": "Lipinski's Rule of Five",
+          "question": "Lipinski'nin Besler Kurali (Rule of Five) ile ilgili asagidakilerden hangisi DOGRUDUR?",
+          "options": [
+            "A) Molekul agirligi 600 Da'dan kucuk olmalidir",
+            "B) LogP degeri 10'dan kucuk olmalidir",
+            "C) Hidrojen bagi donoru sayisi en fazla 5, akseptoru en fazla 10 olmalidir",
+            "D) Toplam dondurulabilir bag sayisi 5'ten az olmalidir",
+            "E) Polar yuzey alani (PSA) 200 Angstrom kareden buyuk olmalidir"
+          ],
+          "correctAnswer": "C",
+          "answer": {
+            "explanation": "Lipinski'nin Besler Kurali, oral biyoyararlanimli bir ilac adayinin tipik ozelliklerini tanimlar: (1) Molekul agirligi <= 500 Da (A yanlis, 600 degil), (2) LogP <= 5 (B yanlis, 10 degil), (3) Hidrojen bagi donoru (OH + NH) sayisi <= 5 ve hidrojen bagi akseptoru (O + N atomlari) sayisi <= 10 (C dogru), (4) Kural dondurulabilir bag sayisi icermez (D yanlis - bu Veber kuralidir). Polar yuzey alani (PSA) < 140 A^2 olmali (E yanlis). Bu kurallardan 2 veya daha fazlasini ihlal eden bilesikler genellikle dusuk oral emilim gosterir."
+          }
+        },
+        {
+          "id": "2021-mid-07",
+          "questionNumber": 7,
+          "type": "multiple-choice",
+          "topic": "Bioisosterism",
+          "question": "Asagidaki bioisoster ciftlerinden hangisi klasik biyoizoster ornegi DEGILDIR?",
+          "options": [
+            "A) -F ve -H",
+            "B) -OH ve -NH2",
+            "C) -COOH ve -SO2NH2 (asidik tetrazol)",
+            "D) -S- ve -O-",
+            "E) -CH3 ve -Cl"
+          ],
+          "correctAnswer": "C",
+          "answer": {
+            "explanation": "-COOH ve -SO2NH2 (veya tetrazol) klasik degil, nonklasik (non-classical) biyoizoster ornegidir. Klasik biyoizosterler, ayni degerlikteki atom/gruplarin yer degistirmesidir ve Grimm'in hidrid yer degistirme kuralina dayanir: (A) F/H - univalent (monovalent) izosterler, (B) OH/NH2 - monovalent izosterler, (D) S/O - divalent izosterler, (E) CH3/Cl - monovalent izosterler. Nonklasik biyoizosterler ise benzer biyolojik etki gosteren ancak farkli elektronik ve sterik ozelliklere sahip gruplardir (ornegin karboksil asit yerine tetrazol, sulfonamid, asil sulfonamid)."
+          }
+        },
+        {
+          "id": "2021-mid-08",
+          "questionNumber": 8,
+          "type": "multiple-choice",
+          "topic": "Fluoroquinolone SAR",
+          "question": "Florokinolon antibiyotiklerinin SAR'i ile ilgili asagidakilerden hangisi DOGRUDUR?",
+          "options": [
+            "A) C6 pozisyonundaki flor atomu antibakteriyel aktivite icin gereksizdir",
+            "B) C7 pozisyonundaki piperazin halkasi Gram-negatif aktiviteyi azaltir",
+            "C) C3 karboksil grubu ve C4 keto grubu DNA giraz ile baglanma icin esansiyeldir (Mg2+ selatlanmasi)",
+            "D) N1 pozisyonundaki substituent aktiviteyi etkilemez",
+            "E) C8 pozisyonundaki metoksi grubu fototoksisite riskini artirir"
+          ],
+          "correctAnswer": "C",
+          "answer": {
+            "explanation": "Florokinolonlarda C3 karboksilik asit ve C4 okso (keto) grubu, DNA giraz ve topoizomeraz IV enzimlerinin aktif bolgesindeki Mg2+ iyonlari ile selat olusturarak baglanma icin mutlak gereklidir - bunlar farmakofordur. (A) Yanlis: C6-F antibakteriyel aktiviteyi 10 kata kadar arttirir ve hucre girisi kolaylastirir. (B) Yanlis: C7-piperazin Gram-negatif aktiviteyi ARTIRIR. (D) Yanlis: N1 substitüenti kritiktir - etil veya siklopropil en uygun (siprofloksasinde siklopropil). (E) Yanlis: C8-metoksi fototoksisiteyi AZALTIR (moksifloksasin), C8-F veya C8-Cl fototoksisiteyi artirir."
+          }
+        },
+        {
+          "id": "2021-mid-09",
+          "questionNumber": 9,
+          "type": "multiple-choice",
+          "topic": "Drug Metabolism",
+          "question": "Asagidakilerden hangisi Faz II (konjugasyon) metabolizma reaksiyonudur?",
+          "options": [
+            "A) Oksidasyon (CYP450)",
+            "B) Reduksiyon",
+            "C) Hidroliz",
+            "D) Glukoronidazyon (UDP-glukuroniltransferaz)",
+            "E) Dealkilasyon"
+          ],
+          "correctAnswer": "D",
+          "answer": {
+            "explanation": "Glukoronidazyon (glukuronik asit konjugasyonu), en yaygin Faz II metabolizma reaksiyonudur. UDP-glukuroniltransferaz (UGT) enzimi tarafindan katalizlenir. Faz I reaksiyonlari fonksiyonel grup ekleme/aciga cikarma reaksiyonlaridir: oksidasyon (A), reduksiyon (B), hidroliz (C), dealkilasyon (E). Faz II reaksiyonlari konjugasyon reaksiyonlaridir: glukoronidazyon (D), sulfatasyon, asetilasyon, glutatyon konjugasyonu, metilasyon, aminoasit konjugasyonu. Faz II sonucu olusun metabolitler genellikle daha polar, daha suda cozunur ve farmakoljik olarak inaktiftir."
+          }
+        },
+        {
+          "id": "2021-mid-10",
+          "questionNumber": 10,
+          "type": "multiple-choice",
+          "topic": "Prodrugs",
+          "question": "Asagidaki ilac-on ilac (prodrug) eslesmelerinden hangisi DOGRUDUR?",
+          "options": [
+            "A) Enalapril -> Enalaprilat (aktif metabolit, ACE inhibitoru)",
+            "B) Omeprazol -> Lansoprazol (aktif metabolit)",
+            "C) Kodein -> Tramadol (aktif metabolit)",
+            "D) Aspirin -> Ibuprofen (aktif metabolit)",
+            "E) Diazepam -> Flumazenil (aktif metabolit)"
+          ],
+          "correctAnswer": "A",
+          "answer": {
+            "explanation": "Enalapril bir on ilactir (prodrug). Oral alim sonrasi karacigerde ester hidrolizi ile aktif metaboliti olan enalaprilata donusur. Enalapirilat dikarboksilik asit yapisidir ve oral biyoyararlanimi dusuktur, bu nedenle etil ester on ilaci (enalapril) gelistirilmistir. (B) Yanlis: Omeprazol ve lansoprazol ayri ilaclardir, omeprazol asidik ortamda sulfenamide donusur. (C) Yanlis: Kodein CYP2D6 ile morfine donusur (tramadol farkli bir ilactir). (D) Yanlis: Aspirin asetilsalisilik asit olup salisilik aside donusur (ibuprofen farkli bir ilac). (E) Yanlis: Flumazenil benzodiazepin antagonistidir, diazepam metaboliti degildir."
+          }
+        },
+        {
+          "id": "2021-mid-11",
+          "questionNumber": 11,
+          "type": "multiple-choice",
+          "topic": "Partition Coefficient",
+          "question": "Bir ilacin partisyon katsayisi (LogP) ile ilgili asagidakilerden hangisi DOGRUDUR?",
+          "options": [
+            "A) LogP degeri ne kadar yuksekse suda cozunurluk o kadar fazladir",
+            "B) LogP = 0 ise ilac tamamen organik fazda dagulir",
+            "C) LogP negatif ise ilac lipofilik karakterdedir",
+            "D) LogP degeri yuksek ilaclar genellikle hucre membranlarindan daha kolay gecer",
+            "E) LogP, ilacin iyonize ve non-iyonize formlarinin toplam dagilimini gosterir"
+          ],
+          "correctAnswer": "D",
+          "answer": {
+            "explanation": "LogP (logaritma partisyon katsayisi), bir ilacin oktanol/su iki-fazli sistemdeki dagilim oraninin logaritmasidir. Yuksek LogP = yuksek lipofilite = hucre membranlarindan daha kolay gecis (D dogru). (A) Yanlis: Yuksek LogP = dusuk suda cozunurluk. (B) Yanlis: LogP=0 ise ilac organik ve sulu fazda esit dagilir (P=1). (C) Yanlis: Negatif LogP = hidrofilik karakter (sulu fazda daha cok dagulir). (E) Yanlis: LogP sadece non-iyonize formu olcer; iyonize ve non-iyonize formlarin toplami LogD (distribution coefficient) ile olculur ve pH'a baglidir."
+          }
+        },
+        {
+          "id": "2021-mid-12",
+          "questionNumber": 12,
+          "type": "multiple-choice",
+          "topic": "Henderson-Hasselbalch Equation",
+          "question": "Zayif bir asit ilac (pKa = 4.4) mide ortaminda (pH = 1.4) hangi oranda non-iyonize (absorbsiyon icin uygun) formda bulunur?",
+          "options": [
+            "A) %0.1 non-iyonize",
+            "B) %50 non-iyonize",
+            "C) %90 non-iyonize",
+            "D) %99.9 non-iyonize",
+            "E) %99.99 non-iyonize"
+          ],
+          "correctAnswer": "D",
+          "answer": {
+            "explanation": "Henderson-Hasselbalch denklemi zayif asitler icin: pH = pKa + log([A-]/[HA]). Veriler: pH=1.4, pKa=4.4. 1.4 = 4.4 + log([A-]/[HA]) -> log([A-]/[HA]) = -3.0 -> [A-]/[HA] = 10^(-3) = 1/1000. Bu demektir ki iyonize/non-iyonize orani = 1/1000. Non-iyonize oran = 1000/1001 = %99.9. Zayif asit ilaclar, asidik ortamda (pH < pKa) non-iyonize formda bulunur ve iyi absorbe edilir. Bu, 'ion trapping' (iyon tuzaklanmasi) kavraminin temelidir - zayif asit ilaclar mideden iyi emilir."
+          }
+        },
+        {
+          "id": "2021-mid-13",
+          "questionNumber": 13,
+          "type": "multiple-choice",
+          "topic": "Receptor Types",
+          "question": "Asagidaki reseptor-sinyal iletimi eslesmelerinden hangisi DOGRUDUR?",
+          "options": [
+            "A) Nikotinik reseptor - G-proteini bagli reseptor",
+            "B) Beta-adrenerjik reseptor - Ligand-kapili iyon kanali",
+            "C) Insulin reseptoru - Tirozin kinaz reseptoru",
+            "D) GABA-A reseptoru - Nükleer reseptor",
+            "E) Glukokortikoid reseptoru - Ligand-kapili iyon kanali"
+          ],
+          "correctAnswer": "C",
+          "answer": {
+            "explanation": "Dort temel reseptor tipi ve dogru eslesmeleri: (1) Ligand-kapili iyon kanallari (iyonotropik): Nikotinik reseptor (Na+/K+), GABA-A (Cl-), 5-HT3, Glutamat (NMDA, AMPA, Kainat). (2) G-proteini bagli reseptorler (metabotropik, 7TM): Muskarinik, adrenerjik (alfa, beta), dopaminerjik, serotonerjik (5-HT1,2,4), opioid. (3) Tirozin kinaz reseptorleri (enzim-bagli): Insulin, EGF, PDGF, VEGF reseptorleri. (4) Nukleer/intrasellüler reseptorler: Glukokortikoid, tiroid hormonu, estrojen, vitamin D. Dolayisiyla: (A) Yanlis - nikotinik = iyon kanali, (B) Yanlis - beta-adrenerjik = GPCR, (C) DOGRU, (D) Yanlis - GABA-A = iyon kanali, (E) Yanlis - glukokortikoid = nukleer."
+          }
+        },
+        {
+          "id": "2021-mid-14",
+          "questionNumber": 14,
+          "type": "multiple-choice",
+          "topic": "QSAR (Quantitative Structure-Activity Relationships)",
+          "question": "QSAR (Kantitatif Yapi-Aktivite Iliskileri) calismasinda Hansch analizi ile ilgili asagidakilerden hangisi DOGRUDUR?",
+          "options": [
+            "A) Sadece sterik parametreleri dikkate alir",
+            "B) Ilac-reseptor etkilesimini molekuler duzeyde simule eder",
+            "C) Biyolojik aktiviteyi lipofilik (pi veya logP), elektronik (sigma) ve sterik (Es veya MR) parametrelerle iliski kurar",
+            "D) In vivo deney sonuclarinin yerine gecer",
+            "E) Sadece dogrusal (lineer) modeller kullanir"
+          ],
+          "correctAnswer": "C",
+          "answer": {
+            "explanation": "Hansch analizi (Corwin Hansch, 1964), QSAR'in en klasik yaklasimlarindan biridir. Biyolojik aktiviteyi (log 1/C) uc temel fizikokimyasal parametre ile iliskilendirir: (1) Lipofilik parametre (pi veya logP) - hidrofobik etkilesim, (2) Elektronik parametre (Hammett sigma sabiti) - elektronik etkilesim, (3) Sterik parametre (Taft Es veya molar refraktivite MR) - sterik etkilesim. Genel Hansch denklemi: log(1/C) = a*pi + b*sigma + c*Es + d. (A) Yanlis - sadece sterik degil, uc parametre birden kullanilir. (B) Yanlis - bu molekuler docking/modelleme. (D) Yanlis - QSAR in vivo deneylerin yerine gecmez, yol gostericidir. (E) Yanlis - parabolik ve bilineer modeller de kullanilir."
+          }
+        },
+        {
+          "id": "2021-mid-15",
+          "questionNumber": 15,
+          "type": "multiple-choice",
+          "topic": "Drug Metabolism - Phase I",
+          "question": "CYP450 enzim sistemi ile ilgili asagidakilerden hangisi YANLISTIR?",
+          "options": [
+            "A) Basliuca karaciger endoplazmik retikulumda bulunur",
+            "B) Faz I oksidasyon reaksiyonlarinin cogunlugu CYP450 tarafindan katalizlenir",
+            "C) CYP3A4 insan ilac metabolizmasindan sorumlu en yaygin izoformudur",
+            "D) Tüm CYP450 reaksiyonlari NADPH ve molekuler oksijen gerektirir",
+            "E) CYP450 enzim sayisi sabittir ve hicbir ilac tarafindan indüklenmez veya inhibe edilmez"
+          ],
+          "correctAnswer": "E",
+          "answer": {
+            "explanation": "CYP450 enzimleri ilaclar ve diger xenobiyotikler tarafindan INDUKLENIR veya INHIBE EDILIR - bu cok onemli ilac-ilac etkilesimlerinin temelidir. (E) YANLISTIR. Induktorler: Rifampisin (CYP3A4), Fenobarbital (CYP2B6, 3A4), Karbamazepin, Fenitoin -> metabolizma hizlanir, ilac etkisi azalir. Inhibitorler: Ketokonazol (CYP3A4), Eritromisin, Simetidin, Greyfurt suyu -> metabolizma yavaşlar, ilac etkisi/toksisitesi artar. Diger secenekler dogrudur: (A) ER'de lokalize, (B) Faz I oksidasyonlarin ~%75'i CYP450 ile, (C) CYP3A4 ilac metabolizmasinin ~%50'sinden sorumlu, (D) NADPH ve O2 kofaktor olarak gerekli."
+          }
+        }
+      ],
+      "final": []
+    }
+  ]
+}
