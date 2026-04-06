@@ -20,7 +20,7 @@ export const staggerContainer = {
 
 export const staggerItem = {
   initial: { opacity: 0, y: 12 },
-  animate: { opacity: 1, y: 0, transition: { duration: 0.3, ease: "easeOut" } },
+  animate: { opacity: 1, y: 0, transition: { duration: 0.3, ease: "easeOut" as const } },
 };
 
 export const scaleIn = {
@@ -70,7 +70,7 @@ interface CountUpProps {
   suffix?: string;
 }
 
-export function CountUp({ value, duration = 1, className, suffix = "" }: CountUpProps) {
+export function CountUp({ value, className, suffix = "" }: CountUpProps) {
   return (
     <motion.span
       className={className}
