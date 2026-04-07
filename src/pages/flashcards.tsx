@@ -299,8 +299,8 @@ export function FlashcardsPage() {
         </Button>
       </div>
 
-      {/* Flashcard */}
-      <div className="mx-auto max-w-lg">
+      {/* Flashcard + controls */}
+      <div className="mx-auto max-w-lg space-y-4 pb-8">
         <Flashcard
           front={current.front}
           back={current.back}
@@ -311,47 +311,45 @@ export function FlashcardsPage() {
           cardNumber={currentIndex + 1}
           totalCards={cards.length}
         />
-      </div>
 
-      {/* Confidence rating buttons - shown when flipped */}
-      {flipped && (
-        <div className="mx-auto max-w-lg">
-          <p className="mb-2 text-center text-xs font-medium text-muted-foreground">How well did you know this?</p>
-          <div className="grid grid-cols-4 gap-2">
-            {confidenceConfig.map(({ level, label, shortcut, color, bg }) => (
-              <button
-                key={level}
-                onClick={() => handleRate(level)}
-                className={cn(
-                  "flex flex-col items-center gap-1 rounded-xl border-2 px-2 py-3 text-sm font-semibold transition-all duration-150",
-                  bg,
-                  color
-                )}
-              >
-                {label}
-                <kbd className="hidden rounded bg-black/5 px-1.5 py-0.5 font-mono text-[10px] font-medium sm:block">
-                  {shortcut}
-                </kbd>
-              </button>
-            ))}
+        {/* Confidence rating - shown when flipped */}
+        {flipped ? (
+          <div>
+            <p className="mb-2 text-center text-xs font-medium text-muted-foreground">How well did you know this?</p>
+            <div className="grid grid-cols-4 gap-2">
+              {confidenceConfig.map(({ level, label, shortcut, color, bg }) => (
+                <button
+                  key={level}
+                  onClick={() => handleRate(level)}
+                  className={cn(
+                    "flex flex-col items-center gap-1 rounded-xl border-2 px-2 py-2.5 text-sm font-semibold transition-all duration-150",
+                    bg,
+                    color
+                  )}
+                >
+                  {label}
+                  <kbd className="hidden rounded bg-black/5 px-1.5 py-0.5 font-mono text-[10px] font-medium sm:block">
+                    {shortcut}
+                  </kbd>
+                </button>
+              ))}
+            </div>
           </div>
-        </div>
-      )}
-
-      {/* Navigation controls - shown when not flipped */}
-      {!flipped && (
-        <div className="flex items-center justify-center gap-2">
-          <Button variant="outline" size="icon" onClick={goPrev} aria-label="Previous" className="h-11 w-11">
-            <ChevronLeft className="h-5 w-5" />
-          </Button>
-          <Button variant="outline" size="icon" onClick={shuffleCards} aria-label="Shuffle" className="h-11 w-11">
-            <Shuffle className="h-4 w-4" />
-          </Button>
-          <Button variant="outline" size="icon" onClick={goNext} aria-label="Next" className="h-11 w-11">
-            <ChevronRight className="h-5 w-5" />
-          </Button>
-        </div>
-      )}
+        ) : (
+          /* Navigation - shown when not flipped */
+          <div className="flex items-center justify-center gap-2">
+            <Button variant="outline" size="icon" onClick={goPrev} aria-label="Previous" className="h-10 w-10">
+              <ChevronLeft className="h-4 w-4" />
+            </Button>
+            <Button variant="outline" size="icon" onClick={shuffleCards} aria-label="Shuffle" className="h-10 w-10">
+              <Shuffle className="h-4 w-4" />
+            </Button>
+            <Button variant="outline" size="icon" onClick={goNext} aria-label="Next" className="h-10 w-10">
+              <ChevronRight className="h-4 w-4" />
+            </Button>
+          </div>
+        )}
+      </div>
     </div>
   );
 }

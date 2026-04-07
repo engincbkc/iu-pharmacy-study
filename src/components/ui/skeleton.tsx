@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import { Spinner } from "./spinner";
 
 function Skeleton({ className, ...props }: React.HTMLAttributes<HTMLDivElement>) {
   return (
@@ -11,38 +12,9 @@ function Skeleton({ className, ...props }: React.HTMLAttributes<HTMLDivElement>)
 
 export function PageSkeleton() {
   return (
-    <div className="space-y-6 p-1">
-      {/* Title */}
-      <div className="space-y-2">
-        <Skeleton className="h-8 w-48" />
-        <Skeleton className="h-4 w-72" />
-      </div>
-
-      {/* Stats row */}
-      <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
-        {Array.from({ length: 4 }).map((_, i) => (
-          <div key={i} className="rounded-lg border bg-card p-4">
-            <Skeleton className="mb-2 h-3 w-20" />
-            <Skeleton className="h-7 w-12" />
-            <Skeleton className="mt-1 h-2 w-16" />
-          </div>
-        ))}
-      </div>
-
-      {/* Content cards */}
-      <div className="space-y-3">
-        {Array.from({ length: 3 }).map((_, i) => (
-          <div key={i} className="rounded-lg border bg-card p-5">
-            <div className="flex items-start justify-between">
-              <div className="space-y-2">
-                <Skeleton className="h-5 w-64" />
-                <Skeleton className="h-3 w-96" />
-              </div>
-              <Skeleton className="h-5 w-16 rounded-full" />
-            </div>
-          </div>
-        ))}
-      </div>
+    <div className="flex h-[60vh] flex-col items-center justify-center gap-3">
+      <Spinner className="size-6 text-primary" />
+      <p className="text-sm font-medium text-muted-foreground">Loading...</p>
     </div>
   );
 }

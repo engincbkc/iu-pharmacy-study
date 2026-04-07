@@ -65,7 +65,7 @@ export function Flashcard({
         }
       }}
     >
-      {/* Mastery indicator bar */}
+      {/* Mastery indicator */}
       <div className="mb-3 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <div className={cn("h-2 w-2 rounded-full", masteryColors[mastery])} />
@@ -83,42 +83,43 @@ export function Flashcard({
         )}
       </div>
 
-      <div className="relative w-full [perspective:1200px]">
+      {/* 3D flip container - fixed height, perspective on parent */}
+      <div className="h-[280px] w-full sm:h-[300px]" style={{ perspective: "1200px" }}>
         <div
           className={cn(
-            "transition-transform duration-500 ease-out [transform-style:preserve-3d]",
+            "relative h-full w-full transition-transform duration-500 ease-[cubic-bezier(0.4,0.2,0.2,1)]",
+            "[transform-style:preserve-3d]",
             isFlipped && "[transform:rotateY(180deg)]"
           )}
         >
-          {/* Front - Question */}
-          <div className={cn(
-            "flex min-h-[280px] flex-col items-center justify-center rounded-2xl bg-primary px-6 py-12 text-white shadow-xl [backface-visibility:hidden] sm:min-h-[320px] sm:px-10",
-            isFlipped && "invisible"
-          )}>
-            <div className="absolute left-4 top-4 rounded-full bg-white/10 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-white/60">
+          {/* Front face */}
+          <div className="absolute inset-0 flex flex-col rounded-2xl bg-primary text-primary-foreground shadow-lg [backface-visibility:hidden]">
+            <span className="absolute left-4 top-4 rounded-full bg-white/10 px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-white/50">
               Question
+            </span>
+            <div className="flex flex-1 items-center justify-center px-6 pb-10 pt-14 sm:px-10">
+              <p className="max-w-prose text-center text-base font-semibold leading-7 sm:text-lg sm:leading-8">
+                {front}
+              </p>
             </div>
-            <p className="text-center text-lg font-semibold leading-8 sm:text-xl">{front}</p>
-            <div className="mt-6 flex items-center gap-1.5 text-xs font-medium text-white/40">
+            <div className="flex items-center justify-center gap-1.5 pb-4 text-[11px] text-white/30">
               <RotateCw className="h-3 w-3" />
-              <span>
-                Tap to reveal <kbd className="ml-1 hidden rounded border border-white/20 bg-white/10 px-1 py-0.5 font-mono text-[10px] sm:inline">Space</kbd>
-              </span>
+              Tap to reveal
+              <kbd className="ml-0.5 hidden rounded border border-white/15 bg-white/10 px-1 py-px font-mono text-[9px] sm:inline">
+                Space
+              </kbd>
             </div>
           </div>
 
-          {/* Back - Answer */}
-          <div className={cn(
-            "absolute inset-0 flex min-h-[280px] flex-col items-center justify-center overflow-y-auto rounded-2xl border-2 border-primary/20 bg-card px-6 py-12 shadow-xl [backface-visibility:hidden] [transform:rotateY(180deg)] sm:min-h-[320px] sm:px-10",
-            !isFlipped && "invisible"
-          )}>
-            <div className="absolute left-4 top-4 rounded-full bg-primary/10 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-primary">
+          {/* Back face */}
+          <div className="absolute inset-0 flex flex-col rounded-2xl border-2 border-primary/15 bg-card shadow-lg [backface-visibility:hidden] [transform:rotateY(180deg)]">
+            <span className="absolute left-4 top-4 z-10 rounded-full bg-primary/10 px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-primary">
               Answer
-            </div>
-            <p className="max-w-prose text-center text-sm leading-7 text-foreground sm:text-base sm:leading-8">{back}</p>
-            <div className="mt-6 shrink-0 flex items-center gap-1.5 text-xs font-medium text-muted-foreground/60">
-              <RotateCw className="h-3 w-3" />
-              <span>Rate your confidence below</span>
+            </span>
+            <div className="flex flex-1 items-start overflow-y-auto px-6 pb-10 pt-14 sm:px-10">
+              <p className="mx-auto max-w-prose text-center text-sm leading-7 text-foreground sm:text-base sm:leading-8">
+                {back}
+              </p>
             </div>
           </div>
         </div>
